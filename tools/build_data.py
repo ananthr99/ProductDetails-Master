@@ -48,6 +48,10 @@ class Product:
         self.meta = {k: {} for k in SRC_KEYS}
         self.parts = {}             # pnorm -> display name
         self.ds_files = {}          # part -> {file, model, footer, raw, pages}
+        self.text = {}              # field -> {source: str}
+        self.use_cases = {}         # source -> [{title, description}]
+        self.highlights = {}        # source -> {"key": [{value, label, icon}], "feature": [{label, icon}]}
+        self.features = {}          # part -> {cellular, modems, wifi, rs485, rs232, source}
 
     def add(self, src, section, key, value, part=None):
         value = value if isinstance(value, str) else "\n".join(value)
@@ -69,16 +73,35 @@ class Product:
             self.parts[k] = clean(name)
         return self.parts.get(k, clean(name))
 
+    def set_text(self, field, src, value):
+        value = clean(value)
+        if value:
+            self.text.setdefault(field, {})[src] = value
+
     def to_json(self):
         rows = []
+        sheets = len(self.ds_files)
         for (sec, label), vals in sorted(self.rows.items(), key=lambda kv: (order(*kv[0]), kv[0][1])):
-            rows.append({"id": f"{sec}::{label}", "section": sec, "label": label, "values": vals})
+            if sec == "Overview":
+                continue
+            ds = vals.get("datasheet") or {}
+            if not ds:
+                kind = "none"
+            elif sheets > 1 and len(ds) < sheets:
+                kind = "partial"            # only some sheets have this line
+            elif len({nk(v) for v in ds.values()}) > 1:
+                kind = "varies"
+            else:
+                kind = "common"
+            rows.append({"id": f"{sec}::{label}", "section": sec, "label": label, "values": vals, "ds": kind})
         return {
             "id": self.id, "name": self.name, "category": self.cat, "order": self.order,
             "present": self.present, "meta": self.meta,
             "variants": list(self.parts.values()),
             "datasheets": self.ds_files,
             "ordering": self.ordering,
+            "text": self.text, "use_cases": self.use_cases, "highlights": self.highlights,
+            "features": self.features,
             "rows": rows,
         }
 
@@ -111,6 +134,10 @@ def load_website(prods, wdir):
         p.add("website", "Overview", "Category", j.get("cat", ""))
         p.add("website", "Overview", "Description", j.get("desc", ""))
         p.add("website", "Overview", "Use cases", [clean(u) for u in j.get("use_cases") or []])
+        p.set_text("short_description", "website", j.get("desc", ""))
+        p.set_text("long_description", "website", j.get("desc", ""))
+        if j.get("use_cases"):
+            p.use_cases["website"] = [{"title": clean(u), "description": ""} for u in j["use_cases"] if clean(u)]
         hid = []
         for fld, sec, label in WEB_FIELDS:
             v = j.get(fld)
@@ -207,6 +234,15 @@ def _txt(s):
     return clean(html.unescape(s))
 
 
+ICONS = json.load(open(os.path.join(os.path.dirname(__file__), "icons.json"), encoding="utf-8"))
+_ICON_KEY = {re.sub(r"\s+", "", v): k for k, v in ICONS.items()}
+
+
+def icon_name(svg):
+    """Name of a catalogue-tool icon from its inline SVG (empty when unknown, e.g. an uploaded logo)."""
+    return _ICON_KEY.get(re.sub(r"\s+", "", svg or ""), "")
+
+
 def parse_catalogue_html(path):
     t = open(path, encoding="utf-8").read()
     t = re.sub(r"<style.*?</style>|<script.*?</script>", "", t, flags=re.S)
@@ -221,6 +257,12 @@ def parse_catalogue_html(path):
     r["page"] = _txt(m.group(1)) if m else ""
     r["badges"] = [_txt(x) for x in re.findall(r'<div class="badge">(.*?)</div>', t, re.S)]
     r["tiles"] = [_txt(x) for x in re.findall(r'<div class="tile">(.*?)</div></div>', t, re.S)]
+    m = re.search(r'<div class="eyebrow">(.*?)</div>', t, re.S)
+    r["eyebrow"] = " · ".join(_txt(x) for x in re.findall(r"<span>(.*?)</span>", m.group(1), re.S)) if m else ""
+    r["tiles_s"] = [{"value": _txt(b), "label": _txt(sm), "icon": icon_name(svg)} for svg, b, sm in
+                    re.findall(r'<div class="tile">(<svg.*?</svg>)?\s*<div><b>(.*?)</b><small>(.*?)</small>', t, re.S)]
+    r["badges_s"] = [{"label": _txt(lb), "icon": icon_name(svg)} for svg, lb in
+                     re.findall(r'<div class="badge">(<svg.*?</svg>|<img[^>]*>)?\s*<span>(.*?)</span>', t, re.S)]
     secs = {}
     pat = r'<div class="sec" data-id="([^"]+)"[^>]*>(.*?)(?=<div class="sec" data-id|<div class="col" id|</div>\s*</div>\s*<div class="foot")'
     for sid, body in re.findall(pat, t, re.S):
@@ -271,9 +313,14 @@ def load_catalogue(prods, cdir, docs_src, copy):
         p.add("catalogue", "Overview", "Description", c["intro"])
         p.add("catalogue", "Overview", "Highlight badges", c["badges"])
         p.add("catalogue", "Overview", "Highlight tiles", c["tiles"])
+        p.set_text("title", "catalogue", c["h2"])
+        p.set_text("tagline", "catalogue", c["eyebrow"])
+        p.set_text("long_description", "catalogue", c["intro"])
+        p.highlights["catalogue"] = {"key": c["tiles_s"], "feature": c["badges_s"]}
         for sid, d in c["sections"].items():
             if "uc" in d:
                 p.add("catalogue", "Overview", "Use cases", [f"{a} — {b}" if b else a for a, b in d["uc"]])
+                p.use_cases["catalogue"] = [{"title": a, "description": b} for a, b in d["uc"]]
             if "ord" in d and d["ord"]:
                 p.ordering["catalogue"] = {"headers": d["ord"][0], "rows": d["ord"][1:]}
                 pi = next((i for i, h in enumerate(d["ord"][0]) if "part" in h.lower()), len(d["ord"][0]) - 1)
@@ -359,6 +406,62 @@ def load_datasheets(prods, ddir, docs_src, copy):
                 print(f"  datasheet: no product for {os.path.relpath(f, ddir)}")
 
 
+# ---------------------------------------------------------------- variant features (drive ordering, filters, datasheet sections)
+def _yes(v):
+    return bool(v) and v.strip() not in ("—", "-", "NA", "N/A", "No", "no", "✗", "")
+
+
+def _wifi_std(t):
+    t = (t or "").lower()
+    if not _yes(t) or t.strip() in ("na", "n/a"):
+        return ""
+    for pat, std in (("wi-?fi ?7|be\\b|/be", "Wi-Fi 7"), ("wi-?fi ?6|ax", "Wi-Fi 6"), ("wi-?fi ?5|ac", "Wi-Fi 5"), ("wi-?fi ?4|/n|b/g/n", "Wi-Fi 4")):
+        if re.search(pat, t):
+            return std
+    return "Wi-Fi"
+
+
+def derive_features(p):
+    parts = list(p.parts.values()) or [p.name]
+    if not p.parts:
+        p.add_part(p.name)
+    web = p.ordering.get("website") or {}
+    hdr = [nk(h) for h in web.get("headers", [])]
+    rows = {pnorm(r[-1]): r for r in web.get("rows", []) if r}
+
+    def col(r, *names):
+        for n in names:
+            if n in hdr and hdr.index(n) < len(r):
+                return r[hdr.index(n)]
+        return None
+
+    for part in parts:
+        f = {"cellular": "", "modems": 0, "wifi": "", "rs485": False, "rs232": False, "source": ""}
+        r = rows.get(pnorm(part))
+        if r:
+            cell, gen, mod = col(r, "cellular"), col(r, "4g5g", "gen"), col(r, "noofmodems", "modem", "modems")
+            if _yes(cell) or _yes(gen):
+                f["cellular"] = gen if _yes(gen) else "4G"
+                f["modems"] = 2 if mod and "dual" in mod.lower() else 1
+            w = col(r, "wifi")
+            f["wifi"] = (w if w and w.lower().startswith("wi") else "Wi-Fi") if _yes(w) else ""
+            f["rs485"] = _yes(col(r, "rs485")) or bool(re.search(r"[1-9]", col(r, "noofrs485ports") or ""))
+            f["rs232"] = _yes(col(r, "rs232"))
+            f["source"] = "website"
+        k = next((x for x in p.ds_files if pnorm(x) == pnorm(part)), None)
+        if k and not r:           # fall back to the datasheet's Product Info box
+            info = {lb: (v.get("datasheet") or {}).get(k, "") for (sec, lb), v in p.rows.items() if sec == "Summary"}
+            cell = info.get("Cellular", "")
+            if _yes(cell):
+                f["cellular"] = "5G" if "5g" in cell.lower() else "4G"
+                f["modems"] = 2 if "dual modem" in cell.lower() else 1
+            f["wifi"] = _wifi_std(info.get("Wi-Fi", ""))
+            itf = info.get("Interface", "").lower()
+            f["rs485"], f["rs232"] = "rs485" in itf.replace(" ", ""), "rs232" in itf.replace(" ", "")
+            f["source"] = "datasheet"
+        p.features[part] = f
+
+
 def clean_raw(t):
     lines = [clean(x) for x in t.splitlines()]
     return "\n".join(x for x in lines if x)
@@ -420,6 +523,11 @@ def main():
     if a.datasheets:
         load_datasheets(prods, a.datasheets, docs_src, copy)
         print(f"datasheets: {sum(len(p.ds_files) for p in prods.values())} files on {sum(1 for p in prods.values() if p.ds_files)} products")
+
+    for p in prods.values():
+        derive_features(p)
+    for f in ("fields.json", "icons.json"):
+        shutil.copy2(os.path.join(os.path.dirname(__file__), f), os.path.join(out, f))
 
     index = []
     for p in sorted(prods.values(), key=lambda p: (p.order or 999, p.name)):

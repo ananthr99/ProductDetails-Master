@@ -1,0 +1,38 @@
+{
+  "_help": "Where each field appears. show_on: W = website, C = catalogue, D = datasheet. Section defaults apply unless a field is listed under fields as 'Section::Field'. Reviewers can still change it per product in the tool.",
+  "sections": {
+    "Summary": "D",
+    "Hardware": "WCD",
+    "Interfaces": "WCD",
+    "Power": "WCD",
+    "Physical": "WCD",
+    "Environmental": "WCD",
+    "Cellular": "WCD",
+    "Wi-Fi": "WCD",
+    "Bluetooth": "WCD",
+    "Networking & Firewall": "WCD",
+    "VPN": "WCD",
+    "Remote Management": "WCD",
+    "Operating System & Software": "WCD",
+    "Gateway": "WCD",
+    "Compliance": "WCD",
+    "Packaging": "D",
+    "Website filters": "W",
+    "Other": "WCD"
+  },
+  "fields": {
+    "Hardware::Status LED": "D",
+    "Hardware::Other": "D",
+    "Power::Power Adapter": "WD"
+  },
+  "text": {
+    "title": "WCD",
+    "tagline": "C",
+    "short_description": "W",
+    "long_description": "CD",
+    "use_case_title": "WC",
+    "use_case_description": "C",
+    "key_highlights": "C",
+    "feature_highlights": "C"
+  }
+}

@@ -29,7 +29,7 @@ jobs:
       - run: pip install -r tools/requirements.txt
       - name: Read the sources
         # Reads whatever is in inputs/. To leave a source out, add e.g. --skip catalogue
-        run: python tools/build_data.py --skip catalogue
+        run: python tools/build_data.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
