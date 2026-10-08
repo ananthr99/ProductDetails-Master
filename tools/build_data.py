@@ -374,6 +374,7 @@ def main():
     ap.add_argument("--master", help="Master Catalogue PDF")
     ap.add_argument("--catalogue", help="folder with the catalogue tool output (<NAME>/<NAME>_Catalogue.html/.pdf)")
     ap.add_argument("--datasheets", help="folder with datasheet PDFs (any depth)")
+    ap.add_argument("--skip", default="", help="comma-separated sources to leave out: website,master,catalogue,datasheets")
     ap.add_argument("--no-originals", action="store_true", help="do not copy PDFs into docs/sources")
     a = ap.parse_args()
     if not any([a.website, a.master, a.catalogue, a.datasheets]):     # default: the inputs/ folder of the repo
@@ -383,7 +384,12 @@ def main():
         a.catalogue = os.path.join(inp, "catalogue")
         a.datasheets = os.path.join(inp, "datasheets")
         a.website, a.master, a.catalogue, a.datasheets = [x if os.path.exists(x) else None for x in (a.website, a.master, a.catalogue, a.datasheets)]
-        print("using inputs/:", ", ".join(k for k, v in vars(a).items() if v and k != "no_originals"))
+        print("using inputs/:", ", ".join(k for k in ("website", "master", "catalogue", "datasheets") if getattr(a, k)))
+    for k in filter(None, (x.strip().lower() for x in a.skip.split(","))):
+        k = {"datasheet": "datasheets", "website": "website", "master": "master", "catalogue": "catalogue", "datasheets": "datasheets"}.get(k)
+        if k:
+            setattr(a, k, None)
+            print(f"skipping {k}")
     copy = not a.no_originals
     out = os.path.join(DOCS, "data")
     docs_src = os.path.join(DOCS, "sources")
@@ -420,7 +426,8 @@ def main():
         json.dump(p.to_json(), open(os.path.join(out, "products", f"{p.id}.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         index.append({"id": p.id, "name": p.name, "category": p.cat, "order": p.order, "present": p.present,
                       "variants": list(p.parts.values()), "rows": len(p.rows)})
-    json.dump({"built": datetime.now(timezone.utc).isoformat(timespec="seconds"), "categories": cats, "products": index},
+    loaded = [k for k, v in (("website", a.website), ("master", a.master), ("catalogue", a.catalogue), ("datasheet", a.datasheets)) if v]
+    json.dump({"built": datetime.now(timezone.utc).isoformat(timespec="seconds"), "sources": loaded, "categories": cats, "products": index},
               open(os.path.join(out, "index.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"wrote {len(index)} products to {out}")
 

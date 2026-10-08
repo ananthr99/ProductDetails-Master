@@ -27,13 +27,9 @@ jobs:
           cache: pip
           cache-dependency-path: tools/requirements.txt
       - run: pip install -r tools/requirements.txt
-      - name: Read the four sources
-        run: |
-          python tools/build_data.py \
-            --website inputs/website \
-            --master inputs/Master_Catalogue.pdf \
-            --catalogue inputs/catalogue \
-            --datasheets inputs/datasheets
+      - name: Read the sources
+        # Reads whatever is in inputs/. To leave a source out, add e.g. --skip catalogue
+        run: python tools/build_data.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

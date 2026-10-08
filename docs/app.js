@@ -151,8 +151,12 @@ function srcValue(row, src) {   // -> null | {value} | {varies:[{value, parts}]}
   if (g.length === 1) return { value: g[0].value, parts: g[0].parts, partial: g[0].parts.length < sheets };
   return { varies: g.sort((a, b) => b.parts.length - a.parts.length) };
 }
+function loadedSources() {      // sources the build read (index.sources); older data has no list, so show all
+  const l = state.index && state.index.sources;
+  return SOURCES.filter(x => !l || l.includes(x.key));
+}
 function activeSources() {
-  const s = SOURCES.map(x => x.key);
+  const s = loadedSources().map(x => x.key);
   return state.part ? [...s, "family"] : s;
 }
 function allRows() {
@@ -167,7 +171,7 @@ function allRows() {
 }
 function rowDiffers(row) {
   const vals = new Set();
-  for (const s of SOURCES) {
+  for (const s of loadedSources()) {
     const sv = srcValue(row, s.key);
     if (!sv) continue;
     if (sv.varies) sv.varies.forEach(x => vals.add(norm(x.value))); else vals.add(norm(sv.value));
@@ -217,7 +221,7 @@ function renderList() {
   }
   const cats = [...order.filter(c => groups[c]), ...Object.keys(groups).filter(c => !order.includes(c))];
   $("#plist").innerHTML = cats.map(c => `<li class="cat-h">${esc(c || "Other")}</li>` + groups[c].map(([p, st]) => {
-    const srcs = SOURCES.map(s => `<b class="${p.present[s.key] ? "" : "no"}">${s.short}</b>`).join("");
+    const srcs = loadedSources().map(s => `<b class="${p.present[s.key] ? "" : "no"}">${s.short}</b>`).join("");
     const lbl = st.s === "approved" ? "Approved" : st.s === "draft" ? "In progress" : "Not started";
     return `<li><button type="button" data-pid="${esc(p.id)}" aria-current="${p.id === state.pid}">
       <span class="pl-top"><span class="pl-name">${esc(p.name)}</span><span class="st ${st.s}">${lbl}</span></span>
