@@ -1,0 +1,42 @@
+{
+	"id": "dcmeter",
+	"name": "ET1641 (DC Meter)",
+	"cat": "Energy Meter",
+	"order": 52,
+	"desc": "A DC energy meter with 4-channel current measurement across 20–60V (up to 200A), 1% FSR accuracy, and RS485 for battery systems, solar installations, telecom rectifiers, and EV charging infrastructure.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "",
+	"power": "20-60 VDC (self-powered)",
+	"ports": "0",
+	"os": "-",
+	"housing": "Panel Mount",
+	"dims": "-",
+	"weight": "-",
+	"op_temp": "-",
+	"images": [
+		"/images/product-selector/dcmeter/dcmeter.webp"
+	],
+	"use_cases": [
+		"Telecom Power Monitoring",
+		"Solar & Battery System Analytics",
+		"EV Charging & DC Infrastructure"
+	],
+	"datasheet": "/assets/datasheets/products/dcmeter/DCMeterET1641_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "power", "ports", "os", "rs485", "rs232", "housing", "dims", "weight", "op_temp"],
+	"additional_specs": [
+		{ "k": "DC Voltage Range", "v": "20-60 VDC" },
+		{ "k": "DC Current Range", "v": "1-100A / 200A DC" },
+		{ "k": "Voltage Resolution", "v": "0.1V or better" },
+		{ "k": "Current Resolution", "v": "0.2A or better" }
+	],
+	"variants": null
+}

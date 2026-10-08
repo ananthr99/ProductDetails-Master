@@ -1,0 +1,55 @@
+{
+	"id": "roxx",
+	"name": "ROXX",
+	"cat": "Router",
+	"order": 10,
+	"desc": "A ruggedised industrial router combining dual 5G/4G modems with Wi-Fi 6 (EasyMesh), 2× WAN + 4× LAN GbE ports, and 1× SFP uplink. Built on MediaTek MT7981 with OpenWRT 21/23, supporting dual-SIM failover, DIN-rail mounting, and a wide 9–30V DC input — engineered for demanding telecom, industrial, and enterprise edge deployments.",
+	"cpu": "MT7981 ARM Cortex A53 Dual Core with 1.3 GHz Frequency",
+	"ram": "1 GB DDR4",
+	"storage": "128 MB NAND/32MB NOR and 4GB/8GB eMMC",
+	"cell": "Dual M.2 Modem 5G/4G/3G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "12 VDC",
+	"ports": "6",
+	"os": "OpenWRT 21/23",
+	"housing": "Sheet Metal",
+	"dims": "210 × 25 × 135 mm (W × H × D)",
+	"weight": "950 gm",
+	"op_temp": "0°C-50°C",
+	"images": [
+		"/images/product-selector/roxx/roxx.webp"
+	],
+	"use_cases": [
+		"Telecom Backhaul & Site Connectivity",
+		"Enterprise Edge Network with Dual Active for Load Balancing"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RO65": "/assets/datasheets/products/roxx/ro65_Datasheet.pdf",
+		"RO65-2": "/assets/datasheets/products/roxx/ro65-2_Datasheet.pdf",
+		"RO65-1": "/assets/datasheets/products/roxx/ro65-1_Datasheet.pdf",
+		"RO64-2": "/assets/datasheets/products/roxx/ro64-2_Datasheet.pdf",
+		"RO64-1": "/assets/datasheets/products/roxx/ro64-1_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ports" },
+		{ "k": "SFP", "v": "1" },
+		{ "k": "USB 3.0", "v": "1" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 6", "5G", "Dual", "RO65-2"],
+			["✓", "Wi-Fi 6", "5G", "Single", "RO65-1"],
+			["—", "Wi-Fi 6", "5G", "—", "RO65"],
+			["✓", "Wi-Fi 6", "4G", "Dual", "RO64-2"],
+			["✓", "Wi-Fi 6", "4G", "Single", "RO64-1"]
+		]
+	}
+}

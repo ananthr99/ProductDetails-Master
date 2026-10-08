@@ -1,0 +1,50 @@
+{
+	"id": "iexx",
+	"name": "IEXX-X-XX",
+	"cat": "Gateway",
+	"order": 17,
+	"desc": "A compact industrial gateway on MT7628 with 4G, Wi-Fi 4, eSIM support, and a wide 9–36V DC input. Designed for IoT use cases such as smart metering, remote equipment monitoring, and kiosk connectivity with flexible SIM options.",
+	"cpu": "MT7628",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "9-36 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Metal",
+	"dims": "97 x 28 x 84 mm (W x H x D)",
+	"weight": "280 gm",
+	"op_temp": "-20 ~ 60°C",
+	"images": [
+		"/images/product-selector/iexx/iexx.webp"
+	],
+	"use_cases": [
+		"Smart Metering & Utility Data Collection using eSIM",
+		"Remote Equipment Monitoring using dual profile eSIM",
+		"Kiosk & Self-Service Terminal Connectivity using Multi profile eSIM"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IE44-A": "/assets/datasheets/products/iexx/ie44A_Datasheet.pdf",
+		"IE44-C": "/assets/datasheets/products/iexx/ie44C_Datasheet.pdf",
+		"IE44-A-EX1 (e-SIM)": "/assets/datasheets/products/iexx/ie44A-EX1_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "4G", "Single", "IE44-A"],
+			["✓", "Wi-Fi 4", "4G", "Single", "IE44-C"],
+			["✓", "Wi-Fi 4", "4G", "Single", "IE44-A-EX1 (e-SIM)"]
+		]
+	}
+}

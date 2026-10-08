@@ -1,0 +1,46 @@
+{
+	"id": "ru60",
+	"name": "RU60",
+	"cat": "Router",
+	"order": 9,
+	"desc": "A compact, fanless Wi-Fi 6 (802.11ax) access point and router built on MediaTek MT7981 with OpenWRT. Supports AP, Station, Repeater, Guest Wi-Fi, and EasyMesh modes with 1 LAN + 1 WAN Gigabit port. Designed for indoor enterprise, retail, and industrial environments requiring reliable, high-throughput wireless connectivity.",
+	"cpu": "MediaTek MT7981",
+	"ram": "1 GB DDR4",
+	"storage": "1 GB NAND",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi6",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "IP30",
+	"power": "12 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Plastic",
+	"dims": "190 x 190 x 50 mm (L x W x H)",
+	"weight": "350 gm",
+	"op_temp": "−20°C to 60°C",
+	"images": [
+		"/images/product-selector/ru60/ru60.webp"
+	],
+	"use_cases": [
+		"Enterprise & Office Wireless Connectivity",
+		"Retail & Commercial Space Networking",
+		"Industrial Wireless Network Extension"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RU60": "/assets/datasheets/products/ru60/ru60_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ports" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["—", "Wi-Fi 6", "—", "—", "RU60"]
+		]
+	}
+}

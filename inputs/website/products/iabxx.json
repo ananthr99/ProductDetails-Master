@@ -1,0 +1,58 @@
+{
+	"id": "iabxx",
+	"name": "IABXX-X",
+	"cat": "Gateway",
+	"order": 20,
+	"desc": "A rugged industrial gateway on MT7628 with 4G, Wi-Fi 4, RS485, RS232, digital I/O, analog input, RTC, and a wide 9–30V DC input. Built for smart energy automation, industrial process monitoring, and remote environmental and field monitoring.",
+	"cpu": "MT7628, Single Core with 580 MHz Frequency",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "Yes",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "427 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/iabxx-x/iabxx-x.webp"
+	],
+	"use_cases": [
+		"Smart Energy & Utility Automation",
+		"Industrial Process Monitoring",
+		"Remote Environmental & Field Monitoring"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IAB44-C": "/assets/datasheets/products/iabxx-x/IAB44-C_Datasheet.pdf",
+		"IAB44-B (4 GB eMMC)": "/assets/datasheets/products/iabxx-x/IAB44-B_Datasheet.pdf",
+		"IAB04-C": "/assets/datasheets/products/iabxx-x/IAB04-C_Datasheet.pdf",
+		"IAB04-B (4 GB eMMC)": "contact_us"
+	},
+	"hidden": false,
+	"hidden_fields": [],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" },
+		{ "k": "RS485", "v": "1" },
+		{ "k": "DI/O", "v": "1" },
+		{ "k": "RS232", "v": "1" },
+		{ "k": "AI", "v": "2" },
+		{ "k": "USB 2.0", "v": "1" },
+		{ "k": "DC Output", "v": "1" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "RS485", "RS232", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "✓", "✓", "4G", "Single", "IAB44-C"],
+			["✓", "Wi-Fi 4", "✓", "✓", "4G", "Single", "IAB44-B (4 GB eMMC)"],
+			["✓", "—", "✓", "✓", "4G", "Single", "IAB04-B (4 GB eMMC)"],
+			["✓", "—", "✓", "✓", "4G", "Single", "IAB04-C"]
+		]
+	}
+}

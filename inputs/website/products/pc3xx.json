@@ -1,0 +1,50 @@
+{
+	"id": "pc3xx",
+	"name": "PC3XX",
+	"cat": "Switch",
+	"order": 41,
+	"desc": "An ultra-compact serial-to-IP gateway on MT7628 with RS485, optional Wi-Fi 4, and a single Fast Ethernet port for bridging field devices to IP networks in DIN-rail enclosures.",
+	"cpu": "MediaTek MT7628",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "",
+	"power": "12-24 VDC",
+	"ports": "1",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "80 x 26 x 78 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/pc3xx/pc3xx.webp"
+	],
+	"use_cases": [
+		"Energy Meter & Utility Device Integration",
+		"Building Automation Connectivity",
+		"Legacy Device Network Enablement"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"PC310": "/assets/datasheets/products/pc3xx/PC310.pdf",
+		"PC311": "/assets/datasheets/products/pc3xx/PC311.pdf",
+		"PC312": "/assets/datasheets/products/pc3xx/PC312.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "ip", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "RS485", "No. of RS485 Ports", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "1", "PC310"],
+			["-", "-", "✓", "2", "PC311"],
+			["-", "✓", "✓", "1", "PC312"]
+		]
+	}
+}

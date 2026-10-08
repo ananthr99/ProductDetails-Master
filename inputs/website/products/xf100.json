@@ -1,0 +1,47 @@
+{
+	"id": "xf100",
+	"name": "XF100-1",
+	"cat": "Switch",
+	"order": 36,
+	"desc": "A 10-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for large camera networks, smart office connectivity, and industrial automation network expansion.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "10",
+	"os": "-",
+	"housing": "Sheet Metal",
+	"dims": "45 x 116 x 90 mm (W x H x D)",
+	"weight": "416 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/xf100/xf100.webp"
+	],
+	"use_cases": [
+		"Large Camera & Surveillance Networks",
+		"Smart Office & Campus Device Connectivity",
+		"Industrial Automation Network Expansion"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XF100-1 Unmanaged PoE Switch": "apps/main-site/public/assets/datasheets/products/xf100/XF100_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet (MDI/MDIX)" },
+		{ "k": "Switch Type", "v": "Unmanaged Switch" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "No. of Modems", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "Single", "XF100-1 Unmanaged PoE Switch"]
+		]
+	}
+}

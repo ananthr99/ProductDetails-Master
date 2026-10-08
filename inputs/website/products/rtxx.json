@@ -1,0 +1,65 @@
+{
+	"id": "rtxx",
+	"name": "RTXX",
+	"cat": "Router",
+	"order": 11,
+	"desc": "The RTXX is a compact industrial router featuring MediaTek MT7981 with Wi-Fi 6, dual M.2 modem slots supporting 5G/4G/3G, and OpenWRT Linux. Designed for demanding IoT, industrial automation, and edge networking deployments, it supports dual SIM with 4 LAN and 1 WAN Gigabit Ethernet ports in a fanless DIN-rail sheet-metal enclosure with wide 9–30 VDC input.",
+	"cpu": "MT7981 ARM Cortex A53 Dual Core with 1.3 GHz Frequency",
+	"ram": "1 GB DDR4",
+	"storage": "128 MB NAND",
+	"cell": "Dual M.2 Modem 5G/4G/3G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "110 x 55 x 144 mm (W x H x D)",
+	"weight": "480 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rtxx/rtxx.webp"
+	],
+	"use_cases": [
+		"Industrial Automation & Machine Connectivity",
+		"IoT Gateway for Smart Deployments",
+		"Smart Utility & Field Operations Connectivity"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RT00": "/assets/datasheets/products/rtxx/rt00_Datasheet.pdf",
+		"RT04-1": "/assets/datasheets/products/rtxx/rt04-1_Datasheet.pdf",
+		"RT04-2": "/assets/datasheets/products/rtxx/rt04-2_Datasheet.pdf",
+		"RT05-1": "/assets/datasheets/products/rtxx/rt05-1_Datasheet.pdf",
+		"RT05-2": "/assets/datasheets/products/rtxx/rt05-2_Datasheet.pdf",
+		"RT60": "/assets/datasheets/products/rtxx/rt60_Datasheet.pdf",
+		"RT64-1": "/assets/datasheets/products/rtxx/rt64-1_Datasheet.pdf",
+		"RT64-2": "/assets/datasheets/products/rtxx/rt64-2_Datasheet.pdf",
+		"RT65-1": "/assets/datasheets/products/rtxx/rt65-1_Datasheet.pdf",
+		"RT65-2": "/assets/datasheets/products/rtxx/rt65-2_Datasheet.pdf",
+		"RT66-2": "contact_us"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ports" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["—", "—", "—", "—", "RT00"],
+			["✓", "—", "4G", "Single", "RT04-1"],
+			["✓", "—", "4G", "Dual", "RT04-2"],
+			["✓", "—", "5G", "Single", "RT05-1"],
+			["✓", "—", "5G", "Dual", "RT05-2"],
+			["—", "Wi-Fi 6", "—", "—", "RT60"],
+			["✓", "Wi-Fi 6", "4G", "Single", "RT64-1"],
+			["✓", "Wi-Fi 6", "4G", "Dual", "RT64-2"],
+			["✓", "Wi-Fi 6", "5G", "Single", "RT65-1"],
+			["✓", "Wi-Fi 6", "5G", "Dual", "RT65-2"]
+		]
+	}
+}

@@ -1,0 +1,54 @@
+{
+	"id": "mcx",
+	"name": "MC-X",
+	"cat": "Other",
+	"order": 42,
+	"desc": "A compact media converter bridging 10/100/1000Base-T Ethernet to single-mode fibre up to 10 km at 1310nm, with a duplex SC connector and 5–12V DC input.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "5-12 VDC",
+	"ports": "-",
+	"os": "-",
+	"housing": "Steel Metal",
+	"dims": "92 x 66 x 26 mm (H x W x D)",
+	"weight": "187 gm",
+	"op_temp": "0 ~ 70°C",
+	"images": [
+		"/images/product-selector/mcx/mcx.webp"
+	],
+	"use_cases": [
+		"Long-Distance Network Extension"
+	],
+	"datasheet": "/assets/datasheets/products/mcx/MCX_Datasheet.pdf",
+	"part_datasheets": {
+        "ISMC1-SD851G-S5": "contact_us",
+        "ISMC1-SD311G-10": "contact_us",
+        "SMC1-SD311G-20": "contact_us"
+    },
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "ports", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Description", "v": "10/100/1000 Base-T to 1000 Base-LX" },
+		{ "k": "Fiber Wavelength", "v": "1310 nm" },
+		{ "k": "Max Distance", "v": "10 km" },
+		{ "k": "Ports", "v": "1× RJ45 + 1× Fiber (Duplex SC)" },
+		{ "k": "Mode", "v": "Single-mode" },
+		{ "k": "Auto MDI Support", "v": "Yes" },
+		{ "k": "Humidity", "v": "5% to 90%" }
+	],
+	"variants": {
+		"headers": ["Interface", "Mode", "Max Distance", "Part Number"],
+		"rows": [
+			["1× RJ45 + 1× Fiber SC", "Single-mode", "5 km", "ISMC1-SD851G-S5"],
+			["1× RJ45 + 1× Fiber SC", "Single-mode", "10 km", "ISMC1-SD311G-10"],
+			["1× RJ45 + 1× Fiber SC", "Single-mode", "20 km", "SMC1-SD311G-20"]
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "_help": "Force a match when names differ between sources. Keys are website product ids. master = brief page title in the Master Catalogue; catalogue = folder name in the catalogue output.",
+  "master": {
+    "xg822l": "XG-82-2L Gigabit Ethernet Managed",
+    "idfxx": "IDF",
+    "mt7621odu": "MT7621-01 ODU",
+    "mfmet4640": "Multi-Function Meter",
+    "dcmeter": "DC Meter",
+    "acmeter": "AC Meter",
+    "bcpm": "Branch Circuit Power Meter"
+  },
+  "catalogue": {}
+}

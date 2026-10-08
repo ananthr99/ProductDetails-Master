@@ -1,0 +1,55 @@
+{
+	"id": "rvxx",
+	"name": "RVXX",
+	"cat": "Router",
+	"order": 12,
+	"desc": "The RVXX is a compact industrial router built on MediaTek MT7621 featuring dual-band Wi-Fi 5, 4G/3G/2G cellular with dual SIM, and five Gigabit Ethernet ports. Running OpenWRT Linux with VPN, VLAN, advanced routing, and NMS remote management, it is ideal for industrial IoT, M2M, and edge-networking deployments.",
+	"cpu": "MT7621 MIPS Dual Core with 880 MHz Frequency",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB Flash",
+	"cell": "Dual M.2 Modem 4G/3G/2G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi5",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "9-30/12 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 60 x 95 mm (W x H x D)",
+	"weight": "390 gm",
+	"op_temp": "0-50°C",
+	"images": [
+		"/images/product-selector/rvxx/rvxx_1.webp",
+        "/images/product-selector/rvxx/rvxx_2.webp"
+	],
+	"use_cases": [
+		"M2M Communication & Remote Asset Connectivity",
+		"Transportation & Fleet Connectivity",
+		"Backup Connectivity for Small Industrial Remote Sites"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RV04-1": "/assets/datasheets/products/rvxx/rv04-1_Datasheet.pdf",
+		"RV04-2": "/assets/datasheets/products/rvxx/rv04-2_Datasheet.pdf",
+		"RV50": "/assets/datasheets/products/rvxx/rv50_Datasheet.pdf",
+		"RV54-1": "/assets/datasheets/products/rvxx/rv54-1_Datasheet.pdf",
+		"RV54-2": "/assets/datasheets/products/rvxx/rv54-2_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs485", "rs232", "housing"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ports" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 5", "4G", "Single", "RV54-1"],
+			["✓", "Wi-Fi 5", "4G", "Dual", "RV54-2"],
+			["✓", "—", "4G", "Single", "RV04-1"],
+			["✓", "Wi-Fi 5", "4G", "Dual", "RV04-2"],
+			["—", "Wi-Fi 5", "5G", "—", "RV50"]
+		]
+	}
+}

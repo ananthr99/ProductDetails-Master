@@ -1,0 +1,40 @@
+{
+	"id": "inv-ce-xx",
+	"name": "INV-CE-XX",
+	"cat": "Intel Based Devices",
+	"order": 3,
+	"desc": "A rugged, fanless SD-WAN edge appliance powered by Intel X7425E, designed for high-performance networking at distributed sites. It combines multi-WAN connectivity (Ethernet, 4G/5G, Wi-Fi) with flexible OS support and industrial-grade reliability, making it ideal for seamless failover, traffic optimisation, and edge computing. Best suited for telecom, industrial IoT, smart infrastructure, and enterprise branch deployments.",
+	"cpu": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+	"ram": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+	"storage": "Up to 512 GB SSD and up to 64 GB eMMC",
+	"cell": "4G/5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "12 VDC",
+	"ports": "4",
+	"os": "Ubuntu / Oracle Linux / OpenWRT / Windows",
+	"housing": "Aluminum Heat Sink with CRCA Enclosure",
+	"dims": "150 x 160 x 52.8 mm (LxWxH)",
+	"weight": "1800 gm",
+	"op_temp": "0–50°C",
+	"images": ["/images/product-selector/inv-ce-xx/inv-ce-xx_1.webp","/images/product-selector/inv-ce-xx/inv-ce-xx_2.webp"],
+	"use_cases": [
+		"Enterprise Branch Connectivity",
+		"Infotainment System for Vehicles"
+	],
+	"datasheet": "/assets/datasheets/products/inv-ce-xx/inv-ce-xx_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (RTL8111H) / 2.5 GbE" },
+		{ "k": "USB 2.0", "v": "2" },
+		{ "k": "HDMI", "v": "1" },
+		{ "k": "USB Console", "v": "1" },
+		{ "k": "Mounting", "v": "Desktop / Wall / 19\" Rack / VESA" }
+	],
+	"variants": null
+}

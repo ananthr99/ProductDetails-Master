@@ -1,0 +1,57 @@
+{
+	"id": "iSense",
+	"name": "iSense XXX",
+	"cat": "Gateway",
+	"order": 25,
+	"desc": "A dense industrial I/O gateway on MT7621 featuring 24 isolated digital inputs, 8 relay outputs, 4x RS485, RS232, analog I/O, dual external temperature probes, and Modbus/MQTT/SNMP support. Designed for energy monitoring, process automation, and smart infrastructure.",
+	"cpu": "MT7621 MIPS Dual Core with 880 MHz Frequency",
+	"ram": "512 MB DDR3, eMMC up to 32 GB",
+	"storage": "512 MB",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi5",
+	"rs485": "Yes",
+	"rs232": "Yes",
+	"ip": "",
+	"power": "20-60 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "309 x 221 x 58 mm (L x W x H)",
+	"weight": "1853 gm",
+	"op_temp": "-10°C to 70°C",
+	"images": [
+		"/images/product-selector/iSense/iSense.webp"
+	],
+	"use_cases": [
+		"Energy Monitoring & Power Management",
+		"Process Automation & Industrial Control",
+		"Smart Infrastructure & Remote Asset Intelligence"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"iSense Violet Plus Pro": "/assets/datasheets/products/iSense/IsenseVioletPlusPro_Datasheet.pdf",
+		"iSense Green Plus Pro": "/assets/datasheets/products/iSense/IsenseGreenPlusPro_Datasheet.pdf",
+		"iSense Blue Plus Pro": "/assets/datasheets/products/iSense/IsenseBluePlusPro_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" },
+		{ "k": "DI", "v": "24 with isolation" },
+		{ "k": "Relay Outputs", "v": "8" },
+		{ "k": "External Temperature Sensors", "v": "2" },
+		{ "k": "RS485", "v": "3" },
+		{ "k": "RS232", "v": "1" },
+		{ "k": "USB", "v": "1" },
+		{ "k": "Mounting", "v": "Table Top" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "4G/5G", "RS485", "RS232", "DIO Count", "Part Number"],
+		"rows": [
+			["✓", "✓", "4G", "✓", "✓", "24", "iSense Violet Plus Pro"],
+			["✓", "✓", "4G", "✓", "✓", "12", "iSense Green Plus Pro"],
+			["✓", "✓", "4G", "✓", "✓", "6", "iSense Blue Plus Pro"]
+		]
+	}
+}

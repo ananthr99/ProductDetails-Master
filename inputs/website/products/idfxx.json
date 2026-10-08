@@ -1,0 +1,56 @@
+{
+	"id": "idfxx",
+	"name": "IDFXX",
+	"cat": "Router",
+	"order": 47,
+	"desc": "An industrial router on MT7621 with -48V DC input, 5G/4G dual-SIM, optional Wi-Fi 5, RS485, and OpenWRT for telecom towers, street cabinets, and negative-voltage power environments.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB DDR",
+	"storage": "32 MB Flash",
+	"cell": "4G/5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi5",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "",
+	"power": "-48 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "500 gm",
+	"op_temp": "-20 ~ 60°C",
+	"images": [
+		"/images/product-selector/idfxx/idfxx.webp"
+	],
+	"use_cases": [
+		"Telecom Tower Connectivity",
+		"Smart Utility & Street Cabinet Networking",
+		"Remote Industrial Monitoring"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IDF04": "/assets/datasheets/products/idfxx/IDF04_Datasheet.pdf",
+		"IDF54": "/assets/datasheets/products/idfxx/IDF54_Datasheet.pdf",
+		"IDF44": "/assets/datasheets/products/idfxx/IDF44_Datasheet.pdf",
+		"IDF05": "/assets/datasheets/products/idfxx/IDF05_Datasheet.pdf",
+		"IDF55": "/assets/datasheets/products/idfxx/IDF55_Datasheet.pdf",
+		"IDF45": "/assets/datasheets/products/idfxx/IDF45_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "-", "4G", "Single", "IDF04"],
+			["✓", "Wi-Fi 5", "4G", "Single", "IDF54"],
+			["✓", "Wi-Fi 4", "4G", "Single", "IDF44"],
+			["✓", "-", "5G", "Single", "IDF05"],
+			["✓", "Wi-Fi 5", "5G", "Single", "IDF55"],
+			["✓", "Wi-Fi 4", "5G", "Single", "IDF45"]
+		]
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"id": "rt65odu",
+	"name": "RT65-ODU",
+	"cat": "Outdoor Unit",
+	"order": 44,
+	"desc": "An IP67-rated outdoor router on MT7981 with 5G, Wi-Fi 6 EasyMesh, 5 Gigabit ports, and multi-WAN failover for high-availability smart transportation and mission-critical remote site networking.",
+	"cpu": "MediaTek MT7981 1.3 GHz Dual Core ARM Cortex A53",
+	"ram": "1 GB DDR4",
+	"storage": "128 MB NAND",
+	"cell": "5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP67",
+	"power": "9-30 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "IP67 Enclosure",
+	"dims": "110 x 55 x 144 mm (W x H x D)",
+	"weight": "480 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rt65odu/rt65odu.webp"
+	],
+	"use_cases": [
+		"Smart Transportation & Traffic Connectivity",
+		"Mission-Critical Remote Site Networking",
+		"High-Availability Outdoor Wi-Fi Coverage"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RT65-ODU": "/assets/datasheets/products/rt65odu/RT65-ODU_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 6", "5G", "Single", "RT65-ODU"]
+		]
+	}
+}

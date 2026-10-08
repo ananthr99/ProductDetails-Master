@@ -1,0 +1,46 @@
+{
+	"id": "mt7621odu",
+	"name": "MT7621-01 ODU",
+	"cat": "Outdoor Unit",
+	"order": 43,
+	"desc": "An IP66-rated outdoor cellular router on MT7621 with 4G dual-SIM, PoE IN, and wall/pole mounting — eliminating weatherproof cabinets for outdoor CCTV, kiosks, and transportation connectivity.",
+	"cpu": "MediaTek MT7621 MIPS Dual Core, 880 MHz",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB",
+	"cell": "Single M.2 Modem 4G/3G/2G",
+	"cellular_gen": "4G",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP66",
+	"power": "Active PoE (IEEE 802.3af/at, 48-57V)",
+	"ports": "1",
+	"os": "OpenWRT Linux",
+	"housing": "ABS/PC IP66 Housing",
+	"dims": "140 x 75 x 224 mm (W x H x D)",
+	"weight": "950 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/mt7621odu/mt7621odu.webp"
+	],
+	"use_cases": [
+		"Outdoor CCTV & Perimeter Surveillance",
+		"Smart Transportation & Roadside Infrastructure",
+		"Remote Outdoor Asset Connectivity"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"MT7621-01 ODU": "/assets/datasheets/products/mt7621odu/MT7621-01-ODU_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["wifi", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "Gen", "No. of Modems", "Part Number"],
+		"rows": [
+			["-", "✓", "4G", "Single", "MT7621-01 ODU"]
+		]
+	}
+}

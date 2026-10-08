@@ -1,0 +1,37 @@
+{
+	"id": "inv-ci-xx",
+	"name": "INV-CI-XX",
+	"cat": "Intel Based Devices",
+	"order": 5,
+	"desc": "A compact, Intel X7425E-powered industrial computer designed for reliable edge computing and industrial automation. It features 6 Ethernet ports, optional 4G/5G connectivity, Wi-Fi 6, and flexible storage options for secure, high-performance deployments.",
+	"cpu": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+	"ram": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+	"storage": "Up to 512 GB SSD and 64 GB eMMC",
+	"cell": "4G/5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "6",
+	"os": "Ubuntu / Oracle / OpenWRT / Windows / VyOS",
+	"housing": "Sheet Metal",
+	"dims": "232 x 202 x 44 mm",
+	"weight": "1500 gm",
+	"op_temp": "0–50°C",
+	"images": ["/images/product-selector/inv-ci-xx/inv-ci-xx_1.webp","/images/product-selector/inv-ci-xx/inv-ci-xx_2.webp"],
+	"use_cases": [
+		"Multi-Site Enterprise WAN Management",
+		"Video Surveillance & Security Networks",
+		"Industrial Gateway / Edge Computing"
+	],
+	"datasheet": "/assets/datasheets/products/inv-ci-xx/inv-ci-xx_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (Realtek RTL8111H)" }
+	],
+	"variants": null
+}

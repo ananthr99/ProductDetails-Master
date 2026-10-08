@@ -1,0 +1,48 @@
+{
+	"id": "rvcp",
+	"name": "RVCP",
+	"cat": "Gateway",
+	"order": 28,
+	"desc": "A rugged, fanless 4G dual-SIM cellular gateway on MediaTek MT7621 with 4 Gigabit Ethernet ports, SFP uplink, and advanced multi-WAN failover running OpenWRT Linux. Ideal for primary WAN failover, remote SCADA connectivity, and distributed IoT metering deployments.",
+	"cpu": "MediaTek MT7621, Dual Core MIPS 880 MHz",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB NOR Flash",
+	"cell": "",
+	"cellular_gen": "4G",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC or 9-30 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "190 x 30 x 100 mm (W x H x D)",
+	"weight": "520 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rvcp/rvcp.webp"
+	],
+	"use_cases": [
+		"Primary WAN Failover for Retail & Branch Offices",
+		"Remote SCADA/Industrial Site Connectivity",
+		"Fleet of Distributed IoT/Metering Gateways with Centralized Management"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RVCP 04": "/assets/datasheets/products/rvcp/RVCP04_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "wifi", "ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Port", "v": "Gigabit Ethernet" },
+		{ "k": "SFP Ports", "v": "1" },
+		{ "k": "USB Port", "v": "1 x 3.0" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "Modem", "Part Number"],
+		"rows": [
+			["—", "✓", "4G", "Single", "RVCP 04"]
+		]
+	}
+}

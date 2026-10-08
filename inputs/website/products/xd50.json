@@ -1,0 +1,47 @@
+{
+	"id": "xd50",
+	"name": "XD50-1",
+	"cat": "Switch",
+	"order": 35,
+	"desc": "A slim 5-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and compact sheet metal DIN-rail housing for EV charger connectivity, edge cabinets, and smart kiosk networking.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "5",
+	"os": "-",
+	"housing": "Sheet Metal",
+	"dims": "27 x 112 x 94 mm (W x H x D)",
+	"weight": "307 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/xd50/xd50.webp"
+	],
+	"use_cases": [
+		"EV Charger Controller Connectivity",
+		"Edge Cabinet Network Integration",
+		"Smart Kiosk & Edge Device Networking"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XD50-1 Unmanaged PoE Switch": "/assets/datasheets/products/xd50/XD50_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" },
+		{ "k": "Switch Type", "v": "Unmanaged Switch" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "XD50-1 Unmanaged PoE Switch"]
+		]
+	}
+}

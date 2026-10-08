@@ -1,0 +1,47 @@
+{
+	"id": "acmeter",
+	"name": "ET4602 (AC Meter)",
+	"cat": "Energy Meter",
+	"order": 51,
+	"desc": "A three-phase panel-mount AC energy meter with separate EB and DG kWh tracking, 2000VAC-isolated RS485, and phase-wise voltage/current/power breakdown for industrial and facility energy auditing.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "",
+	"power": "48 VDC",
+	"ports": "0",
+	"os": "-",
+	"housing": "Panel Mount",
+	"dims": "-",
+	"weight": "-",
+	"op_temp": "-10 ~ 55°C",
+	"images": [
+		"/images/product-selector/acmeter/acmeter.webp"
+	],
+	"use_cases": [
+		"Grid & Generator Energy Tracking",
+		"Industrial Power Monitoring",
+		"Facility Energy Auditing"
+	],
+	"datasheet": "/assets/datasheets/products/acmeter/ACMeterET4602_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "power", "ports", "os", "rs485", "rs232", "housing", "dims", "weight"],
+	"additional_specs": [
+		{ "k": "AC Current Measurement", "v": "Average, AR, AY, AB" },
+		{ "k": "AC Voltage Measurement", "v": "Average VLL (RY, YB, BR), VLN (RN, YN, BN)" },
+		{ "k": "Power Factor", "v": "Average and phase-wise" },
+		{ "k": "Active Power (kW)", "v": "Total and phase-wise" },
+		{ "k": "Active Energy (kWh)", "v": "Both EB and DG" },
+		{ "k": "Frequency (Hz)", "v": "45 to 65 Hz" },
+		{ "k": "Isolation (RS485)", "v": "2000 VAC for 1 min between communication and other circuits" },
+		{ "k": "Storage Temperature", "v": "-25 ~ 70°C" },
+		{ "k": "Humidity", "v": "5% to 95% non-condensing" }
+	],
+	"variants": null
+}

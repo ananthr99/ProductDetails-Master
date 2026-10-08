@@ -1,0 +1,41 @@
+{
+	"id": "inv-cb-xx",
+	"name": "INV-CB-XX",
+	"cat": "Intel Based Devices",
+	"order": 1,
+	"desc": "This is a compact, fanless industrial edge computer built for reliable on-site compute, networking, and connectivity in space-constrained deployments. Its key differentiators are the Intel Atom x6425E processor, up to 32 GB RAM, modular SSD and 5G/Wi-Fi options, plus rugged features like an aluminium enclosure, IP30 rating, and wide operating temperature support. It is best suited for industrial automation, IoT gateways, networking edge nodes, and remote monitoring use cases across manufacturing, utilities, retail, and smart infrastructure.",
+	"cpu": "Intel X6425E, Quad Core with 3 GHz turbo frequency",
+	"ram": "Up to 32 GB DDR4 3200 MHz",
+	"storage": "Upto 512 GB SSD",
+	"cell": "Dual SIM M.2 Modem 5G/4G/3G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "19 VDC/24 VDC",
+	"ports": "4",
+	"os": "Oracle Linux v9.5 / Ubuntu 23 / Windows",
+	"housing": "Aluminium Heat Sink with CRCA Enclosure",
+	"dims": "150x210x65mm (LxWxH)",
+	"weight": "1800 gm",
+	"op_temp": "0–50°C",
+	"images": ["/images/product-selector/inv-cb-xx/inv-cb-xx_1.webp","/images/product-selector/inv-cb-xx/inv-cb-xx_2.webp"],
+	"use_cases": [
+		"Healthcare",
+		"Defence and Intelligence",
+		"Small & Mid-Sized Enterprises (SMEs)"
+	],
+	"datasheet": "/assets/datasheets/products/inv-cb-xx/inv-cb-xx_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet, (2x I226 Intel), 2x RTL8125BG (Realtek)" },
+		{ "k": "Mounting", "v": "Desktop Mount / Wall Mount" },
+		{ "k": "USB 2.0", "v": "2" },
+		{ "k": "HDMI", "v": "1" },
+		{ "k": "Micro USB Console", "v": "1" }
+	],
+	"variants": null
+}

@@ -1,0 +1,44 @@
+{
+	"id": "rdb40",
+	"name": "RDB40",
+	"cat": "Gateway",
+	"order": 30,
+	"desc": "A ceiling-mounted indoor access point on MediaTek MT7628 with 2.4 GHz Wi-Fi, integrated BLE 6.0 with long-range FEM, and 802.3af PoE IN. Designed for indoor asset tracking, smart building sensor aggregation, and single-cable Wi-Fi access point deployment.",
+	"cpu": "MediaTek MT7628",
+	"ram": "128 MB",
+	"storage": "32 MB",
+	"cell": "",
+	"cellular_gen": "-",
+	"wifi": "WiFi5",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "",
+	"ports": "",
+	"os": "",
+	"housing": "Plastic",
+	"dims": "190 x 190 x 40 mm (W x D x H)",
+	"weight": "290 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rdb40/rdb40.webp"
+	],
+	"use_cases": [
+		"Indoor Asset Tracking & Real-Time Location Services (RTLS)",
+		"Smart Building Sensor Data Aggregation",
+		"Single-Cable PoE Indoor Wi-Fi Access Point Deployment"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RDB 40": "/assets/datasheets/products/rdb40/RDB40_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "power", "ports", "rs485", "rs232"],
+	"additional_specs": [],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["-", "✓", "-", "-", "RDB 40"]
+		]
+	}
+}

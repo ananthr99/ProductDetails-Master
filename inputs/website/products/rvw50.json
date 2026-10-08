@@ -1,0 +1,46 @@
+{
+	"id": "rvw50",
+	"name": "RVW 50 with M12",
+	"cat": "PCB",
+	"order": 46,
+	"desc": "A vehicle-grade router on MT7621 with vibration-resistant M12 Gigabit connectors, Wi-Fi 5, PoE input, and multi-WAN failover for transit, mobile fleet, and industrial field deployments.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB Flash",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi5",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC / 9-30 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "-",
+	"weight": "-",
+	"op_temp": "0 ~ 70°C",
+	"images": [
+		"/images/product-selector/rvw50/rvw50.webp"
+	],
+	"use_cases": [
+		"Transit & Passenger Connectivity",
+		"Mobile Field Operations",
+		"Industrial Fleet Networking"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+        "RVW 50": "contact_us"
+    },
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "rs485", "rs232", "weight"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (M12 Connector)" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "Gen", "No. of Modems", "Part Number"],
+		"rows": [
+			["Wi-Fi 5", "-", "-", "Single", "RVW 50"]
+		]
+	}
+}

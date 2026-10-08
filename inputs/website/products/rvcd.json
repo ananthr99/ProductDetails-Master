@@ -1,0 +1,47 @@
+{
+	"id": "rvcd",
+	"name": "RVCD",
+	"cat": "Switch",
+	"order": 40,
+	"desc": "A compact fanless router on MediaTek MT7621 with 5 Gigabit Ethernet ports, Wi-Fi 4, OpenWRT Linux, and multi-WAN load balancing with IPsec/OpenVPN/WireGuard VPN support.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB",
+	"storage": "32 MB",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi4",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "110 x 26 x 95 mm (W x H x D)",
+	"weight": "200 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rvcd/rvcd.webp"
+	],
+	"use_cases": [
+		"Multi-WAN Failover",
+		"Secure Remote Infrastructure Access (Branch-to-HQ VPN)",
+		"Industrial Control & Edge IoT Gateway",
+		"High-Reliability Retail / ATM Broadband Bonding"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RVCD": "/assets/datasheets/products/rvcd/RVCD_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Interface", "v": "USB 3.0 / 2.0 Host (Optional)" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "Part Number"],
+		"rows": [
+			["-", "-", "-", "RVCD"]
+		]
+	}
+}

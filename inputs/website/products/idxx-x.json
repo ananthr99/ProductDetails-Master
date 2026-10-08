@@ -1,0 +1,52 @@
+{
+	"id": "idxx-x",
+	"name": "IDXX-X",
+	"cat": "Gateway",
+	"order": 23,
+	"desc": "A high-throughput industrial gateway on MediaTek MT7621 with 4G, dual-band Wi-Fi 5, 512 MB RAM, and Gigabit Ethernet ports. Designed for bandwidth-intensive smart factories, multi-site enterprise networks, and smart energy field automation.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB DDR3",
+	"storage": "64 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi5",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/idxx-x/idxx-x.webp"
+	],
+	"use_cases": [
+		"High-Bandwidth Smart Factory Connectivity",
+		"Multi-Site Enterprise Network Extension",
+		"Smart Energy & Utility Field Automation"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"ID55-B (4 GB eMMC)": "/assets/datasheets/products/idxx-x/ID55-B_Datasheet.pdf",
+		"ID55": "/assets/datasheets/products/idxx-x/ID55_Datasheet.pdf",
+		"ID54-B (4 GB eMMC)": "/assets/datasheets/products/idxx-x/ID54-B_Datasheet.pdf",
+		"ID54": "/assets/datasheets/products/idxx-x/ID54_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "RS485", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 5", "4G", "✓", "Single", "ID55-B (4 GB eMMC)"],
+			["✓", "—", "4G", "—", "Single", "ID55"],
+			["✓", "Wi-Fi 5", "4G", "✓", "Single", "ID54-B (4 GB eMMC)"],
+			["✓", "—", "4G", "—", "Single", "ID54"]
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"id": "rfnxx",
+	"name": "RFNXX",
+	"cat": "Gateway",
+	"order": 19,
+	"desc": "An industrial-grade gateway on MT7628 with 4G dual-SIM, Wi-Fi 4, RS485, and DIO in a fanless IP30 aluminium enclosure. Designed for industrial panel and PLC connectivity, telecom site monitoring, and IoT sensor network gateways.",
+	"cpu": "MT7628, Single Core with 580 MHz Frequency",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "Dual SIM 4G/3G/2G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "9-30 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "112 x 35 x 99 mm (W x H x D)",
+	"weight": "297 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rfnxx/rfnxx.webp"
+	],
+	"use_cases": [
+		"Industrial Panel & PLC Connectivity",
+		"Telecom & Remote Site Uptime Monitoring",
+		"IoT Sensor Network Gateway"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RFN44-A": "/assets/datasheets/products/rfnxx/RFN44-A_Datasheet.pdf",
+		"RFN44-B (RS485)": "/assets/datasheets/products/rfnxx/RFN44-B_Datasheet.pdf",
+		"RFN44-C (1x DI, 1x DO)": "/assets/datasheets/products/rfnxx/RFN44-C_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" },
+		{ "k": "RS485", "v": "1" },
+		{ "k": "DIO", "v": "2" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "RS485", "DIO", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "—", "—", "4G", "Single", "RFN44-A"],
+			["✓", "Wi-Fi 4", "✓", "—", "4G", "Single", "RFN44-B (RS485)"],
+			["✓", "Wi-Fi 4", "—", "✓", "4G", "Single", "RFN44-C (1x DI, 1x DO)"]
+		]
+	}
+}

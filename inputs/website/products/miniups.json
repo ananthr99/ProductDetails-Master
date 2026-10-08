@@ -1,0 +1,78 @@
+{
+  "id": "miniups",
+  "name": "Mini UPS",
+  "cat": "Other",
+  "order": 49,
+  "desc": "A compact 12V UPS with dual output ports, user-replaceable batteries (19–38 Whr), up to 10 hours backup, and auto turn-on for keeping routers, cameras, and access points online during power cuts.",
+  "cpu": "-",
+  "ram": "-",
+  "storage": "-",
+  "cell": "none",
+  "cellular_gen": "-",
+  "wifi": "-",
+  "rs485": "-",
+  "rs232": "-",
+  "ip": "",
+  "power": "12V in / 12V out (2A/3A)",
+  "ports": "0",
+  "os": "-",
+  "housing": "Plastic",
+  "dims": "-",
+  "weight": "-",
+  "op_temp": "-",
+  "images": [
+    "/images/product-selector/miniups/miniups.webp"
+  ],
+  "use_cases": [
+    "Router & Modem Power Backup",
+    "CCTV & Security Continuity",
+    "Smart Device Power Resilience"
+  ],
+  "datasheet": "/assets/datasheets/products/miniups/Mini-UPS_Datasheet.pdf",
+  "part_datasheets": {},
+  "hidden": false,
+  "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "wifi",
+    "ip",
+    "power",
+    "ports",
+    "rs485",
+    "rs232",
+    "dims",
+    "weight",
+    "op_temp"
+  ],
+  "additional_specs": [
+    {
+      "k": "Input/Output",
+      "v": "12V Input, 12V / 2A / 3A Output"
+    },
+    {
+      "k": "Output Port",
+      "v": "Dual Output Port"
+    },
+    {
+      "k": "Battery",
+      "v": "User replaceable (18650/26650), overcharge & discharge protection, thermal protection"
+    },
+    {
+      "k": "Power",
+      "v": "19 Whr — 3 to 5 hrs backup / 38 Whr — 9 to 10 hrs backup"
+    },
+    {
+      "k": "Auto Turn-On",
+      "v": "Yes"
+    },
+    {
+      "k": "LED Indicators",
+      "v": "Charging and output power status"
+    },
+    {
+      "k": "Protection",
+      "v": "Short Circuit Protection"
+    }
+  ],
+  "variants": null
+}

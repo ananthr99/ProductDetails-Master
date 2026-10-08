@@ -1,0 +1,52 @@
+{
+	"id": "iafxx",
+	"name": "IAFXX-X",
+	"cat": "Gateway",
+	"order": 22,
+	"desc": "An industrial gateway on MediaTek MT7628 with 4G, Wi-Fi 4, RS485, Modbus TCP/RTU, digital/analog I/O, RTC, and SMS remote commands. Designed for field device integration, SCADA connectivity, and industrial alarm and event monitoring.",
+	"cpu": "MediaTek MT7628",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "No",
+	"ip": "",
+	"power": "-48 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/iafxx-x/iafxx-x.webp"
+	],
+	"use_cases": [
+		"Remote Sensor & Transducer Data to Cloud",
+		"Drinking Water Treatment Plant Data to Remote Cloud SCADA",
+		"Industrial Alarm & Event Monitoring"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IAF44-C1": "/assets/datasheets/products/iafxx-x/IAF44-C1_Datasheet.pdf",
+		"IAF04-C1": "/assets/datasheets/products/iafxx-x/IAF04-C1_Datasheet.pdf",
+		"IAF44-C2": "contact_us",
+		"IAF04-C2": "contact_us"
+	},
+	"hidden": false,
+	"hidden_fields": [],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "RS485", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "4G", "—", "Single", "IAF44-C1"],
+			["✓", "Wi-Fi 4", "4G", "✓", "Single", "IAF44-C2"],
+			["✓", "—", "4G", "✓", "Single", "IAF04-C2"],
+			["—", "—", "4G", "—", "Single", "IAF04-C1"]
+		]
+	}
+}

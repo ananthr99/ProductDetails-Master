@@ -1,0 +1,46 @@
+{
+	"id": "gpononu",
+	"name": "GPON ONU",
+	"cat": "Gateway",
+	"order": 31,
+	"desc": "A compact single-port GPON ONU on RTL9601D chipset designed to terminate fiber-optic GPON connections and deliver Gigabit Ethernet connectivity for FTTH deployments in residential, retail, and multi-dwelling unit rollouts.",
+	"cpu": "",
+	"ram": "64 MB SD RAM",
+	"storage": "",
+	"cell": "",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "1 x 10/100/1000",
+	"os": "",
+	"housing": "Plastic",
+	"dims": "90 x 27 x 80 mm (W x H x D)",
+	"weight": "300 gm",
+	"op_temp": "0 ~ 70°C",
+	"images": [
+		"/images/product-selector/gpononu/gpononu.webp"
+	],
+	"use_cases": [
+		"Residential FTTH Last-Mile Termination",
+		"Small Office / Retail Fiber Connectivity",
+		"MDU (Multi-Dwelling Unit) Bulk Rollouts"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"GPON ONU": "contact_us"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "storage", "ip", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Controller", "v": "RTL9601D" }
+	],
+	"variants": {
+		"headers": ["Interface", "Part Number"],
+		"rows": [
+			["Controller-RTL9601D", "GPON ONU"]
+		]
+	}
+}

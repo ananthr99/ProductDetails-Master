@@ -1,0 +1,47 @@
+{
+	"id": "mfmet4640",
+	"name": "ET 4640 (Multi-Function Meter)",
+	"cat": "Energy Meter",
+	"order": 50,
+	"desc": "A panel-mountable three-phase multi-function energy meter tracking voltage, current, power, energy, and power factor across all phases with CT programmability, onboard RTC, and data storage.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "-",
+	"ports": "-",
+	"os": "-",
+	"housing": "-",
+	"dims": "-",
+	"weight": "-",
+	"op_temp": "-",
+	"images": [
+		"/images/product-selector/mfmet4640/mfmet4640_1.webp",
+        "/images/product-selector/mfmet4640/mfmet4640_2.webp"
+	],
+	"use_cases": [
+		"Energy Consumption Monitoring",
+		"Industrial Power Quality Analysis",
+		"Utility & Compliance Metering"
+	],
+	"datasheet": "/assets/datasheets/products/mfmet4640/MFMET4640_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "power", "ports", "os", "rs485", "rs232", "housing", "dims", "weight", "op_temp"],
+	"additional_specs": [
+		{ "k": "Meter Type", "v": "Three-phase multi-function panel-mountable meter" },
+		{ "k": "Voltage", "v": "Phase-wise LL, LN, max and min values" },
+		{ "k": "Current", "v": "L1, L2, L3 — max & min values and neutral current" },
+		{ "k": "Current Rating", "v": "CT Primary Programmable (CTS 1A/5A)" },
+		{ "k": "Aux Supply", "v": "85-270V AC/DC" },
+		{ "k": "Voltage Range", "v": "60-415V (Line to Line)" },
+		{ "k": "PF Range", "v": "0.5 lag to unity to 0.5 lead" },
+		{ "k": "Resolution", "v": "0.1 kW/kVA" }
+	],
+	"variants": null
+}

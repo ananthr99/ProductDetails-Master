@@ -1,0 +1,1049 @@
+{
+  "cats": [
+    "Intel Based Devices",
+    "Router",
+    "Gateway",
+    "Switch",
+    "Energy Meter",
+    "PCB",
+    "Outdoor Unit",
+    "Other"
+  ],
+  "catColors": {
+    "Intel Based Devices": {
+      "bg": "#FEF2F2",
+      "fg": "#991B1B"
+    },
+    "Router": {
+      "bg": "#EAF2FB",
+      "fg": "#1260A8"
+    },
+    "Gateway": {
+      "bg": "#E4F5EE",
+      "fg": "#0F6040"
+    },
+    "Switch": {
+      "bg": "#FFF3E0",
+      "fg": "#8B5200"
+    },
+    "Energy Meter": {
+      "bg": "#F9EAF3",
+      "fg": "#7B2563"
+    },
+    "Other": {
+      "bg": "#EEF0F3",
+      "fg": "#3A4D63"
+    },
+    "PCB": {
+      "bg": "#ECFDF5",
+      "fg": "#065F46"
+    },
+    "Outdoor Unit": {
+      "bg": "#EEF2FF",
+      "fg": "#3730A3"
+    }
+  },
+  "products": [
+    {
+      "id": "inv-cb-xx",
+      "name": "INV-CB-XX",
+      "cat": "Intel Based Devices",
+      "order": 1,
+      "desc": "A compact, fanless industrial edge computer with Intel X6425E, up to 32 GB DDR4, 5G/Wi-Fi 6, and rugged IP30 aluminium housing.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-cb-xx/inv-cb-xx_1.webp",
+      "use_cases": [
+        "Healthcare",
+        "Defence and Intelligence",
+        "Small & Mid-Sized Enterprises (SMEs)"
+      ]
+    },
+    {
+      "id": "inv-cd-xx",
+      "name": "INV-CD-XX",
+      "cat": "Intel Based Devices",
+      "order": 2,
+      "desc": "A compact, fanless edge computing system for AI inference, networking, and industrial applications with Intel N350, dual GbE, and flexible OS support.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "2",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-cd-xx/inv-cd-xx_1.webp",
+      "use_cases": [
+        "Industrial Machine Vision & Quality Inspection",
+        "Smart Traffic & Transportation Edge Nodes",
+        "Edge Security & Surveillance with AI Analytics"
+      ]
+    },
+    {
+      "id": "inv-ce-xx",
+      "name": "INV-CE-XX",
+      "cat": "Intel Based Devices",
+      "order": 3,
+      "desc": "A rugged, fanless SD-WAN edge appliance with Intel X7425E, multi-WAN connectivity, 5G/Wi-Fi 6, and industrial-grade reliability for distributed site deployments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-ce-xx/inv-ce-xx_1.webp",
+      "use_cases": [
+        "Enterprise Branch Connectivity",
+        "Infotainment System for Vehicles"
+      ]
+    },
+    {
+      "id": "inv-cea-xx",
+      "name": "INV-CEA-XX",
+      "cat": "Intel Based Devices",
+      "order": 4,
+      "desc": "A fanless industrial gateway with Intel X7425E, quad-GbE ports, dual isolated RS232/RS485 serial interfaces, and 5G/Wi-Fi 6 for harsh environment deployments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-cea-xx/inv-cea-xx_1.webp",
+      "use_cases": [
+        "Industrial Automation & Control",
+        "Machine Monitoring & OEE System"
+      ]
+    },
+    {
+      "id": "inv-ci-xx",
+      "name": "INV-CI-XX",
+      "cat": "Intel Based Devices",
+      "order": 5,
+      "desc": "A compact Intel X7425E industrial computer with 6-port GbE, optional 4G/5G, Wi-Fi 6, and flexible storage for secure edge deployments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "6",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-ci-xx/inv-ci-xx_1.webp",
+      "use_cases": [
+        "Multi-Site Enterprise WAN Management",
+        "Video Surveillance & Security Networks",
+        "Industrial Gateway / Edge Computing"
+      ]
+    },
+    {
+      "id": "itx-arl-board",
+      "name": "Arrowlake ITX",
+      "cat": "Intel Based Devices",
+      "order": 6,
+      "desc": "A high-performance mini-ITX platform with Intel Core Ultra Series 2, integrated NPU AI acceleration, Arc 140T GPU, up to 128 GB DDR5, and triple display outputs.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "2",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/itx-arl-board/itx-arl-board_1.webp",
+      "use_cases": [
+        "AI-Powered Edge Vision & Video Analytics",
+        "Industrial IoT Gateway & Automation Controller",
+        "High-Performance Interactive Kiosks & Digital Signage"
+      ]
+    },
+    {
+      "id": "inv-cf-xx",
+      "name": "INV-CF-XX",
+      "cat": "Intel Based Devices",
+      "order": 7,
+      "desc": "A compact, fanless industrial edge computing platform with Intel X7425E, 2.5GbE networking, 4G/5G connectivity, and flexible mounting for industrial and IoT applications.",
+      "cellular_gen": "5G",
+      "wifi": "-",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/inv-cf-xx/inv-cf-xx_1.webp",
+      "use_cases": [
+        "Fleet Telematics",
+        "Autonomous Vehicle",
+        "Smart Kiosk",
+        "Digital Signage",
+        "Edge Gateway",
+        "Multi-Network Router"
+      ]
+    },
+    {
+      "id": "rtsxx",
+      "name": "RTSXX",
+      "cat": "Router",
+      "order": 8,
+      "desc": "A ruggedised industrial router with dual 5G/4G modems, Wi-Fi 6, SFP uplinks, and DIN-rail mounting for demanding industrial deployments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rtsxx/rtsxx-1.webp",
+      "use_cases": [
+        "SD-WAN & Branch Network Connectivity",
+        "Secure VPN & Surveillance Network Deployment"
+      ]
+    },
+    {
+      "id": "ru60",
+      "name": "RU60",
+      "cat": "Router",
+      "order": 9,
+      "desc": "A compact Wi-Fi 6 access point and router on MediaTek MT7981 with OpenWRT, supporting AP, Station, Repeater, and EasyMesh modes for enterprise and industrial wireless.",
+      "cellular_gen": "-",
+      "wifi": "WiFi6",
+      "ports": "2",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/ru60/ru60.webp",
+      "use_cases": [
+        "Enterprise & Office Wireless Connectivity",
+        "Retail & Commercial Space Networking",
+        "Industrial Wireless Network Extension"
+      ]
+    },
+    {
+      "id": "roxx",
+      "name": "ROXX",
+      "cat": "Router",
+      "order": 10,
+      "desc": "A ruggedised industrial router with dual 5G/4G modems, Wi-Fi 6 EasyMesh, dual-WAN + 4 LAN GbE ports, and an SFP uplink for telecom and enterprise edge deployments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "6",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/roxx/roxx.webp",
+      "use_cases": [
+        "Telecom Backhaul & Site Connectivity",
+        "Enterprise Edge Network with Dual Active for Load Balancing"
+      ]
+    },
+    {
+      "id": "rtxx",
+      "name": "RTXX",
+      "cat": "Router",
+      "order": 11,
+      "desc": "A compact industrial router on MediaTek MT7981 with Wi-Fi 6, dual M.2 modem slots for 5G/4G/3G, and 4 LAN + 1 WAN Gigabit ports in a fanless DIN-rail enclosure.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rtxx/rtxx.webp",
+      "use_cases": [
+        "Industrial Automation & Machine Connectivity",
+        "IoT Gateway for Smart Deployments",
+        "Smart Utility & Field Operations Connectivity"
+      ]
+    },
+    {
+      "id": "rvxx",
+      "name": "RVXX",
+      "cat": "Router",
+      "order": 12,
+      "desc": "A compact industrial router on MediaTek MT7621 with Wi-Fi 5, 4G dual-SIM, and five Gigabit Ethernet ports running OpenWRT for industrial IoT and M2M deployments.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi5",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rvxx/rvxx_1.webp",
+      "use_cases": [
+        "M2M Communication & Remote Asset Connectivity",
+        "Transportation & Fleet Connectivity",
+        "Backup Connectivity for Small Industrial Remote Sites"
+      ]
+    },
+    {
+      "id": "rv00",
+      "name": "RV00",
+      "cat": "Router",
+      "order": 13,
+      "desc": "A compact industrial router on MediaTek MT7621 with Wi-Fi 4, 5 Gigabit Ethernet ports, and OpenWRT for industrial IoT and M2M deployments without cellular connectivity.",
+      "cellular_gen": "-",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rv00/rv00.webp",
+      "use_cases": [
+        "M2M Communication & Remote Asset Connectivity",
+        "Transportation & Fleet Connectivity",
+        "Backup Connectivity for Small Industrial Remote Sites"
+      ]
+    },
+    {
+      "id": "rdxx",
+      "name": "RDXX",
+      "cat": "Router",
+      "order": 14,
+      "desc": "A rugged industrial cellular router on MediaTek MT7628 with 4G dual-SIM failover, optional Wi-Fi 4, RS485, and a wide 9–30V DC input for IoT and mission-critical deployments.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rdxx/rdxx.webp",
+      "use_cases": [
+        "Smart Transportation Connectivity",
+        "Smart Infrastructure & Utility Monitoring",
+        "Smart Kiosk & ATM Connectivity"
+      ]
+    },
+    {
+      "id": "rexx",
+      "name": "REXX",
+      "cat": "Router",
+      "order": 15,
+      "desc": "A compact industrial router on MediaTek MT7628 with 4G dual-SIM, optional Wi-Fi 4, and OpenWRT for digital signage, field data collection, and enterprise backup connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rexx/rexx.webp",
+      "use_cases": [
+        "Digital Signage & Remote Display Networks",
+        "Environmental & Field Data Collection",
+        "Secure Enterprise Backup Network"
+      ]
+    },
+    {
+      "id": "ri44",
+      "name": "RI44",
+      "cat": "Router",
+      "order": 16,
+      "desc": "A compact industrial router on MediaTek MT7628 with 4G single-SIM, Wi-Fi 4, and 5 Fast Ethernet ports running OpenWRT for CCTV and surveillance connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/ri44/ri44.webp",
+      "use_cases": [
+        "CCTV & Video Surveillance Connectivity for ISP Communication Tower"
+      ]
+    },
+    {
+      "id": "iexx",
+      "name": "IEXX-X-XX",
+      "cat": "Gateway",
+      "order": 17,
+      "desc": "A compact industrial gateway on MT7628 with 4G, Wi-Fi 4, eSIM support, and a 9–36V DC input for smart metering, remote monitoring, and kiosk connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "2",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/iexx/iexx.webp",
+      "use_cases": [
+        "Smart Metering & Utility Data Collection using eSIM",
+        "Remote Equipment Monitoring using dual profile eSIM",
+        "Kiosk & Self-Service Terminal Connectivity using Multi profile eSIM"
+      ]
+    },
+    {
+      "id": "iaxx",
+      "name": "IAXX-X",
+      "cat": "Gateway",
+      "order": 18,
+      "desc": "An industrial gateway on MT7628 with 4G dual-SIM, Wi-Fi 4, RS485, and IP30-rated aluminium enclosure for industrial automation, remote asset monitoring, and enterprise connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "2",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/iaxx/iaxx.webp",
+      "use_cases": [
+        "Industrial Machine Data Communication",
+        "Remote Infrastructure Management",
+        "Smart Building Network Management"
+      ]
+    },
+    {
+      "id": "rfnxx",
+      "name": "RFNXX",
+      "cat": "Gateway",
+      "order": 19,
+      "desc": "An industrial gateway on MT7628 with 4G dual-SIM, Wi-Fi 4, RS485, DIO, and IP30 aluminium enclosure for PLC connectivity, telecom site monitoring, and IoT sensor networks.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "2",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rfnxx/rfnxx.webp",
+      "use_cases": [
+        "Industrial Panel & PLC Connectivity",
+        "Telecom & Remote Site Uptime Monitoring",
+        "IoT Sensor Network Gateway"
+      ]
+    },
+    {
+      "id": "iabxx",
+      "name": "IABXX-X",
+      "cat": "Gateway",
+      "order": 20,
+      "desc": "A rugged industrial gateway on MT7628 with 4G, Wi-Fi 4, RS485, RS232, digital I/O, and analog input for smart energy automation, process monitoring, and field monitoring.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "2",
+      "rs485": "Yes",
+      "rs232": "Yes",
+      "hidden": false,
+      "image": "/images/product-selector/iabxx-x/iabxx-x.webp",
+      "use_cases": [
+        "Smart Energy & Utility Automation",
+        "Industrial Process Monitoring",
+        "Remote Environmental & Field Monitoring"
+      ]
+    },
+    {
+      "id": "iacxx",
+      "name": "IACXX-X",
+      "cat": "Gateway",
+      "order": 21,
+      "desc": "A slim DIN-rail industrial gateway on MT7628 with 4G, optional Wi-Fi 4, RS485, and 5 Fast Ethernet ports for OEM embedded connectivity and factory floor network integration.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/iacxx-x/iacxx-x.webp",
+      "use_cases": [
+        "OEM Embedded Connectivity Solutions",
+        "Factory Floor Network Integration",
+        "Infrastructure Equipment Connectivity"
+      ]
+    },
+    {
+      "id": "iafxx",
+      "name": "IAFXX-X",
+      "cat": "Gateway",
+      "order": 22,
+      "desc": "An industrial gateway on MT7628 with 4G, Wi-Fi 4, RS485, Modbus TCP/RTU, DIO, RTC, and SMS remote commands for SCADA connectivity and field device integration.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "2",
+      "rs485": "Yes",
+      "rs232": "No",
+      "hidden": false,
+      "image": "/images/product-selector/iafxx-x/iafxx-x.webp",
+      "use_cases": [
+        "Remote Sensor & Transducer Data to Cloud",
+        "Drinking Water Treatment Plant Data to Remote Cloud SCADA",
+        "Industrial Alarm & Event Monitoring"
+      ]
+    },
+    {
+      "id": "idxx-x",
+      "name": "IDXX-X",
+      "cat": "Gateway",
+      "order": 23,
+      "desc": "A high-throughput industrial gateway on MT7621 with 4G, Wi-Fi 5, 512 MB RAM, and Gigabit Ethernet for bandwidth-intensive smart factories and enterprise networks.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi5",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/idxx-x/idxx-x.webp",
+      "use_cases": [
+        "High-Bandwidth Smart Factory Connectivity",
+        "Multi-Site Enterprise Network Extension",
+        "Smart Energy & Utility Field Automation"
+      ]
+    },
+    {
+      "id": "idbxx-x",
+      "name": "IDBXX-X",
+      "cat": "Gateway",
+      "order": 24,
+      "desc": "A versatile industrial gateway on MT7621 with 5G/4G, Wi-Fi 5, RS485, RS232, and configurable Gigabit WAN/LAN ports for adaptive enterprise and industrial networking.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi5",
+      "ports": "4",
+      "rs485": "Yes",
+      "rs232": "Yes",
+      "hidden": false,
+      "image": "/images/product-selector/idbxx-x/idbxx-x.webp",
+      "use_cases": [
+        "Custom Industrial Edge Application Development",
+        "Industrial Equipment Integration & Control",
+        "Adaptive Enterprise & Industrial Networking"
+      ]
+    },
+    {
+      "id": "iSense",
+      "name": "iSense XXX",
+      "cat": "Gateway",
+      "order": 25,
+      "desc": "An industrial I/O gateway on MT7621 with 24 DI, 8 relay outputs, 4x RS485, analog I/O, and Modbus/MQTT for energy monitoring and process automation.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi5",
+      "ports": "4",
+      "rs485": "Yes",
+      "rs232": "Yes",
+      "hidden": false,
+      "image": "/images/product-selector/iSense/iSense.webp",
+      "use_cases": [
+        "Energy Monitoring & Power Management",
+        "Process Automation & Industrial Control",
+        "Smart Infrastructure & Remote Asset Intelligence"
+      ]
+    },
+    {
+      "id": "rvgxx-x",
+      "name": "RVGXX-XX",
+      "cat": "Gateway",
+      "order": 26,
+      "desc": "An industrial 5G/4G gateway on MT7621 with Wi-Fi 5, RS485, 6 Gigabit Ethernet ports, and IP30 enclosure for smart utilities, industrial IoT, and business continuity.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi5",
+      "ports": "6",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rvgxx-x/rvgxx-x_1.webp",
+      "use_cases": [
+        "Smart Utilities",
+        "Industrial IoT & Automation",
+        "Business Continuity Connectivity"
+      ]
+    },
+    {
+      "id": "rvh44",
+      "name": "RVH 44",
+      "cat": "Gateway",
+      "order": 27,
+      "desc": "An industrial IoT gateway on MT7621 with 4G, Wi-Fi 4, 5 Gigabit ports, 2x RS485, 2x RS232, and Modbus for telemetry aggregation and remote substation monitoring.",
+      "cellular_gen": "4G",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "Yes",
+      "rs232": "Yes",
+      "hidden": false,
+      "image": "/images/product-selector/rvh44/RVH44.webp",
+      "use_cases": [
+        "Industrial IoT & Telemetry Aggregation",
+        "Remote Substation & Utility Monitoring",
+        "Secure Smart Edge Gateway for Transportation / Fleet Management"
+      ]
+    },
+    {
+      "id": "rvcp",
+      "name": "RVCP",
+      "cat": "Gateway",
+      "order": 28,
+      "desc": "A rugged fanless 4G dual-SIM gateway on MT7621 with 4 Gigabit Ethernet ports, SFP uplink, and multi-WAN failover for SCADA, retail, and distributed IoT metering deployments.",
+      "cellular_gen": "4G",
+      "wifi": "-",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rvcp/rvcp.webp",
+      "use_cases": [
+        "Primary WAN Failover for Retail & Branch Offices",
+        "Remote SCADA/Industrial Site Connectivity",
+        "Fleet of Distributed IoT/Metering Gateways with Centralized Management"
+      ]
+    },
+    {
+      "id": "ruc65",
+      "name": "RUC 65",
+      "cat": "Gateway",
+      "order": 29,
+      "desc": "An enterprise-grade 5G gateway on MT7981 with AX3000 Wi-Fi 6, dual-SIM, PoE IN, and multi-WAN failover for smart buildings, events, and mission-critical routing.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "3",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/ruc65/ruc65.webp",
+      "use_cases": [
+        "Smart Building & IoT Edge Aggregation",
+        "Mobile & Temporary Event Branch Connectivity",
+        "Mission-Critical Multi-WAN Industrial Routing"
+      ]
+    },
+    {
+      "id": "rdb40",
+      "name": "RDB40",
+      "cat": "Gateway",
+      "order": 30,
+      "desc": "A ceiling-mounted indoor access point on MT7628 with Wi-Fi, BLE 6.0 long-range, and 802.3af PoE IN for indoor asset tracking and smart building sensor aggregation.",
+      "cellular_gen": "-",
+      "wifi": "WiFi5",
+      "ports": "",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rdb40/rdb40.webp",
+      "use_cases": [
+        "Indoor Asset Tracking & Real-Time Location Services (RTLS)",
+        "Smart Building Sensor Data Aggregation",
+        "Single-Cable PoE Indoor Wi-Fi Access Point Deployment"
+      ]
+    },
+    {
+      "id": "gpononu",
+      "name": "GPON ONU",
+      "cat": "Gateway",
+      "order": 31,
+      "desc": "A compact single-port GPON ONU on RTL9601D for fiber-optic FTTH last-mile termination in residential, retail, and multi-dwelling unit deployments.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "1",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/gpononu/gpononu.webp",
+      "use_cases": [
+        "Residential FTTH Last-Mile Termination",
+        "Small Office / Retail Fiber Connectivity",
+        "MDU (Multi-Dwelling Unit) Bulk Rollouts"
+      ]
+    },
+    {
+      "id": "xa82",
+      "name": "XA82-2",
+      "cat": "Switch",
+      "order": 32,
+      "desc": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks, 240W PoE budget, and DIN-rail aluminium body for CCTV, smart buildings, and industrial cabinet networks.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "8",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xa82/xa82.webp",
+      "use_cases": [
+        "CCTV & Video Surveillance Deployment",
+        "Enterprise & Smart Building Connectivity",
+        "Industrial Cabinet & Field Network Expansion"
+      ]
+    },
+    {
+      "id": "xb82",
+      "name": "XB82-2",
+      "cat": "Switch",
+      "order": 33,
+      "desc": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks, 240W PoE budget, and a wide 9–57V DC input in a DIN-rail mountable industrial aluminium enclosure.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "10",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xb82/xb82.webp",
+      "use_cases": [
+        "Wireless Access Point Aggregation",
+        "IP Telephony & Communication Networks",
+        "Remote Edge Network Distribution"
+      ]
+    },
+    {
+      "id": "xc80",
+      "name": "XC80-1",
+      "cat": "Switch",
+      "order": 34,
+      "hidden": false,
+      "desc": "A compact 8-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for factory floor device and smart security infrastructure deployments.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "8",
+      "rs485": "-",
+      "rs232": "-",
+      "image": "/images/product-selector/xc80/xc-80-1.webp",
+      "use_cases": [
+        "Factory Floor Device Connectivity",
+        "Smart Security Infrastructure",
+        "Industrial Workstation Connectivity"
+      ]
+    },
+    {
+      "id": "xd50",
+      "name": "XD50-1",
+      "cat": "Switch",
+      "order": 35,
+      "desc": "A slim 5-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and compact sheet metal DIN-rail housing for EV charger connectivity, edge cabinets, and smart kiosk networking.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xd50/xd50.webp",
+      "use_cases": [
+        "EV Charger Controller Connectivity",
+        "Edge Cabinet Network Integration",
+        "Smart Kiosk & Edge Device Networking"
+      ]
+    },
+    {
+      "id": "xf100",
+      "name": "XF100-1",
+      "cat": "Switch",
+      "order": 36,
+      "desc": "A 10-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for large camera networks, smart office connectivity, and industrial automation network expansion.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "10",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xf100/xf100.webp",
+      "use_cases": [
+        "Large Camera & Surveillance Networks",
+        "Smart Office & Campus Device Connectivity",
+        "Industrial Automation Network Expansion"
+      ]
+    },
+    {
+      "id": "xg822l",
+      "name": "XG-82-2L",
+      "cat": "Switch",
+      "order": 37,
+      "desc": "A Layer 2 managed PoE switch with 8 Gigabit ports, 2x 2.5G SFP uplinks, 240W PoE budget, 20 Gbps switching capacity, and MSTP/QoS/ERPS/SNMP management in a DIN-rail aluminium enclosure.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "8",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xg822l/xg822l.webp",
+      "use_cases": [
+        "Enterprise Surveillance & Security Networks",
+        "Smart Campus & Enterprise Network Management",
+        "Industrial Network Control & Redundancy"
+      ]
+    },
+    {
+      "id": "xg82",
+      "name": "XG-82-2MI",
+      "cat": "Switch",
+      "order": 38,
+      "desc": "A compact Layer 2 smart managed switch with 8 Gigabit PoE ports (120W), 2× 2.5G SFP uplinks, VLAN/QoS/IGMP/ERPS support, and 44–57V DC input in an industrial aluminium enclosure.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "8",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xg82/xg82.webp",
+      "use_cases": [
+        "Enterprise Surveillance & Security Networks",
+        "Smart Campus & Enterprise Network Management",
+        "Industrial Network Control & Redundancy"
+      ]
+    },
+    {
+      "id": "xi244-2m",
+      "name": "XI 244-2M",
+      "cat": "Switch",
+      "order": 39,
+      "desc": "An industrial Layer 2 managed switch with 24 Gigabit PoE ports (240W), 4 combo RJ45/SFP uplinks, 56 Gbps switching capacity, and MSTP/ERPS redundancy in a 1U rack-mountable aluminium enclosure.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "24",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/xi244-2m/xi244-2m.webp",
+      "use_cases": [
+        "Commercial IP Security & Surveillance Infrastructure",
+        "Smart Building & IoT Deployment",
+        "Industrial / Campus Branch Network Aggregation"
+      ]
+    },
+    {
+      "id": "rvcd",
+      "name": "RVCD",
+      "cat": "Switch",
+      "order": 40,
+      "desc": "A compact fanless router on MediaTek MT7621 with 5 Gigabit Ethernet ports, Wi-Fi 4, OpenWRT Linux, and multi-WAN load balancing with IPsec/OpenVPN/WireGuard VPN support.",
+      "cellular_gen": "-",
+      "wifi": "WiFi4",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rvcd/rvcd.webp",
+      "use_cases": [
+        "Multi-WAN Failover",
+        "Secure Remote Infrastructure Access (Branch-to-HQ VPN)",
+        "Industrial Control & Edge IoT Gateway"
+      ]
+    },
+    {
+      "id": "pc3xx",
+      "name": "PC3XX",
+      "cat": "Switch",
+      "order": 41,
+      "desc": "An ultra-compact serial-to-IP gateway on MT7628 with RS485, optional Wi-Fi 4, and a single Fast Ethernet port for bridging field devices to IP networks in DIN-rail enclosures.",
+      "cellular_gen": "-",
+      "wifi": "WiFi4",
+      "ports": "1",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/pc3xx/pc3xx.webp",
+      "use_cases": [
+        "Energy Meter & Utility Device Integration",
+        "Building Automation Connectivity",
+        "Legacy Device Network Enablement"
+      ]
+    },
+    {
+      "id": "mcx",
+      "name": "MC-X",
+      "cat": "Other",
+      "order": 42,
+      "desc": "A compact media converter bridging 10/100/1000Base-T Ethernet to single-mode fibre up to 10 km at 1310nm, with a duplex SC connector and 5–12V DC input.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "-",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/mcx/mcx.webp",
+      "use_cases": [
+        "Long-Distance Network Extension"
+      ]
+    },
+    {
+      "id": "mt7621odu",
+      "name": "MT7621-01 ODU",
+      "cat": "Outdoor Unit",
+      "order": 43,
+      "desc": "An IP66-rated outdoor cellular router on MT7621 with 4G dual-SIM, PoE IN, and wall/pole mounting — eliminating weatherproof cabinets for outdoor CCTV, kiosks, and transportation connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "-",
+      "ports": "1",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/mt7621odu/mt7621odu.webp",
+      "use_cases": [
+        "Outdoor CCTV & Perimeter Surveillance",
+        "Smart Transportation & Roadside Infrastructure",
+        "Remote Outdoor Asset Connectivity"
+      ]
+    },
+    {
+      "id": "rt65odu",
+      "name": "RT65-ODU",
+      "cat": "Outdoor Unit",
+      "order": 44,
+      "desc": "An IP67-rated outdoor router on MT7981 with 5G, Wi-Fi 6 EasyMesh, 5 Gigabit ports, and multi-WAN failover for high-availability smart transportation and mission-critical remote site networking.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi6",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rt65odu/rt65odu.webp",
+      "use_cases": [
+        "Smart Transportation & Traffic Connectivity",
+        "Mission-Critical Remote Site Networking",
+        "High-Availability Outdoor Wi-Fi Coverage"
+      ]
+    },
+    {
+      "id": "rn50pcba",
+      "name": "RN50-PCBA",
+      "cat": "PCB",
+      "order": 45,
+      "desc": "A board-level router on MT7621 with Wi-Fi 5, M12 Gigabit connectors, PoE input, and OpenWRT for OEM integration into vehicle-mounted systems and ruggedised industrial hardware platforms.",
+      "cellular_gen": "-",
+      "wifi": "WiFi5",
+      "ports": "2",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rn50pcba/rn50pcba.webp",
+      "use_cases": [
+        "Vehicle & Transportation Systems",
+        "Passenger Infotainment AP for Railways"
+      ]
+    },
+    {
+      "id": "rvw50",
+      "name": "RVW 50 with M12",
+      "cat": "PCB",
+      "order": 46,
+      "desc": "A vehicle-grade router on MT7621 with vibration-resistant M12 Gigabit connectors, Wi-Fi 5, PoE input, and multi-WAN failover for transit, mobile fleet, and industrial field deployments.",
+      "cellular_gen": "-",
+      "wifi": "WiFi5",
+      "ports": "5",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/rvw50/rvw50.webp",
+      "use_cases": [
+        "Transit & Passenger Connectivity",
+        "Mobile Field Operations",
+        "Industrial Fleet Networking"
+      ]
+    },
+    {
+      "id": "idfxx",
+      "name": "IDFXX",
+      "cat": "Router",
+      "order": 47,
+      "desc": "An industrial router on MT7621 with -48V DC input, 5G/4G dual-SIM, optional Wi-Fi 5, RS485, and OpenWRT for telecom towers, street cabinets, and negative-voltage power environments.",
+      "cellular_gen": "5G",
+      "wifi": "WiFi5",
+      "ports": "4",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/idfxx/idfxx.webp",
+      "use_cases": [
+        "Telecom Tower Connectivity",
+        "Smart Utility & Street Cabinet Networking",
+        "Remote Industrial Monitoring"
+      ]
+    },
+    {
+      "id": "miniups",
+      "name": "Mini UPS",
+      "cat": "Other",
+      "order": 49,
+      "hidden": false,
+      "desc": "A compact 12V UPS with dual output ports, user-replaceable batteries (19–38 Whr), up to 10 hours backup, and auto turn-on for keeping routers, cameras, and access points online during power cuts.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "0",
+      "rs485": "-",
+      "rs232": "-",
+      "image": "/images/product-selector/miniups/miniups.webp",
+      "use_cases": [
+        "Router & Modem Power Backup",
+        "CCTV & Security Continuity",
+        "Smart Device Power Resilience"
+      ]
+    },
+    {
+      "id": "mfmet4640",
+      "name": "ET 4640 (Multi-Function Meter)",
+      "cat": "Energy Meter",
+      "order": 50,
+      "desc": "A panel-mountable three-phase multi-function energy meter tracking voltage, current, power, energy, and power factor across all phases with CT programmability, onboard RTC, and data storage.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "-",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/mfmet4640/mfmet4640_1.webp",
+      "use_cases": [
+        "Energy Consumption Monitoring",
+        "Industrial Power Quality Analysis",
+        "Utility & Compliance Metering"
+      ]
+    },
+    {
+      "id": "acmeter",
+      "name": "ET4602 (AC Meter)",
+      "cat": "Energy Meter",
+      "order": 51,
+      "desc": "A three-phase panel-mount AC energy meter with separate EB and DG kWh tracking, 2000VAC-isolated RS485, and phase-wise voltage/current/power breakdown for industrial and facility energy auditing.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "0",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/acmeter/acmeter.webp",
+      "use_cases": [
+        "Grid & Generator Energy Tracking",
+        "Industrial Power Monitoring",
+        "Facility Energy Auditing"
+      ]
+    },
+    {
+      "id": "dcmeter",
+      "name": "ET1641 (DC Meter)",
+      "cat": "Energy Meter",
+      "order": 52,
+      "desc": "A DC energy meter with 4-channel current measurement across 20–60V (up to 200A), 1% FSR accuracy, and RS485 for battery systems, solar installations, telecom rectifiers, and EV charging infrastructure.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "0",
+      "rs485": "Yes",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/dcmeter/dcmeter.webp",
+      "use_cases": [
+        "Telecom Power Monitoring",
+        "Solar & Battery System Analytics",
+        "EV Charging & DC Infrastructure"
+      ]
+    },
+    {
+      "id": "bcpm",
+      "name": "ET7022 (BCPM)",
+      "cat": "Energy Meter",
+      "order": 53,
+      "desc": "A DIN-rail branch circuit power meter tracking active power, energy, and power factor per circuit across single and three-phase branches via Modbus RS485 for data centres and commercial facilities.",
+      "cellular_gen": "-",
+      "wifi": "-",
+      "ports": "0",
+      "rs485": "-",
+      "rs232": "-",
+      "hidden": false,
+      "image": "/images/product-selector/bcpm/bcpm.webp",
+      "use_cases": [
+        "Branch-Level Energy Monitoring",
+        "Data Centre & Facility Load Profiling",
+        "Energy Cost Allocation"
+      ]
+    },
+    {
+      "id": "id04",
+      "name": "ID04-B",
+      "cat": "Gateway",
+      "order": 54,
+      "hidden": false,
+      "desc": "A compact industrial 4G gateway on MT7621 with dual-SIM, 4 Gigabit Ethernet ports, RS485, and OpenWRT Linux for remote equipment monitoring, ATM networking, and fleet connectivity.",
+      "cellular_gen": "4G",
+      "wifi": "-",
+      "ports": "4",
+      "rs485": "-",
+      "rs232": "-",
+      "image": "/images/product-selector/id04/id04.webp",
+      "use_cases": [
+        "Remote Industrial Equipment Monitoring",
+        "Smart ATM & Kiosk Networking",
+        "Fleet & Mobile Asset Connectivity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+	"id": "xb82",
+	"name": "XB82-2",
+	"cat": "Switch",
+	"order": 33,
+	"desc": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks, 240W PoE budget, and a wide 9–57V DC input in a DIN-rail mountable industrial aluminium enclosure.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-57 VDC",
+	"ports": "10",
+	"os": "-",
+	"housing": "Industrial Aluminium",
+	"dims": "56 x 110 x 114 mm",
+	"weight": "451 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/xb82/xb82.webp"
+	],
+	"use_cases": [
+		"Wireless Access Point Aggregation",
+		"IP Telephony & Communication Networks",
+		"Remote Edge Network Distribution"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XB82-2 Unmanaged PoE Switch": "/assets/datasheets/products/xb82/XB82_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "SFP", "v": "2" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "XB82-2 Unmanaged PoE Switch"]
+		]
+	}
+}

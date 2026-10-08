@@ -1,0 +1,74 @@
+{
+  "id": "xc80",
+  "name": "XC80-1",
+  "cat": "Switch",
+  "order": 34,
+  "desc": "A compact 8-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for factory floor device and smart security infrastructure deployments.",
+  "cpu": "-",
+  "ram": "-",
+  "storage": "-",
+  "cell": "none",
+  "cellular_gen": "-",
+  "wifi": "-",
+  "rs485": "-",
+  "rs232": "-",
+  "ip": "",
+  "power": "9-30 VDC",
+  "ports": "8",
+  "os": "-",
+  "housing": "Sheet Metal",
+  "dims": "45 x 110 x 95 mm (W x H x D)",
+  "weight": "386 gm",
+  "op_temp": "0 ~ 50°C",
+  "images": [
+    "/images/product-selector/xc80/xc-80-1.webp"
+  ],
+  "use_cases": [
+    "Factory Floor Device Connectivity",
+    "Smart Security Infrastructure",
+    "Industrial Workstation Connectivity"
+  ],
+  "datasheet": null,
+  "part_datasheets": {
+    "XC-80-1 Unmanaged PoE Switch": "/assets/datasheets/products/xc80/XC80_Datasheet.pdf"
+  },
+  "hidden": false,
+  "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "wifi",
+    "cpu",
+    "ram",
+    "storage",
+    "ip",
+    "os",
+    "rs485",
+    "rs232"
+  ],
+  "additional_specs": [
+    {
+      "k": "Ethernet Ports",
+      "v": "Fast Ethernet"
+    },
+    {
+      "k": "Switch Type",
+      "v": "Unmanaged Switch"
+    }
+  ],
+  "variants": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "PoE",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "-",
+        "-",
+        "✓",
+        "XC-80-1 Unmanaged PoE Switch"
+      ]
+    ]
+  }
+}

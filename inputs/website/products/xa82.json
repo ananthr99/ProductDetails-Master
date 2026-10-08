@@ -1,0 +1,46 @@
+{
+	"id": "xa82",
+	"name": "XA82-2",
+	"cat": "Switch",
+	"order": 32,
+	"desc": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks and 240W PoE budget. DIN-rail mountable in an industrial aluminium body with 9–57V DC input, ideal for CCTV/surveillance, smart buildings, and industrial cabinet network expansion.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-57 VDC",
+	"ports": "8",
+	"os": "-",
+	"housing": "Industrial Aluminium",
+	"dims": "56 x 110 x 114 mm (W x H x D)",
+	"weight": "300 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/xa82/xa82.webp"
+	],
+	"use_cases": [
+		"CCTV & Video Surveillance Deployment",
+		"Enterprise & Smart Building Connectivity",
+		"Industrial Cabinet & Field Network Expansion"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XA82-2 Unmanaged PoE Switch": "/assets/datasheets/products/xa82/XA82_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (MDI/MDIX)" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "No. of Modems", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "Single", "XA82-2 Unmanaged PoE Switch"]
+		]
+	}
+}

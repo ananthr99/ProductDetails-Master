@@ -1,0 +1,43 @@
+{
+	"id": "inv-cea-xx",
+	"name": "INV-CEA-XX",
+	"cat": "Intel Based Devices",
+	"order": 4,
+	"desc": "The INV-CEA-XX is a fanless industrial gateway designed for high-performance edge computing and robust connectivity, featuring an Intel X7425E processor and extensive cellular/Wi-Fi expansion capabilities. It differentiates itself through quad-Gigabit Ethernet ports, dual isolated serial interfaces (RS232/RS485), and flexible mounting options, making it highly adaptable for harsh environments. Primarily targeted at industrial automation, telecommunications, and smart city infrastructure where reliable long-term operation is critical.",
+	"cpu": "Intel X7425E/X7433RE/X7835RE/x7809C/i3-N305/N350 Quad Core/Octa Core with 3.9 GHz turbo frequency",
+	"ram": "Up to 32 GB DDR4 or 64 GB SODIMM DDR5",
+	"storage": "Up to 512 GB SSD and 64 GB eMMC",
+	"cell": "Dual M.2 Modem 5G/4G/3G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "12V DC",
+	"ports": "4",
+	"os": "Ubuntu / Oracle Linux / OpenWRT / Windows",
+	"housing": "Aluminum Heat Sink with CRCA Enclosure",
+	"dims": "150 x 250 x 55 mm (LxWxH)",
+	"weight": "1700 gm",
+	"op_temp": "0–50°C",
+	"images": ["/images/product-selector/inv-cea-xx/inv-cea-xx_1.webp","/images/product-selector/inv-cea-xx/inv-cea-xx_2.webp"],
+	"use_cases": [
+		"Industrial Automation & Control",
+		"Machine Monitoring & OEE System"
+	],
+	"datasheet": "/assets/datasheets/products/inv-cea-xx/inv-cea-xx_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (Realtek RTL8111H)" },
+		{ "k": "USB 2.0", "v": "4" },
+		{ "k": "HDMI", "v": "1" },
+		{ "k": "Micro USB Console", "v": "1" },
+		{ "k": "RS-485", "v": "2" },
+		{ "k": "RS-232", "v": "2" },
+		{ "k": "DI/O", "v": "4" },
+		{ "k": "Mounting", "v": "Desktop / Wall / 19\" Rack / VESA" }
+	],
+	"variants": null
+}

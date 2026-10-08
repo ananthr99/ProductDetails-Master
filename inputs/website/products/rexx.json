@@ -1,0 +1,48 @@
+{
+	"id": "rexx",
+	"name": "REXX",
+	"cat": "Router",
+	"order": 15,
+	"desc": "A compact industrial router on MediaTek MT7628 with 4G dual-SIM, optional Wi-Fi 4, and OpenWRT Linux. Supports VPN, VLAN, and advanced routing for IoT, transportation, utilities, and remote enterprise sites requiring dependable always-on connectivity.",
+	"cpu": "MediaTek MT7628",
+	"ram": "128/256 MB",
+	"storage": "32 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "123.2 x 28 x 120.6 mm (W x H x D)",
+	"weight": "360 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rexx/rexx.webp"
+	],
+	"use_cases": [
+		"Digital Signage & Remote Display Networks",
+		"Environmental & Field Data Collection",
+		"Secure Enterprise Backup Network"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RE44": "/assets/datasheets/products/rexx/re44_Datasheet.pdf",
+		"RE04": "/assets/datasheets/products/rexx/re04_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "4G", "Dual", "RE44"],
+			["✓", "—", "4G", "Dual", "RE04"]
+		]
+	}
+}

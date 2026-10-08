@@ -1,0 +1,52 @@
+{
+	"id": "iaxx",
+	"name": "IAXX-X",
+	"cat": "Gateway",
+	"order": 18,
+	"desc": "An industrial gateway on MediaTek MT7628 with 4G dual-SIM, Wi-Fi 4, RS485, and an IP30-rated aluminium enclosure with DIN rail support. Ideal for industrial automation, remote asset monitoring, and small enterprise networks requiring dependable connectivity.",
+	"cpu": "MediaTek MT7628",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "4G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "9-30 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "280 gm",
+	"op_temp": "-20 ~ 60°C",
+	"images": [
+		"/images/product-selector/iaxx/iaxx.webp"
+	],
+	"use_cases": [
+		"Industrial Machine Data Communication",
+		"Remote Infrastructure Management",
+		"Smart Building Network Management"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IA44-C": "/assets/datasheets/products/iaxx/ia44-C_Datasheet.pdf",
+		"IA44-B (4 GB eMMC)": "/assets/datasheets/products/iaxx/ia44-B_Datasheet.pdf",
+		"IA44-A": "/assets/datasheets/products/iaxx/ia44-A_Datasheet.pdf",
+		"IA40-C": "/assets/datasheets/products/iaxx/ia40-C_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "RS485", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "4G", "✓", "Single", "IA44-C"],
+			["✓", "Wi-Fi 4", "4G", "✓", "Single", "IA44-B (4 GB eMMC)"],
+			["✓", "Wi-Fi 4", "4G", "—", "Single", "IA44-A"],
+			["—", "Wi-Fi 4", "—", "✓", "NA", "IA40-C"]
+		]
+	}
+}

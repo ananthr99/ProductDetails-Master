@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Content Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="mark">Inven<i>dis</i></span><span class="app">Product Content Hub</span></div>
+  <div class="top-actions">
+    <span id="buildInfo" class="muted small"></span>
+    <button id="btnExport" class="btn ghost" type="button">Download approved (zip)</button>
+    <button id="btnSettings" class="btn ghost" type="button"><span id="ghDot" class="dot off"></span>GitHub</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="side" id="side">
+    <div class="side-head">
+      <input id="search" type="search" placeholder="Search products" autocomplete="off">
+      <div class="filters">
+        <select id="catFilter"><option value="">All categories</option></select>
+        <select id="statusFilter">
+          <option value="">Any status</option><option value="todo">Not started</option>
+          <option value="draft">In progress</option><option value="approved">Approved</option>
+        </select>
+      </div>
+      <p class="legend small muted"><b>W</b> website · <b>M</b> old master · <b>C</b> new catalogue · <b>D</b> datasheet</p>
+    </div>
+    <ul id="plist" class="plist"></ul>
+  </aside>
+
+  <main class="main" id="main">
+    <div id="empty" class="empty">
+      <h1>Pick a product</h1>
+      <p>Each product shows what the website, the old Master Catalogue, the new catalogue and the datasheets say, side by side. Choose a source for each line (or for the whole product), edit the final text, and approve. Approved content is saved as one JSON file per product and per variant.</p>
+    </div>
+    <div id="view" hidden></div>
+  </main>
+</div>
+
+<div id="modal" class="modal" hidden><div class="modal-box" role="dialog" aria-modal="true"><div id="modalBody"></div></div></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="vendor/jszip.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

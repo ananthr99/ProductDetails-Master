@@ -1,0 +1,45 @@
+{
+	"id": "rn50pcba",
+	"name": "RN50-PCBA",
+	"cat": "PCB",
+	"order": 45,
+	"desc": "A board-level router on MT7621 with Wi-Fi 5, M12 Gigabit connectors, PoE input, and OpenWRT for OEM integration into vehicle-mounted systems and ruggedised industrial hardware platforms.",
+	"cpu": "MediaTek MT7621",
+	"ram": "256/512 MB DDR3",
+	"storage": "32/64 MB Flash",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi5",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "Active PoE 44-57 VDC",
+	"ports": "2",
+	"os": "OpenWRT Linux",
+	"housing": "-",
+	"dims": "209 x 30 x 154 mm (W x H x D)",
+	"weight": "-",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rn50pcba/rn50pcba.webp"
+	],
+	"use_cases": [
+		"Vehicle & Transportation Systems",
+		"Passenger Infotainment AP for Railways"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RN 50 PCB-A": "/assets/datasheets/products/rn50pcba/RN50-PCB-A_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "ip", "rs485", "rs232", "housing", "weight"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (M12 Connector)" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "Gen", "No. of Modems", "Part Number"],
+		"rows": [
+			["Wi-Fi 5", "-", "-", "Single", "RN 50 PCB-A"]
+		]
+	}
+}

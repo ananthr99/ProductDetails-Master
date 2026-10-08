@@ -1,0 +1,41 @@
+{
+	"id": "inv-cf-xx",
+	"name": "INV-CF-XX",
+	"cat": "Intel Based Devices",
+	"order": 7,
+	"desc": "The INV-CF-XX is a compact, fanless industrial edge computing platform powered by the Intel X7425E processor, featuring high-speed 2.5GbE networking, 4G/5G connectivity, Wi-Fi 6 support, and flexible mounting options for industrial and IoT applications.",
+	"cpu": "Intel N150/x7425E/x7433RE/x7835RE/i3-N305/N355, 4/8 cores with 3.4-3.9 GHz Turbo Frequency",
+	"ram": "32GB DDR4/64 GB DDR5 SODIMM (Max)",
+	"storage": "One M.2 (B Key,2280), Upto 512GB SSD, Upto 64GB eMMC",
+	"cell": "",
+	"cellular_gen": "5G",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "12 VDC",
+	"ports": "4",
+	"os": "Ubuntu/Oracle Linux/OpenWRT/Windows",
+	"housing": "Aluminum Heat Sink with CRCA Enclosure",
+	"dims": "150mm X 160mm X 52.8mm (L X W X H)",
+	"weight": "1800 gm",
+	"op_temp": "0 ~ 50℃",
+	"images": ["/images/product-selector/inv-cf-xx/inv-cf-xx_1.webp","/images/product-selector/inv-cf-xx/inv-cf-xx_2.webp",
+    "/images/product-selector/inv-cf-xx/inv-cf-xx_3.webp","/images/product-selector/inv-cf-xx/inv-cf-xx_4.webp"],
+	"use_cases": [
+		"Fleet Telematics",
+		"Autonomous Vehicle",
+		"Smart Kiosk",
+		"Digital Signage",
+		"Edge Gateway",
+		"Multi-Network Router"
+	],
+	"datasheet": "/assets/datasheets/products/inv-cf-xx/inv-cf-xx_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["cell", "wifi", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (2.5 Gbps)" }
+	],
+	"variants": null
+}

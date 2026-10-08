@@ -1,0 +1,46 @@
+{
+	"id": "ruc65",
+	"name": "RUC 65",
+	"cat": "Gateway",
+	"order": 29,
+	"desc": "An enterprise-grade fanless 5G gateway on MediaTek MT7981 with AX3000 Wi-Fi 6, dual-SIM, PoE IN, multi-WAN failover, and robust VPN tunneling. Delivers up to 2.2 Gbps Sub-6 cellular speeds for smart buildings, events, and mission-critical routing.",
+	"cpu": "MediaTek MT7981 1.3 GHz Dual Core ARM Cortex A53",
+	"ram": "512 MB DDR3",
+	"storage": "128 MB NAND",
+	"cell": "4G/5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi6",
+	"rs485": "No",
+	"rs232": "-",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "3",
+	"os": "OpenWRT Linux",
+	"housing": "Plastic",
+	"dims": "105 x 200 x 105 mm (W x H x D)",
+	"weight": "590 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/ruc65/ruc65.webp"
+	],
+	"use_cases": [
+		"Smart Building & IoT Edge Aggregation",
+		"Mobile & Temporary Event Branch Connectivity",
+		"Mission-Critical Multi-WAN Industrial Routing"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RUC 65": "/assets/datasheets/products/ruc65/RUC_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "1 x Gigabit WAN (PoE IN IEEE802.3at), 2 x Gigabit LAN" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "Modem", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 6", "5G", "Single", "RUC 65"]
+		]
+	}
+}

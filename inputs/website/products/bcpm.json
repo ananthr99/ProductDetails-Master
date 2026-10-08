@@ -1,0 +1,39 @@
+{
+	"id": "bcpm",
+	"name": "ET7022 (BCPM)",
+	"cat": "Energy Meter",
+	"order": 53,
+	"desc": "A DIN-rail branch circuit power meter tracking active power, energy, and power factor per circuit across single and three-phase branches via Modbus RS485 for data centres and commercial facilities.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "85-270V AC/DC",
+	"ports": "0",
+	"os": "-",
+	"housing": "Panel Mount",
+	"dims": "185 x 110 x 30 mm (W x H x D)",
+	"weight": "750 gm (approx.)",
+	"op_temp": "-10 ~ 75°C",
+	"images": [
+		"/images/product-selector/bcpm/bcpm.webp"
+	],
+	"use_cases": [
+		"Branch-Level Energy Monitoring",
+		"Data Centre & Facility Load Profiling",
+		"Energy Cost Allocation"
+	],
+	"datasheet": "/assets/datasheets/products/bcpm/BCPM_Datasheet.pdf",
+	"part_datasheets": {},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "ports", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "RS485 Ports", "v": "1" }
+	],
+	"variants": null
+}

@@ -1,0 +1,70 @@
+{
+  "id": "id04",
+  "name": "ID04-B",
+  "cat": "Gateway",
+  "order": 54,
+  "desc": "A compact industrial 4G gateway on MT7621 with dual-SIM, 4 Gigabit Ethernet ports, RS485, and OpenWRT Linux for remote equipment monitoring, ATM networking, and fleet connectivity.",
+  "cpu": "MediaTek MT7621 MIPS Dual Core, 880 MHz",
+  "ram": "512 MB DDR3",
+  "storage": "64 MB",
+  "cell": "Single M.2 Modem 4G/3G/2G",
+  "cellular_gen": "4G",
+  "wifi": "-",
+  "rs485": "-",
+  "rs232": "-",
+  "ip": "",
+  "power": "9-30 VDC",
+  "ports": "4",
+  "os": "OpenWRT Linux 21",
+  "housing": "Industrial Aluminium",
+  "dims": "111.70 x 44.25 x 97.44 mm (W x H x D)",
+  "weight": "390 gm",
+  "op_temp": "0 ~ 50°C",
+  "images": [
+    "/images/product-selector/id04/id04.webp"
+  ],
+  "use_cases": [
+    "Remote Industrial Equipment Monitoring",
+    "Smart ATM & Kiosk Networking",
+    "Fleet & Mobile Asset Connectivity"
+  ],
+  "datasheet": "",
+  "part_datasheets": {
+    "ID04-B": "/assets/datasheets/products/id04/ID04_Datasheet.pdf"
+  },
+  "hidden": false,
+  "hidden_fields": [
+    "wifi",
+    "cpu",
+    "rs485",
+    "rs232"
+  ],
+  "additional_specs": [
+    {
+      "k": "Ethernet Ports",
+      "v": "Gigabit Ethernet"
+    },
+    {
+      "k": "RS485",
+      "v": "1"
+    }
+  ],
+  "variants": {
+    "headers": [
+      "Cellular",
+      "Wi-Fi",
+      "Gen",
+      "No. of Modems",
+      "Part Number"
+    ],
+    "rows": [
+      [
+        "✓",
+        "-",
+        "4G",
+        "Single",
+        "ID04-B"
+      ]
+    ]
+  }
+}

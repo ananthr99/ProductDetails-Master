@@ -1,0 +1,54 @@
+{
+	"id": "iacxx",
+	"name": "IACXX-X",
+	"cat": "Gateway",
+	"order": 21,
+	"desc": "A slim DIN-rail industrial gateway on MT7628 with 4G single-SIM, optional Wi-Fi 4, RS485, DI/O, and 5 Fast Ethernet ports running OpenWRT Linux. Suited for OEM embedded connectivity, factory floor network integration, and infrastructure equipment deployments.",
+	"cpu": "MT7628, Single Core with 580 MHz Frequency",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "Single M.2 Modem 4G/3G/2G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/iacxx-x/iacxx-x.webp"
+	],
+	"use_cases": [
+		"OEM Embedded Connectivity Solutions",
+		"Factory Floor Network Integration",
+		"Infrastructure Equipment Connectivity"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IAC44-C": "/assets/datasheets/products/iacxx-x/IAC44-C_Datasheet.pdf",
+		"IAC44-A": "/assets/datasheets/products/iacxx-x/IAC44-A_Datasheet.pdf",
+		"IAC04-A": "/assets/datasheets/products/iacxx-x/IAC04-A_Datasheet.pdf",
+		"IAC04-C": "/assets/datasheets/products/iacxx-x/IAC04-C_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" },
+		{ "k": "RS 485", "v": "1" },
+		{ "k": "DI/O", "v": "2" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "RS485", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "✓", "4G", "Single", "IAC44-C"],
+			["✓", "Wi-Fi 4", "—", "4G", "Single", "IAC44-A"],
+			["✓", "—", "—", "4G", "Single", "IAC04-A"],
+			["✓", "—", "✓", "4G", "Single", "IAC04-C"]
+		]
+	}
+}

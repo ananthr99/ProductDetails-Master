@@ -1,0 +1,50 @@
+{
+	"id": "xi244-2m",
+	"name": "XI 244-2M",
+	"cat": "Switch",
+	"order": 39,
+	"desc": "An industrial Layer 2 managed switch with 24 Gigabit PoE ports (240W), 4 combo RJ45/SFP uplinks, 56 Gbps switching capacity, and MSTP/ERPS redundancy in a 1U rack-mountable aluminium enclosure.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "-",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "-",
+	"ports": "24",
+	"os": "-",
+	"housing": "19\" Rack Mountable 1U Enclosure",
+	"dims": "440 x 220 x 44.5 mm",
+	"weight": "3150 gm",
+	"op_temp": "-10 ~ +60°C",
+	"images": [
+		"/images/product-selector/xi244-2m/xi244-2m.webp"
+	],
+	"use_cases": [
+		"Commercial IP Security & Surveillance Infrastructure",
+		"Smart Building & IoT Deployment",
+		"Industrial / Campus Branch Network Aggregation"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XI 244-2M": "/assets/datasheets/products/xi244-2m/XI244-2M_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "power", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Chipset", "v": "EN8853D + EN8808Q×2 + EN8804 + 3×AN8503" },
+		{ "k": "Interface", "v": "24× 10/100/1000 Mbps + 4G Combo (RJ45 or SFP)" },
+		{ "k": "Transfer Method", "v": "Store-and-Forward" },
+		{ "k": "MAC Address Table", "v": "32K" },
+		{ "k": "Switching Capacity", "v": "56 Gbps" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "PoE", "Part Number"],
+		"rows": [
+			["-", "-", "-", "XI 244-2M"]
+		]
+	}
+}

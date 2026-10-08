@@ -1,0 +1,61 @@
+{
+	"id": "rdxx",
+	"name": "RDXX",
+	"cat": "Router",
+	"order": 14,
+	"desc": "A rugged industrial cellular router on MediaTek MT7628 with 4G dual-SIM failover, optional Wi-Fi 4, RS485 serial interface, and OpenWRT Linux. Designed for IoT, smart infrastructure, transportation, and enterprise branch networking requiring secure, always-on connectivity.",
+	"cpu": "MT7628, Single Core with 580 MHz Frequency",
+	"ram": "128 MB DDR2",
+	"storage": "32 MB Flash",
+	"cell": "Dual SIM 4G/3G/2G",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4/2.4GHz",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "9-30/12 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Sheet Metal",
+	"dims": "123.2 x 28 x 120.6 mm (W x H x D)",
+	"weight": "370 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/rdxx/rdxx.webp"
+	],
+	"use_cases": [
+		"Smart Transportation Connectivity",
+		"Smart Infrastructure & Utility Monitoring",
+		"Smart Kiosk & ATM Connectivity"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RD44-A": "/assets/datasheets/products/rdxx/rd44-A_Datasheet.pdf",
+		"RD04-A": "/assets/datasheets/products/rdxx/rd04-A_Datasheet.pdf",
+		"RD44-B":"/assets/datasheets/products/rdxx/rd44-B_Datasheet.pdf",
+		"RD04-B": "/assets/datasheets/products/rdxx/rd04-B_Datasheet.pdf",
+		"RD44-C": "/assets/datasheets/products/rdxx/rd44-C_Datasheet.pdf",
+		"RD04-C": "/assets/datasheets/products/rdxx/rd04-C_Datasheet.pdf",
+		"RDS00": "/assets/datasheets/products/rdxx/rds00_Datasheet.pdf",
+		"RDS44": "/assets/datasheets/products/rdxx/rds44_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Fast Ethernet" },
+		{ "k": "RS 485", "v": "1" }
+	],
+	"variants": {
+		"headers": ["Wi-Fi", "Cellular", "4G/5G", "RS485", "RS232", "Gateway SW", "Part Number"],
+		"rows": [
+			["Wi-Fi 4", "✓", "4G", "—", "—", "—", "RD44-A"],
+			["—", "✓", "4G", "—", "—", "—", "RD04-A"],
+			["—", "✓", "4G", "—", "—", "✓", "RD44-B"],
+			["—", "✓", "4G", "✓", "—", "✓", "RD04-B"],
+			["Wi-Fi 4", "✓", "4G", "—", "✓", "✓", "RD44-C"],
+			["—", "✓", "4G", "✓", "✓", "✓", "RD04-C"],
+			["—", "—", "—", "—", "—", "—", "RDS00"],
+			["Wi-Fi 4", "✓", "4G", "✓", "✓", "✓", "RDS44"]
+		]
+	}
+}

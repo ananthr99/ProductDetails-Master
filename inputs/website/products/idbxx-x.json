@@ -1,0 +1,52 @@
+{
+	"id": "idbxx-x",
+	"name": "IDBXX-X",
+	"cat": "Gateway",
+	"order": 24,
+	"desc": "A versatile industrial gateway on MediaTek MT7621 with 5G/4G, Wi-Fi 5, RS485, RS232, 512 MB RAM, and configurable Gigabit WAN/LAN ports. Suited for custom industrial edge applications, equipment integration, and adaptive enterprise networking.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB Flash",
+	"cell": "4G/5G",
+	"cellular_gen": "5G",
+	"wifi": "WiFi5",
+	"rs485": "Yes",
+	"rs232": "Yes",
+	"ip": "",
+	"power": "9-30 VDC",
+	"ports": "4",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": [
+		"/images/product-selector/idbxx-x/idbxx-x.webp"
+	],
+	"use_cases": [
+		"Custom Industrial Edge Application Development",
+		"Industrial Equipment Integration & Control",
+		"Adaptive Enterprise & Industrial Networking"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"IDB55": "/assets/datasheets/products/idbxx-x/IDB55_Datasheet.pdf",
+		"IDB54": "/assets/datasheets/products/idbxx-x/IDB54_Datasheet.pdf",
+		"IDB55-B": "contact_us",
+		"IDB54-B": "contact_us"
+	},
+	"hidden": false,
+	"hidden_fields": ["ip"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (10/100/1000)" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "RS485", "RS232", "No. of Modems", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 5", "5G", "✓", "✓", "Single", "IDB55-B"],
+			["✓", "Wi-Fi 5", "5G", "—", "—", "Single", "IDB55"],
+			["✓", "Wi-Fi 5", "4G", "✓", "✓", "Single", "IDB54-B"],
+			["✓", "Wi-Fi 5", "4G", "—", "—", "Single", "IDB54"]
+		]
+	}
+}

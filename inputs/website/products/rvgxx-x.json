@@ -1,0 +1,51 @@
+{
+	"id": "rvgxx-x",
+	"name": "RVGXX-XX",
+	"cat": "Gateway",
+	"order": 26,
+	"desc": "An industrial 5G/4G cellular gateway on MT7621 with Wi-Fi 5, RS485, 6 Gigabit Ethernet ports, and IP30-rated aluminium enclosure. Enables secure connectivity between field devices and cloud platforms for smart utilities, industrial IoT, and business continuity.",
+	"cpu": "MediaTek MT7621 Dual-core 880 MHz",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB",
+	"cell": "RM 500U CNV",
+	"cellular_gen": "5G",
+	"wifi": "WiFi5",
+	"rs485": "Yes",
+	"rs232": "-",
+	"ip": "IP30",
+	"power": "9-30 VDC",
+	"ports": "6",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 60°C",
+	"images": [
+		"/images/product-selector/rvgxx-x/rvgxx-x_1.webp",
+		"/images/product-selector/rvgxx-x/rvgxx-x_2.webp"
+	],
+	"use_cases": [
+		"Smart Utilities",
+		"Industrial IoT & Automation",
+		"Business Continuity Connectivity"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RVG 55-C": "/assets/datasheets/products/rvgxx-x/RVG55-C_Datasheet.pdf",
+		"RVG 54-C": "/assets/datasheets/products/rvgxx-x/RVG54-C_Datasheet.pdf",
+		"RVG 44-C": "/assets/datasheets/products/rvgxx-x/RVG44-C_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet (Configurable WAN/LAN)" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "Modem", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 5", "5G", "Single", "RVG 55-C"],
+			["✓", "Wi-Fi 4", "4G", "Single", "RVG 44-C"],
+			["✓", "Wi-Fi 5", "5G", "Single", "RVG 54-C"]
+		]
+	}
+}

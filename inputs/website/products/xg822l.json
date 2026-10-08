@@ -1,0 +1,49 @@
+{
+	"id": "xg822l",
+	"name": "XG-82-2L",
+	"cat": "Switch",
+	"order": 37,
+	"desc": "A Layer 2 managed PoE switch with 8 Gigabit ports, 2x 2.5G SFP uplinks, 240W PoE budget, 20 Gbps switching capacity, and MSTP/QoS/ERPS/SNMP management in a DIN-rail aluminium enclosure.",
+	"cpu": "-",
+	"ram": "-",
+	"storage": "-",
+	"cell": "-",
+	"cellular_gen": "-",
+	"wifi": "-",
+	"rs485": "-",
+	"rs232": "-",
+	"ip": "",
+	"power": "Dual Input: 44-57 VDC",
+	"ports": "8",
+	"os": "-",
+	"housing": "Industrial Aluminium",
+	"dims": "200 x 120 x 55 mm (W x L x H)",
+	"weight": "675 gm",
+	"op_temp": "0 ~ 60°C",
+	"images": [
+		"/images/product-selector/xg822l/xg822l.webp"
+	],
+	"use_cases": [
+		"Enterprise Surveillance & Security Networks",
+		"Smart Campus & Enterprise Network Management",
+		"Industrial Network Control & Redundancy"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"XG 82-2L Lite Managed Switch": "/assets/datasheets/products/xg822l/XG822L_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "wifi", "cpu", "ram", "storage", "ip", "os", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ethernet" },
+		{ "k": "SFP", "v": "2 × 2.5G" },
+		{ "k": "PoE Budget", "v": "240W, 30W max per port" },
+		{ "k": "Switch Type", "v": "Managed PoE Switch" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "PoE", "Part Number"],
+		"rows": [
+			["-", "-", "✓", "XG 82-2L Lite Managed Switch"]
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"id": "rvh44",
+	"name": "RVH 44",
+	"cat": "Gateway",
+	"order": 27,
+	"desc": "An industrial IoT gateway on MT7621 with 4G dual-SIM, Wi-Fi 4, 5 Gigabit Ethernet ports, 2x RS485, 2x RS232, Modbus gateway, and MQTT/Azure MQTT support. Suited for telemetry aggregation, remote substation monitoring, and fleet management.",
+	"cpu": "MediaTek MT7621 Dual-core 880 MHz",
+	"ram": "512 MB DDR3",
+	"storage": "32 MB",
+	"cell": "",
+	"cellular_gen": "4G",
+	"wifi": "WiFi4",
+	"rs485": "Yes",
+	"rs232": "Yes",
+	"ip": "IP30",
+	"power": "9-30 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium or Sheet Metal",
+	"dims": "110 x 44 x 94 mm (W x H x D)",
+	"weight": "400 gm",
+	"op_temp": "0 ~ 60°C",
+	"images": [
+		"/images/product-selector/rvh44/RVH44.webp"
+	],
+	"use_cases": [
+		"Industrial IoT & Telemetry Aggregation",
+		"Remote Substation & Utility Monitoring",
+		"Secure Smart Edge Gateway for Transportation / Fleet Management"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RVH 44": "/assets/datasheets/products/rvh44/RVH44_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell"],
+	"additional_specs": [],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "Gen", "Modem", "Part Number"],
+		"rows": [
+			["✓", "Wi-Fi 4", "4G", "Single", "RVH 44"]
+		]
+	}
+}

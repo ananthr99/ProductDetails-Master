@@ -1,0 +1,44 @@
+{
+	"id": "rv00",
+	"name": "RV00",
+	"cat": "Router",
+	"order": 13,
+	"desc": "The RV00 is a compact industrial router built on MediaTek MT7621 featuring Wi-Fi 4, five Gigabit Ethernet ports, and OpenWRT Linux with VPN, VLAN, and NMS remote management. Ideal for industrial IoT and M2M deployments without cellular connectivity.",
+	"cpu": "MediaTek MT7621",
+	"ram": "512 MB DDR3",
+	"storage": "32/64 MB Flash",
+	"cell": "none",
+	"cellular_gen": "-",
+	"wifi": "WiFi4",
+	"rs485": "No",
+	"rs232": "No",
+	"ip": "",
+	"power": "12 VDC",
+	"ports": "5",
+	"os": "OpenWRT Linux",
+	"housing": "Industrial Aluminium",
+	"dims": "110 x 26 x 95 mm (W x H x D)",
+	"weight": "200 gm",
+	"op_temp": "0 ~ 50°C",
+	"images": ["/images/product-selector/rv00/rv00.webp"],
+	"use_cases": [
+		"M2M Communication & Remote Asset Connectivity",
+		"Transportation & Fleet Connectivity",
+		"Backup Connectivity for Small Industrial Remote Sites"
+	],
+	"datasheet": null,
+	"part_datasheets": {
+		"RV00": "/assets/datasheets/products/rv00/rv00_Datasheet.pdf"
+	},
+	"hidden": false,
+	"hidden_fields": ["cell", "cellular_gen", "ip", "rs485", "rs232"],
+	"additional_specs": [
+		{ "k": "Ethernet Ports", "v": "Gigabit Ports" }
+	],
+	"variants": {
+		"headers": ["Cellular", "Wi-Fi", "4G/5G", "No. of Modems", "Part Number"],
+		"rows": [
+			["—", "—", "—", "—", "RV00"]
+		]
+	}
+}
