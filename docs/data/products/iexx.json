@@ -1,0 +1,1300 @@
+{
+ "id": "iexx",
+ "name": "IEXX-X-XX",
+ "category": "Gateway",
+ "order": 17,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "iexx.json",
+   "hidden": false,
+   "hidden_fields": [
+    "ip",
+    "rs232",
+    "rs485"
+   ],
+   "images": [
+    "/images/product-selector/iexx/iexx.webp"
+   ],
+   "part_datasheets": {
+    "IE44-A": "/assets/datasheets/products/iexx/ie44A_Datasheet.pdf",
+    "IE44-C": "/assets/datasheets/products/iexx/ie44C_Datasheet.pdf",
+    "IE44-A-EX1 (e-SIM)": "/assets/datasheets/products/iexx/ie44A-EX1_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "IEXX-X-XX",
+   "brief_page": 17,
+   "detailed_page": 55,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "IEXX-X-XX",
+   "pdf": null,
+   "page": "Gateways | Page 17"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "IE44-A",
+  "IE44-C",
+  "IE44-A-EX1 (e-SIM)"
+ ],
+ "datasheets": {
+  "IE44-A": {
+   "file": "iexx\\ie44A_Datasheet.pdf",
+   "pdf": "sources/datasheets/iexx/ie44A_Datasheet.pdf",
+   "model": "IE44A",
+   "footer": "IE44A_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\nIE44A_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\n1x 10/100 Mbps\nLAN\n1x 10/100 Mbps\nSerial Interface\nNA\nSIM\n2x Nano SIM (1x Active & 1x Passive)\nWi-Fi\n802.11b/g/n\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector, Wi-Fi: 2x SMA connector\nStatus LED\n1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet\nPower Connector\n2 Pin Terminal Block\nInput Voltage Range\n9-36 Vdc\nPower Adapter\nNA\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n97 x 28 x 84 mm (W x H x D)\nWeight\n280 gm\nOther\nGrounding Screw\nIE44A\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628, 128MB\nCELLULAR\nDual SIM 4G/3G/2G,\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x WAN 10/100, 1x LAN 10/100\nPOWER\n9-36 V DC Input\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nIE44A_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Mannual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\nIE44A_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nIE44A Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas, 0.5-\nmeter Power Cord, 01-meter Ethernet cable\nOperating System\nRemote Management\nStandard Packaging\n84 mm\n97 mm\nPage 4\nIE44A_V.2.3\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n97 mm\n28 mm\n97 mm\n28 mm"
+  },
+  "IE44-C": {
+   "file": "iexx\\ie44C_Datasheet.pdf",
+   "pdf": "sources/datasheets/iexx/ie44C_Datasheet.pdf",
+   "model": "IE44C",
+   "footer": "IE44C_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\nIE44C_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\n1x 10/100 Mbps\nLAN\n1x 10/100 Mbps\nSerial Interface\n1x RS485, 2x DIDO\nSIM\n2x Nano SIM (1x Active & 1x Passive)\nWi-Fi\n802.11b/g/n\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector, Wi-Fi: 2x SMA connector\nStatus LED\n1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet, 2x DIO, 1x RS485\nPower Connector\n2 Pin Terminal Block\nInput Voltage Range\n9-36 Vdc\nPower Adapter\nN/A\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n97 x 28 x 84 mm (W x H x D)\nWeight\n280 gm\nOther\nGrounding Screw\nIE44C\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628, 128MB\nCELLULAR\n4G/3G/2G with Dual SIM, External 5dBi antenna\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x WAN 10/100, 1x LAN 10/100\nPOWER\n9-36 V DC Input\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nIE44C_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Mannual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\nIE44C_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nIE44C Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas, 0.5-\nmeter Power Cord, 01-meter Ethernet cable, 1x RS485, 1xDI/O.\nOperating System\nRemote Management\nStandard Packaging\n84 mm\n97 mm\nPage 4\nIE44C_V.2.3\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n97 mm\n28 mm\n97 mm\n28 mm"
+  },
+  "IE44-A-EX1 (e-SIM)": {
+   "file": "iexx\\ie44A-EX1_Datasheet.pdf",
+   "pdf": "sources/datasheets/iexx/ie44A-EX1_Datasheet.pdf",
+   "model": "IE44A-EX1",
+   "footer": "IE44A-EX1_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\nIE44A-EX1_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\n1x 10/100 Mbps\nLAN\n1x 10/100 Mbps\nSerial Interface\nNA\nSIM\n1x Nano SIM /embedded SIM Card\nWi-Fi\n802.11b/g/n\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector, Wi-Fi: 2x SMA connector\nStatus LED\n1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet\nPower Connector\n2 Pin Terminal Block\nInput Voltage Range\n9-36 Vdc\nPower Adapter\nNA\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n97 x 28 x 84 mm (W x H x D)\nWeight\n280 gm\nOther\nGrounding Screw\nIE44A-EX1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628, 128MB\nCELLULAR\nSingle SIM(eSIM / Physical SIM) 4G/3G/2G, External 5dBi\nantennas\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x WAN 10/100, 1x LAN 10/100\nPOWER\n9-36 V DC Input\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nIE44A-EX1_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Mannual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM\nSIM switching\nNA\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\nIE44A-EX1_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nIE44A-EX1 Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas,\n0.5-meter Power Cord, 01-meter Ethernet cable\nOperating System\nRemote Management\nStandard Packaging\n84 mm\n97 mm\nPage 4\nIE44A-EX1_V.2.3\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n97 mm\n28 mm\n97 mm\n28 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-A"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-C"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-A-EX1 (e-SIM)"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-A"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-C"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "Single",
+     "IE44-A-EX1 (e-SIM)"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "IEXX-X-XX",
+    "master": "IEXX-X-XX",
+    "catalogue": "IEXX-X-XX",
+    "datasheet": {
+     "IE44-A": "IE44A",
+     "IE44-C": "IE44C",
+     "IE44-A-EX1 (e-SIM)": "IE44A-EX1"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial 4G Gateway"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Gateway",
+    "catalogue": "Gateways"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A compact industrial gateway on MT7628 with 4G, Wi-Fi 4, eSIM support, and a wide 9–36V DC input. Designed for IoT use cases such as smart metering, remote equipment monitoring, and kiosk connectivity with flexible SIM options.",
+    "catalogue": "A compact industrial gateway on MT7628 with 4G, Wi-Fi 4, eSIM support, and a wide 9–36V DC input. Designed for IoT use cases such as smart metering, remote equipment monitoring, and kiosk connectivity with flexible SIM options."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "Single 4G MODEM\n1+1 LAN+WAN\nWi-Fi 4 2.4 GHz\n9–36 V DC INPUT\nMT7628 PROCESSOR"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n4G LTE\nWi-Fi 4\nFanless Design"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Smart Metering & Utility Data Collection using eSIM\nRemote Equipment Monitoring using dual profile eSIM\nKiosk & Self-Service Terminal Connectivity using Multi profile eSIM",
+    "catalogue": "Smart Metering & Utility Data Collection using eSIM — Ideal for smart electricity, water, and gas metering applications, enabling secure transmission of field data through cellular connectivity and RS485 integration.\nRemote Equipment Monitoring using dual profile eSIM — Can be deployed to monitor pumps, generators, vending machines, and industrial equipment at remote locations with real-time status updates and alerts.\nKiosk & Self-Service Terminal Connectivity using Multi profile eSIM — Provides stable and secure connectivity for kiosks, ticketing systems, and self-service terminals requiring lightweight edge networking and remote management."
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7628, 128MB DDR 2 RAM, 32 MB Flash",
+    "datasheet": {
+     "IE44-A": "MediaTek MT7628, 128MB",
+     "IE44-C": "MediaTek MT7628, 128MB",
+     "IE44-A-EX1 (e-SIM)": "MediaTek MT7628, 128MB"
+    }
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "master": "Single SIM (ESim /Physical SIM) 4G/3G/2G External 5dBi",
+    "datasheet": {
+     "IE44-A": "Dual SIM 4G/3G/2G,",
+     "IE44-C": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+     "IE44-A-EX1 (e-SIM)": "Single SIM(eSIM / Physical SIM) 4G/3G/2G, External 5dBi antennas"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Wi-Fi 2.4 GHz, 300 MBPS AP Station, External 5dBi antennas",
+    "datasheet": {
+     "IE44-A": "2.4GHz, 300Mbps AP/Station,",
+     "IE44-C": "2.4GHz, 300Mbps AP/Station,",
+     "IE44-A-EX1 (e-SIM)": "2.4GHz, 300Mbps AP/Station,"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x LAN 10/100 1 x WAN 10/100"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "1 x RS485,2 x Configurable DIO",
+    "datasheet": {
+     "IE44-A": "1x WAN 10/100, 1x LAN 10/100",
+     "IE44-C": "1x WAN 10/100, 1x LAN 10/100",
+     "IE44-A-EX1 (e-SIM)": "1x WAN 10/100, 1x LAN 10/100"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "9-36 VDC",
+    "datasheet": {
+     "IE44-A": "9-36 V DC Input",
+     "IE44-C": "9-36 V DC Input",
+     "IE44-A-EX1 (e-SIM)": "9-36 V DC Input"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open WRT Linux",
+    "datasheet": {
+     "IE44-A": "Open-WRT Linux",
+     "IE44-C": "Open-WRT Linux",
+     "IE44-A-EX1 (e-SIM)": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MT7628",
+    "master": "MediaTek MT7628",
+    "catalogue": "MediaTek MT7628",
+    "datasheet": {
+     "IE44-A": "MediaTek MT7628",
+     "IE44-C": "MediaTek MT7628",
+     "IE44-A-EX1 (e-SIM)": "MediaTek MT7628"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "128 MB DDR2",
+    "master": "128MB",
+    "catalogue": "128MB",
+    "datasheet": {
+     "IE44-A": "128MB",
+     "IE44-C": "128MB",
+     "IE44-A-EX1 (e-SIM)": "128MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32 MB Flash",
+    "master": "32MB",
+    "catalogue": "32MB",
+    "datasheet": {
+     "IE44-A": "32MB",
+     "IE44-C": "32MB",
+     "IE44-A-EX1 (e-SIM)": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "4G",
+    "catalogue": "Single SIM (ESim /Physical SIM) 4G/3G/2G External 5dBi"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "master": "Single SIM (eSIM / Physical SIM) 4G/3G/2G, External 5dBi antennas",
+    "catalogue": "Single SIM (eSIM / Physical SIM) 4G/3G/2G, External 5dBi antennas",
+    "datasheet": {
+     "IE44-A": "2x Nano SIM (1x Active & 1x Passive)",
+     "IE44-C": "2x Nano SIM (1x Active & 1x Passive)",
+     "IE44-A-EX1 (e-SIM)": "1x Nano SIM /embedded SIM Card"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11 b/g/n",
+    "catalogue": "802.11 b/g/n; Wi-Fi 2.4 GHz, 300 MBPS AP Station",
+    "datasheet": {
+     "IE44-A": "802.11b/g/n",
+     "IE44-C": "802.11b/g/n",
+     "IE44-A-EX1 (e-SIM)": "802.11b/g/n"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Built-in RTC",
+     "IE44-C": "Built-in RTC",
+     "IE44-A-EX1 (e-SIM)": "Built-in RTC"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "catalogue": "Pinhole Reset Button",
+    "datasheet": {
+     "IE44-A": "Pinhole Reset Button",
+     "IE44-C": "Pinhole Reset Button",
+     "IE44-A-EX1 (e-SIM)": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector",
+    "catalogue": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector",
+    "datasheet": {
+     "IE44-A": "Cellular: 2x SMA Connector, Wi-Fi: 2x SMA connector",
+     "IE44-C": "Cellular: 2x SMA Connector, Wi-Fi: 2x SMA connector",
+     "IE44-A-EX1 (e-SIM)": "Cellular: 2x SMA Connector, Wi-Fi: 2x SMA connector"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "IE44-A": "1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet",
+     "IE44-C": "1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet, 2x DIO, 1x RS485",
+     "IE44-A-EX1 (e-SIM)": "1x Power, 1x Cellular, 1x Wi-Fi, 2x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Grounding Screw",
+     "IE44-C": "Grounding Screw",
+     "IE44-A-EX1 (e-SIM)": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Fast Ethernet"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "master": "1x 10/100",
+    "catalogue": "1x 10/100",
+    "datasheet": {
+     "IE44-A": "1x 10/100 Mbps",
+     "IE44-C": "1x 10/100 Mbps",
+     "IE44-A-EX1 (e-SIM)": "1x 10/100 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "1x 10/100",
+    "catalogue": "1x 10/100",
+    "datasheet": {
+     "IE44-A": "1x 10/100 Mbps",
+     "IE44-C": "1x 10/100 Mbps",
+     "IE44-A-EX1 (e-SIM)": "1x 10/100 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "catalogue": "1 x RS485, 2 x Configurable DIO",
+    "datasheet": {
+     "IE44-A": "NA",
+     "IE44-C": "1x RS485, 2x DIDO",
+     "IE44-A-EX1 (e-SIM)": "NA"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "IE44-A": "2 Pin Terminal Block",
+     "IE44-C": "2 Pin Terminal Block",
+     "IE44-A-EX1 (e-SIM)": "2 Pin Terminal Block"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "9-36 VDC",
+    "master": "9-36 Vdc",
+    "catalogue": "9-36 Vdc",
+    "datasheet": {
+     "IE44-A": "9-36 Vdc",
+     "IE44-C": "9-36 Vdc",
+     "IE44-A-EX1 (e-SIM)": "9-36 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "IE44-A": "NA",
+     "IE44-C": "N/A",
+     "IE44-A-EX1 (e-SIM)": "NA"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Metal",
+    "master": "Metal Enclosure",
+    "catalogue": "Metal Enclosure",
+    "datasheet": {
+     "IE44-A": "Sheet Metal Enclosure",
+     "IE44-C": "Sheet Metal Enclosure",
+     "IE44-A-EX1 (e-SIM)": "Sheet Metal Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "catalogue": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "IE44-A": "DIN rail mounting Kit (Optional)",
+     "IE44-C": "DIN rail mounting Kit (Optional)",
+     "IE44-A-EX1 (e-SIM)": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "IE44-A": "Fanless",
+     "IE44-C": "Fanless",
+     "IE44-A-EX1 (e-SIM)": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "97 x 28 x 84 mm (W x H x D)",
+    "master": "97 x 28 x 84 mm (W x H x D)",
+    "catalogue": "97 x 28 x 84 mm (W x H x D)",
+    "datasheet": {
+     "IE44-A": "97 x 28 x 84 mm (W x H x D)",
+     "IE44-C": "97 x 28 x 84 mm (W x H x D)",
+     "IE44-A-EX1 (e-SIM)": "97 x 28 x 84 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "280 gm",
+    "master": "280 gm",
+    "catalogue": "280 gm",
+    "datasheet": {
+     "IE44-A": "280 gm",
+     "IE44-C": "280 gm",
+     "IE44-A-EX1 (e-SIM)": "280 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "-20 ~ 60°C",
+    "master": "-20 ~ 60 °C",
+    "catalogue": "-20 ~ 60 °C",
+    "datasheet": {
+     "IE44-A": "-20 ~ 60 °C",
+     "IE44-C": "-20 ~ 60 °C",
+     "IE44-A-EX1 (e-SIM)": "-20 ~ 60 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "master": "-30 ~ 70 °C",
+    "catalogue": "-30 ~ 70 °C",
+    "datasheet": {
+     "IE44-A": "-30 ~ 70 °C",
+     "IE44-C": "-30 ~ 70 °C",
+     "IE44-A-EX1 (e-SIM)": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "master": "10 ~ 90% (non-condensing)",
+    "catalogue": "10 ~ 90% (non-condensing)",
+    "datasheet": {
+     "IE44-A": "10 ~ 90% (non-condensing)",
+     "IE44-C": "10 ~ 90% (non-condensing)",
+     "IE44-A-EX1 (e-SIM)": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Cellular Module",
+   "section": "Cellular",
+   "label": "Cellular Module",
+   "values": {
+    "datasheet": {
+     "IE44-A": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "IE44-C": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "IE44-A-EX1 (e-SIM)": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Status",
+   "section": "Cellular",
+   "label": "Status",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "IE44-C": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "IE44-A-EX1 (e-SIM)": "Single strength (RSSI), SINR, RSRP, RSRQ"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Band Management",
+   "section": "Cellular",
+   "label": "Band Management",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Auto/User configurable",
+     "IE44-C": "Auto/User configurable",
+     "IE44-A-EX1 (e-SIM)": "Auto/User configurable"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Operator Lock",
+   "section": "Cellular",
+   "label": "Operator Lock",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Automatic/Mannual",
+     "IE44-C": "Automatic/Mannual",
+     "IE44-A-EX1 (e-SIM)": "Automatic/Mannual"
+    }
+   }
+  },
+  {
+   "id": "Cellular::APN",
+   "section": "Cellular",
+   "label": "APN",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Configurable, Auto APN",
+     "IE44-C": "Configurable, Auto APN",
+     "IE44-A-EX1 (e-SIM)": "Configurable, Auto APN"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Modem Configuration Mode",
+   "section": "Cellular",
+   "label": "Modem Configuration Mode",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Single SIM, Dual SIM",
+     "IE44-C": "Single SIM, Dual SIM",
+     "IE44-A-EX1 (e-SIM)": "Single SIM"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Switching",
+   "section": "Cellular",
+   "label": "SIM Switching",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Signal strength, ICMP echo, Data limit based",
+     "IE44-C": "Signal strength, ICMP echo, Data limit based",
+     "IE44-A-EX1 (e-SIM)": "NA"
+    }
+   }
+  },
+  {
+   "id": "Cellular::PDP Type",
+   "section": "Cellular",
+   "label": "PDP Type",
+   "values": {
+    "datasheet": {
+     "IE44-A": "IPv4, IPv6, IPv4v6",
+     "IE44-C": "IPv4, IPv6, IPv4v6",
+     "IE44-A-EX1 (e-SIM)": "IPv4, IPv6, IPv4v6"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Authentication",
+   "section": "Cellular",
+   "label": "SIM Authentication",
+   "values": {
+    "datasheet": {
+     "IE44-A": "PAP,CHAP, No Authentication",
+     "IE44-C": "PAP,CHAP, No Authentication",
+     "IE44-A-EX1 (e-SIM)": "PAP,CHAP, No Authentication"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SMS",
+   "section": "Cellular",
+   "label": "SMS",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Send SMS, Read SMS, SMS Commands",
+     "IE44-C": "Send SMS, Read SMS, SMS Commands",
+     "IE44-A-EX1 (e-SIM)": "Send SMS, Read SMS, SMS Commands"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Technology",
+   "section": "Wi-Fi",
+   "label": "Technology",
+   "values": {
+    "master": "802.11 b/g/n",
+    "catalogue": "802.11 b/g/n",
+    "datasheet": {
+     "IE44-A": "802.11 b/g/n",
+     "IE44-C": "802.11 b/g/n",
+     "IE44-A-EX1 (e-SIM)": "802.11 b/g/n"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Selector",
+   "section": "Wi-Fi",
+   "label": "Channel Selector",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Auto/Configurable",
+     "IE44-C": "Auto/Configurable",
+     "IE44-A-EX1 (e-SIM)": "Auto/Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Width",
+   "section": "Wi-Fi",
+   "label": "Channel Width",
+   "values": {
+    "datasheet": {
+     "IE44-A": "20 MHz, 20/40 MHz",
+     "IE44-C": "20 MHz, 20/40 MHz",
+     "IE44-A-EX1 (e-SIM)": "20 MHz, 20/40 MHz"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Mode",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Mode",
+   "values": {
+    "master": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+    "catalogue": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+    "datasheet": {
+     "IE44-A": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+     "IE44-C": "Access Point (AP), Station, AP & Client, Guest Wi-Fi",
+     "IE44-A-EX1 (e-SIM)": "Access Point (AP), Station, AP & Client, Guest Wi-Fi"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::TX Power",
+   "section": "Wi-Fi",
+   "label": "TX Power",
+   "values": {
+    "master": "Configurable",
+    "catalogue": "Configurable",
+    "datasheet": {
+     "IE44-A": "Configurable",
+     "IE44-C": "Configurable",
+     "IE44-A-EX1 (e-SIM)": "Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Authentication",
+   "section": "Wi-Fi",
+   "label": "Authentication",
+   "values": {
+    "master": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+    "catalogue": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+    "datasheet": {
+     "IE44-A": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "IE44-C": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "IE44-A-EX1 (e-SIM)": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Encryption",
+   "section": "Wi-Fi",
+   "label": "Encryption",
+   "values": {
+    "master": "TKIP, AES, TKIP & AES",
+    "catalogue": "TKIP, AES, TKIP & AES",
+    "datasheet": {
+     "IE44-A": "TKIP, AES, TKIP & AES",
+     "IE44-C": "TKIP, AES, TKIP & AES",
+     "IE44-A-EX1 (e-SIM)": "TKIP, AES, TKIP & AES"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Scheduler",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Scheduler",
+   "values": {
+    "master": "Scheduled ON/OFF",
+    "catalogue": "Scheduled ON/OFF",
+    "datasheet": {
+     "IE44-A": "Scheduled ON/OFF",
+     "IE44-C": "Scheduled ON/OFF",
+     "IE44-A-EX1 (e-SIM)": "Scheduled ON/OFF"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::MAC ID Filtering",
+   "section": "Wi-Fi",
+   "label": "MAC ID Filtering",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Whitelisting, Blacklisting",
+     "IE44-C": "Whitelisting, Blacklisting",
+     "IE44-A-EX1 (e-SIM)": "Whitelisting, Blacklisting"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Other",
+   "section": "Wi-Fi",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "IE44-A": "WMM (Enabled/Disabled)",
+     "IE44-C": "WMM (Enabled/Disabled)",
+     "IE44-A-EX1 (e-SIM)": "WMM (Enabled/Disabled)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Advance Routing",
+    "catalogue": "Static routing, Advance Routing",
+    "datasheet": {
+     "IE44-A": "Static routing, Advanced Static Routing",
+     "IE44-C": "Static routing, Advanced Static Routing",
+     "IE44-A-EX1 (e-SIM)": "Static routing, Advanced Static Routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "catalogue": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "datasheet": {
+     "IE44-A": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "IE44-C": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "IE44-A-EX1 (e-SIM)": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "master": "Ping Reboot, Scheduled Periodic Reboot",
+    "catalogue": "Ping Reboot, Scheduled Periodic Reboot",
+    "datasheet": {
+     "IE44-A": "Ping Reboot, Scheduled Periodic Reboot",
+     "IE44-C": "Ping Reboot, Scheduled Periodic Reboot",
+     "IE44-A-EX1 (e-SIM)": "Ping Reboot, Scheduled Periodic Reboot"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "catalogue": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "datasheet": {
+     "IE44-A": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "IE44-C": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "IE44-A-EX1 (e-SIM)": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "IE44-A": "SYN Flood Protection, Drop Invalid Packets",
+     "IE44-C": "SYN Flood Protection, Drop Invalid Packets",
+     "IE44-A-EX1 (e-SIM)": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "master": "Static and Dynamic",
+    "catalogue": "Static and Dynamic",
+    "datasheet": {
+     "IE44-A": "Static and Dynamic",
+     "IE44-C": "Static and Dynamic",
+     "IE44-A-EX1 (e-SIM)": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "IE44-C": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "IE44-A-EX1 (e-SIM)": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "master": "Tagged VLAN, Untagged VLAN",
+    "catalogue": "Tagged VLAN, Untagged VLAN",
+    "datasheet": {
+     "IE44-A": "Tagged VLAN, Untagged VLAN",
+     "IE44-C": "Tagged VLAN, Untagged VLAN",
+     "IE44-A-EX1 (e-SIM)": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "IE44-C": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "IE44-A-EX1 (e-SIM)": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "IE44-A": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "IE44-C": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "IE44-A-EX1 (e-SIM)": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "IE44-A": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "IE44-C": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "IE44-A-EX1 (e-SIM)": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "IE44-A": "3DES, AES128, AES192, AES256",
+     "IE44-C": "3DES, AES128, AES192, AES256",
+     "IE44-A-EX1 (e-SIM)": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "IE44-C": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "IE44-A-EX1 (e-SIM)": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "IE44-A": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "IE44-C": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "IE44-A-EX1 (e-SIM)": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "IE44-A": "NTP Client, RTC, Manual",
+     "IE44-C": "NTP Client, RTC, Manual",
+     "IE44-A-EX1 (e-SIM)": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "catalogue": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "datasheet": {
+     "IE44-A": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "IE44-C": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "IE44-A-EX1 (e-SIM)": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "master": "TUN/TAP with TLS Certificates",
+    "catalogue": "TUN/TAP with TLS Certificates",
+    "datasheet": {
+     "IE44-A": "TUN/TAP with TLS Certificates",
+     "IE44-C": "TUN/TAP with TLS Certificates",
+     "IE44-A-EX1 (e-SIM)": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "master": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "catalogue": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "datasheet": {
+     "IE44-A": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "IE44-C": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "IE44-A-EX1 (e-SIM)": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "master": "Server & Client with/without MPPE Encryption",
+    "catalogue": "Server & Client with/without MPPE Encryption",
+    "datasheet": {
+     "IE44-A": "Server & Client with/without MPPE Encryption",
+     "IE44-C": "Server & Client with/without MPPE Encryption",
+     "IE44-A-EX1 (e-SIM)": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring & Management Platform for SILBO Networking products",
+    "catalogue": "Remote Monitoring & Management Platform for SILBO Networking products",
+    "datasheet": {
+     "IE44-A": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "IE44-C": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "IE44-A-EX1 (e-SIM)": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "master": "Remote Access of SILBO and non-SILBO Networking devices",
+    "catalogue": "Remote Access of SILBO and non-SILBO Networking devices",
+    "datasheet": {
+     "IE44-A": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "IE44-C": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "IE44-A-EX1 (e-SIM)": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "IE44-A": "TR069 Client for CPE Management",
+     "IE44-C": "TR069 Client for CPE Management",
+     "IE44-A-EX1 (e-SIM)": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "IE44-A": "Reboot Command, Uptime Command",
+     "IE44-C": "Reboot Command, Uptime Command",
+     "IE44-A-EX1 (e-SIM)": "Reboot Command, Uptime Command"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "master": "OpenWRT-based Linux OS",
+    "catalogue": "OpenWRT-based Linux OS",
+    "datasheet": {
+     "IE44-A": "Open-WRT based Linux OS",
+     "IE44-C": "Open-WRT based Linux OS",
+     "IE44-A-EX1 (e-SIM)": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "master": "Shell scripting, C, C++",
+    "catalogue": "Shell scripting, C, C++",
+    "datasheet": {
+     "IE44-A": "Shell scripting, C, C++",
+     "IE44-C": "Shell scripting, C, C++",
+     "IE44-A-EX1 (e-SIM)": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "master": "SDK package with built environment provided (Optional)",
+    "catalogue": "SDK package with built environment provided (Optional)",
+    "datasheet": {
+     "IE44-A": "SDK package with built environment provided (Optional)",
+     "IE44-C": "SDK package with built environment provided (Optional)",
+     "IE44-A-EX1 (e-SIM)": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "IE44-A": "IE44A Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas, 0.5- meter Power Cord, 01-meter Ethernet cable 84 mm 97 mm Front View 97 mm 28 mm Rear View 28 mm 97 mm",
+     "IE44-C": "IE44C Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas, 0.5- meter Power Cord, 01-meter Ethernet cable, 1x RS485, 1xDI/O. Top View 84 mm 97 mm Front View 97 mm 28 mm Rear View 28 mm 97 mm",
+     "IE44-A-EX1 (e-SIM)": "IE44A-EX1 Cellular Gateway with Sheet Metal Housing , 2x Wi-Fi Rubber Duck Antennas, 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 01-meter Ethernet cable Top View 84 mm 97 mm Front View 97 mm 28 mm Rear View 28 mm 97 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "4G"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi4"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "2"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "No"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "No"
+   }
+  }
+ ]
+}

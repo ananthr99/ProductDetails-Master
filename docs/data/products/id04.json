@@ -1,0 +1,924 @@
+{
+ "id": "id04",
+ "name": "ID04-B",
+ "category": "Gateway",
+ "order": 54,
+ "present": {
+  "website": true,
+  "master": false,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "id04.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cpu",
+    "rs232",
+    "rs485",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/id04/id04.webp"
+   ],
+   "part_datasheets": {
+    "ID04-B": "/assets/datasheets/products/id04/ID04_Datasheet.pdf"
+   },
+   "datasheet": "",
+   "hidden_rows": [
+    "Hardware::CPU",
+    "Website filters::Wi-Fi",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {},
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "ID04-B"
+ ],
+ "datasheets": {
+  "ID04-B": {
+   "file": "id04\\ID04_Datasheet.pdf",
+   "pdf": "sources/datasheets/id04/ID04_Datasheet.pdf",
+   "model": "ID04-B",
+   "footer": "ID05_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\nID05_V.2.3\nCPU\nMediaTek MT7621\nRAM\n512MB\nFLASH\n32MB\nWAN\n1x 10/100/1000 (Configurable WAN/LAN)\nLAN\n3x 10/100/1000\nSerial Interface\n1 x RS485\nSIM\n2x Nano SIM (1x Active & 1x Passive)\nWi-Fi\nNA\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector, Wi-Fi: 4x SMA connector\nStatus LED\nSignal strength, RS485 Rx & Tx LED, Power LED,1x ACT, 1x Prgm\nPower Connector\nMolex 4pin Sung Fit connector\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nN/A\nEnclosure\nIndustrial Aluminium Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n110 x 44 x 94 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nID04-B\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7621 512MB DDR RAM, 32MB Flash\nCELLULAR\n4G/3G/2G with Dual SIM, External 5dBi antenna\nWi-Fi\nNA\nINTERFACE\n3x LAN 10/100/1000, 1x WAN 10/100/1000\nPOWER\n9-30V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nID05_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n5G SA Sub-6 up 2Gbps, NSA Sub-6 up to 2.2 Gbps, 4G (LTE) up to 600Mbps, 3G\n- up to 42 Mbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Mannual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nRouting\nStatic routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN and Wired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperational & Environmental\nCellular\nFirewall & Networking\nRemote Management\nPage 3\nID05_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nRegulatory\nCE\nEmission\nCISPR 32 Class A (EN55032)\nImmunity\n•\nESD\nIEC 61000-4-2:2008\n•\nEFT\nIEC 61000-4-4:2012\n•\nSurge\nIEC 61000-4-5:2014\n•\nRadiated Immunity\nIEC 61000-4-3\n•\nConducted Immunity\nIEC 61000-4-6\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nID05 Cellular Router with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 01-meter\nEthernet cable.\nRegulatory and Approvals\nOperating System\nStandard Packaging\n94 mm\n110 mm\nPage 4\nID05_V.2.3\nFront View\nRear View\nS\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n110 mm\n44 mm\n110 mm\n44 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "Gen",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "✓",
+     "-",
+     "4G",
+     "Single",
+     "ID04-B"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "ID04-B",
+    "datasheet": {
+     "ID04-B": "ID04-B"
+    }
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Gateway"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A compact industrial 4G gateway on MT7621 with dual-SIM, 4 Gigabit Ethernet ports, RS485, and OpenWRT Linux for remote equipment monitoring, ATM networking, and fleet connectivity."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Remote Industrial Equipment Monitoring\nSmart ATM & Kiosk Networking\nFleet & Mobile Asset Connectivity"
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "datasheet": {
+     "ID04-B": "MediaTek MT7621 512MB DDR RAM, 32MB Flash"
+    }
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "datasheet": {
+     "ID04-B": "4G/3G/2G with Dual SIM, External 5dBi antenna"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "datasheet": {
+     "ID04-B": "NA"
+    }
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "ID04-B": "3x LAN 10/100/1000, 1x WAN 10/100/1000"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "datasheet": {
+     "ID04-B": "9-30V DC IN"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7621 MIPS Dual Core, 880 MHz",
+    "datasheet": {
+     "ID04-B": "MediaTek MT7621"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "512 MB DDR3",
+    "datasheet": {
+     "ID04-B": "512MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "64 MB",
+    "datasheet": {
+     "ID04-B": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "Single M.2 Modem 4G/3G/2G"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "datasheet": {
+     "ID04-B": "2x Nano SIM (1x Active & 1x Passive)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "datasheet": {
+     "ID04-B": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Built-in RTC"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Cellular: 2x SMA Connector, Wi-Fi: 4x SMA connector"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Signal strength, RS485 Rx & Tx LED, Power LED,1x ACT, 1x Prgm"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "1x 10/100/1000 (Configurable WAN/LAN)"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "3x 10/100/1000"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "datasheet": {
+     "ID04-B": "1 x RS485"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::RS485",
+   "section": "Interfaces",
+   "label": "RS485",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Molex 4pin Sung Fit connector"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "9-30 VDC",
+    "datasheet": {
+     "ID04-B": "9-30 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "ID04-B": "N/A"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Industrial Aluminium",
+    "datasheet": {
+     "ID04-B": "Industrial Aluminium Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "datasheet": {
+     "ID04-B": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "111.70 x 44.25 x 97.44 mm (W x H x D)",
+    "datasheet": {
+     "ID04-B": "110 x 44 x 94 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "390 gm",
+    "datasheet": {
+     "ID04-B": "400 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "datasheet": {
+     "ID04-B": "-20 ~ 60 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "ID04-B": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "ID04-B": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Cellular Module",
+   "section": "Cellular",
+   "label": "Cellular Module",
+   "values": {
+    "datasheet": {
+     "ID04-B": "5G SA Sub-6 up 2Gbps, NSA Sub-6 up to 2.2 Gbps, 4G (LTE) up to 600Mbps, 3G - up to 42 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Status",
+   "section": "Cellular",
+   "label": "Status",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Single strength (RSSI), SINR, RSRP, RSRQ"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Band Management",
+   "section": "Cellular",
+   "label": "Band Management",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Auto/User configurable"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Operator Lock",
+   "section": "Cellular",
+   "label": "Operator Lock",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Automatic/Mannual"
+    }
+   }
+  },
+  {
+   "id": "Cellular::APN",
+   "section": "Cellular",
+   "label": "APN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Configurable, Auto APN"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Modem Configuration Mode",
+   "section": "Cellular",
+   "label": "Modem Configuration Mode",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Single SIM, Dual SIM"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Switching",
+   "section": "Cellular",
+   "label": "SIM Switching",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Signal strength, ICMP echo, Data limit based"
+    }
+   }
+  },
+  {
+   "id": "Cellular::PDP Type",
+   "section": "Cellular",
+   "label": "PDP Type",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IPv4, IPv6, IPv4v6"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Authentication",
+   "section": "Cellular",
+   "label": "SIM Authentication",
+   "values": {
+    "datasheet": {
+     "ID04-B": "PAP,CHAP, No Authentication"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SMS",
+   "section": "Cellular",
+   "label": "SMS",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Send SMS, Read SMS, SMS Commands"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Static routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "datasheet": {
+     "ID04-B": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Ping Reboot, Scheduled Periodic Reboot"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "ID04-B": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Configurable Failover, load balancing between Cellular WAN and Wired."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "ID04-B": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "ID04-B": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "ID04-B": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "ID04-B": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "ID04-B": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "ID04-B": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Reboot Command, Uptime Command"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux 21",
+    "datasheet": {
+     "ID04-B": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "datasheet": {
+     "ID04-B": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "datasheet": {
+     "ID04-B": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Emission",
+   "section": "Compliance",
+   "label": "Emission",
+   "values": {
+    "datasheet": {
+     "ID04-B": "CISPR 32 Class A (EN55032)"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Immunity › Conducted Immunity",
+   "section": "Compliance",
+   "label": "Immunity › Conducted Immunity",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IEC 61000-4-6"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Immunity › EFT",
+   "section": "Compliance",
+   "label": "Immunity › EFT",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IEC 61000-4-4:2012"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Immunity › ESD",
+   "section": "Compliance",
+   "label": "Immunity › ESD",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IEC 61000-4-2:2008"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Immunity › Radiated Immunity",
+   "section": "Compliance",
+   "label": "Immunity › Radiated Immunity",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IEC 61000-4-3"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Immunity › Surge",
+   "section": "Compliance",
+   "label": "Immunity › Surge",
+   "values": {
+    "datasheet": {
+     "ID04-B": "IEC 61000-4-5:2014"
+    }
+   }
+  },
+  {
+   "id": "Compliance::Regulatory",
+   "section": "Compliance",
+   "label": "Regulatory",
+   "values": {
+    "datasheet": {
+     "ID04-B": "CE"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "ID04-B": "ID05 Cellular Router with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 01-meter Ethernet cable. Top View 94 mm 110 mm Front View 110 mm 44 mm Rear View 44 mm S 110 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "4G"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "4"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

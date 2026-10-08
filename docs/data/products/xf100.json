@@ -1,0 +1,508 @@
+{
+ "id": "xf100",
+ "name": "XF100-1",
+ "category": "Switch",
+ "order": 36,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "xf100.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "ip",
+    "os",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/xf100/xf100.webp"
+   ],
+   "part_datasheets": {
+    "XF100-1 Unmanaged PoE Switch": "apps/main-site/public/assets/datasheets/products/xf100/XF100_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "XF-100-1 Fast Ethernet Unmanaged",
+   "brief_page": 30,
+   "detailed_page": 68,
+   "matched_by": "part numbers",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "XF100-1",
+   "pdf": null,
+   "page": "Switches | Page 36"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "XF100-1 Unmanaged PoE Switch"
+ ],
+ "datasheets": {
+  "XF100-1 Unmanaged PoE Switch": {
+   "file": "xf100\\XF100_Datasheet.pdf",
+   "pdf": "sources/datasheets/xf100/XF100_Datasheet.pdf",
+   "model": "XF-100-1",
+   "footer": "XF-100-1_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nXF-100-1_V.2.3\nEthernet\n10x 10/100 Mbps (MDI/MDIX)\nStatus LED\nPWR(On/Off), LAN Activity LED.\nMAC Address table entries\n2000\nJumbo Frame\n9216 bytes\nBuffer size\n128 KB\nPower Connector\nSpring Loaded 2 wire connector\nInput Voltage Range\n9-30 Vdc\nPower Consumption\n<5W\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n45 mm x 116 mm x 90 mm (W x H x D)\nWeight\n300 Gm\nOther\nGrounding Screw\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nXF-100-1 with Sheet Metal Enclosure\nXF-100-1\nDATA SHEET\nPRODUCT INFO\nINTERFACE\n10x 10/100\nPOWER\n9-30 Vdc\nHardware Specification\nOperational & Environmental\nPoE & POWER BUDGET\nNA\nStandard Packaging\nPage 2\nXF-100-1_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nFront View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n90 mm\n116 mm\n116 mm\n45 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "Single",
+     "XF100-1 Unmanaged PoE Switch"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "PoE Budget",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "240 W",
+     "XF-100-1"
+    ],
+    [
+     "—",
+     "—",
+     "✓",
+     "30W Max",
+     "Unmanaged PoE"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Per Port",
+     "Switch"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "Single",
+     "XF100-1 Unmanaged PoE Switch"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "XF100-1",
+    "master": "XF-100-1 Fast Ethernet Unmanaged",
+    "catalogue": "XF100-1",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "XF-100-1"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial - Switch"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Switch",
+    "catalogue": "Switches"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A 10-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for large camera networks, smart office connectivity, and industrial automation network expansion.",
+    "catalogue": "A 10-port Fast Ethernet unmanaged PoE switch with 9–30V DC input and sheet metal DIN-rail body for large camera networks, smart office connectivity, and industrial automation network expansion."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "10 ETHERNET PORTS\n9–30 V DC INPUT\nSingle MODEM"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\nLTE\nPOE"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Large Camera & Surveillance Networks\nSmart Office & Campus Device Connectivity\nIndustrial Automation Network Expansion",
+    "catalogue": "Large Camera & Surveillance Networks — Ideal for connecting multiple IP cameras and surveillance devices in warehouses, campuses, and industrial facilities requiring stable Gigabit connectivity.\nSmart Office & Campus Device Connectivity — Can be deployed to connect access points, IP phones, printers, and network endpoints across offices and educational campuses.\nIndustrial Automation Network Expansion — Suitable for expanding Ethernet connectivity between PLCs, industrial PCs, gateways, and control systems in manufacturing and process industries."
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "10 x 10/100"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "10x 10/100"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "9-30 VDC",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "9-30 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "master": "PWR(On/Off), LAN Activity LED.",
+    "catalogue": "PWR(On/Off), LAN Activity LED.",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "PWR(On/Off), LAN Activity LED."
+    }
+   }
+  },
+  {
+   "id": "Hardware::Buffer size",
+   "section": "Hardware",
+   "label": "Buffer size",
+   "values": {
+    "master": "128 KB",
+    "catalogue": "128 KB",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "128 KB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Jumbo Frame",
+   "section": "Hardware",
+   "label": "Jumbo Frame",
+   "values": {
+    "master": "9216 bytes",
+    "catalogue": "9216 bytes",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "9216 bytes"
+    }
+   }
+  },
+  {
+   "id": "Hardware::MAC Address table entries",
+   "section": "Hardware",
+   "label": "MAC Address table entries",
+   "values": {
+    "master": "2000",
+    "catalogue": "2000",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "2000"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "master": "Grounding Screw",
+    "catalogue": "Grounding Screw",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Switch Type",
+   "section": "Hardware",
+   "label": "Switch Type",
+   "values": {
+    "website": "Unmanaged Switch"
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Fast Ethernet (MDI/MDIX)",
+    "master": "10 x 10/100 Mbps (MDI/MDIX)",
+    "catalogue": "10 x 10/100 Mbps (MDI/MDIX)",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "10x 10/100 Mbps (MDI/MDIX)"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "master": "Spring Loaded 2 wire connector",
+    "catalogue": "Spring Loaded 2 wire connector",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "Spring Loaded 2 wire connector"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "9-30 VDC",
+    "master": "9-30 Vdc",
+    "catalogue": "9-30 Vdc\n9-30 VDC",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "9-30 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Consumption",
+   "section": "Power",
+   "label": "Power Consumption",
+   "values": {
+    "master": "<5W",
+    "catalogue": "<5W",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "<5W"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Sheet Metal",
+    "master": "Sheet Metal Enclosure",
+    "catalogue": "Sheet Metal Enclosure",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "Sheet Metal Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "catalogue": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "45 x 116 x 90 mm (W x H x D)",
+    "master": "45 mm x 116 mm x 90 mm (W x H x D)",
+    "catalogue": "45 mm x 116 mm x 90 mm (W x H x D)",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "45 mm x 116 mm x 90 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "416 gm",
+    "master": "416 Gm",
+    "catalogue": "416 Gm",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "300 Gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "XF-100-1 with Sheet Metal Enclosure",
+    "catalogue": "XF-100-1 with Sheet Metal Enclosure",
+    "datasheet": {
+     "XF100-1 Unmanaged PoE Switch": "XF-100-1 with Sheet Metal Enclosure Top View 90 mm 116 mm Front View 116 mm 45 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "10"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

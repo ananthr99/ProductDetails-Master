@@ -1,0 +1,654 @@
+{
+ "id": "xg82",
+ "name": "XG-82-2MI",
+ "category": "Switch",
+ "order": 38,
+ "present": {
+  "website": true,
+  "master": false,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "xg82.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "ip",
+    "os",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/xg82/xg82.webp"
+   ],
+   "part_datasheets": {
+    "XG 82-2MI Lite Managed Switch": "/assets/datasheets/products/xg82/XG82_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {},
+  "catalogue": {
+   "name": "XG-82-2MI",
+   "pdf": null,
+   "page": "Switches | Page 38"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "XG 82-2MI Lite Managed Switch"
+ ],
+ "datasheets": {
+  "XG 82-2MI Lite Managed Switch": {
+   "file": "xg82\\XG82_Datasheet.pdf",
+   "pdf": "sources/datasheets/xg82/XG82_Datasheet.pdf",
+   "model": "",
+   "footer": "XG-82-2_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\nXG-82-2_V.2.3\nEthernet\n8 x 10/100/1000 Mbps\nSFP\n2 x SFP, 2.5Gbps\nConsole\nSerial console\nStatus LED\nPWR(On/Off), LAN Activity LED (Green: 10/100 Mbps\nAmber: 1000 Mbps), PoE Out LED, SFP Status LED, SYS LED.\nPoE Standard\n802.3at & 802.3af, Remote power and Data feeding up to 100m\nPoE Budget (Per Port)\n30 W (Max)\nTotal PoE Budget\n120 W(Max)\nPower Connector\nPanel Mount Plug Adaptor Power Socket 3 Pin\nInput Voltage Range\n100-240 VAC, 50-60 Hz\nPower Consumption\nIdle :5-7 W\nFull Load: 120 W\nEnclosure\nSheet Metal\nMounting\nOption 1: 19 inch Rack Mount\nOption 2: Table Top\nDesign\nFanless\nDimensions\n280 mm x 116 mm x 44mm (WxLxH)\nWeight\n1000 gm\nLayer\nLayer 2\nManagement Type\nManaged\nSmart Managed Switch\nYes\nSwitching Capacity\n20 Gbps\nMAC Address table entries\n8K\nPacket Forwarding Rate\n14.88 Mpps\nPacket Buffer Size\n4 Mbit\nJumbo Frame\n15K Byte\nVLAN\n32\nBasic Function\nCompatible with IEEE 802.3AF/AT compliant Powered Devices (PD)\nWire-speed forwarding\nMAC self-learning and aging\nIEEE802.3X Full-duplex and backpressure for half-duplex mode\nXG-82-2MI (8 Port Semi Managed Switch)\nDATA SHEET\nPRODUCT INFO\nINTERFACE\n8x 10/100/1000, 2x SFP\nPOWER\nAC Power (100-240VAC, 50-60 Hz)\nHardware Specification\nPoE & POWER BUDGET\n120 W (Max)\nFeatures\nPage 2\nXG-82-2_V.2.3\nUI Options of XG-82-2-MI\nSpanning Tree Protocol\nSupport 802.1d STP\nSupport 802.1S（MSTP）\nSecurity\nMAC Manage, Strom Control, Traffic Monitoring, DHCP Snooping\nQoS\nQoS Basic, QoS Advance (802.1p)\nSwitch Monitoring and Management\nWeb, CLI (Console Port, Telnet, SSH), SNMP V1/V2, Support trap: cold start,\nwarm start, link down and link up\nEEE\nSupport Energy-Efficient Ethernet (EEE) function (IEEE802.3az)\nPoE\nPOE configuration, POE scheduling management, etc.\nVLAN Function\nPort-based VLAN, Tag based VLAN (802.1Q)\nDHCP Function\nDHCP Snooping, DHCP Relay\nManaged Features\nIGMP Snooping, LAG, Port Mirror, LLDP Config, LLDP Neighbour, Loop\nPrevention, ERPS.\nDiagnostics\nPing Tool, Cable diagnostics\nConfiguration Utility\nImport and Export Configuration backup\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nOption 1: Switch, Power Cord and Rack Mount Brackets\nOption 2: Switch, Power Cord\nOperational & Environmental\nStandard Packaging\nImages\nPage 3\nXG-82-2_V.2.3\nOption 1: Rack Mount\nOption 2: Table Top\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com https://invendis.com/\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "Single",
+     "XG 82-2MI Lite Managed Switch"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "Single",
+     "XG 82-2MI Lite Managed Switch"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "XG-82-2MI",
+    "catalogue": "XG-82-2MI"
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial - Switch"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Switch",
+    "catalogue": "Switches"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A compact Layer 2 smart managed switch with 8 Gigabit PoE ports (120W), 2× 2.5G SFP uplinks, VLAN/QoS/IGMP/ERPS support, and 44–57V DC input in an industrial aluminium enclosure.",
+    "catalogue": "A compact Layer 2 smart managed switch with 8 Gigabit PoE ports (120W), 2× 2.5G SFP uplinks, VLAN/QoS/IGMP/ERPS support, and 44–57V DC input in an industrial aluminium enclosure."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "8+2 ETHERNET+SFP\n44–57 V DC INPUT\nSingle MODEM"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\nLTE\nGIGABIT ETHERNET"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Enterprise Surveillance & Security Networks\nSmart Campus & Enterprise Network Management\nIndustrial Network Control & Redundancy",
+    "catalogue": "Enterprise Surveillance & Security Networks — Ideal for large CCTV deployments, enabling centralized management of IP cameras, PoE-powered devices, and optimized video traffic through QoS and VLAN support.\nSmart Campus & Enterprise Network Management — Suitable for offices, campuses, and commercial buildings requiring managed switching, traffic prioritization, and secure segmentation for access points, IP phones, and endpoints.\nIndustrial Network Control & Redundancy — Can be deployed in factories and utility environments where Layer 2 management, ERPS redundancy, IGMP snooping, and network diagnostics are essential for uninterrupted operations."
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "8x 10/100/1000, 2x SFP"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "AC Power (100-240VAC, 50-60 Hz)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "PWR(On/Off), LAN Activity LED (Green: 10/100 Mbps Amber: 1000 Mbps), PoE Out LED, SFP Status LED, SYS LED."
+    }
+   }
+  },
+  {
+   "id": "Hardware::Switch Type",
+   "section": "Hardware",
+   "label": "Switch Type",
+   "values": {
+    "website": "Managed PoE Switch",
+    "catalogue": "Managed PoE Switch"
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet",
+    "catalogue": "Gigabit Ethernet",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "8 x 10/100/1000 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::SFP",
+   "section": "Interfaces",
+   "label": "SFP",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "2 x SFP, 2.5Gbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Console",
+   "section": "Interfaces",
+   "label": "Console",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Serial console"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Panel Mount Plug Adaptor Power Socket 3 Pin"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "44-57 VDC",
+    "catalogue": "44-57 VDC",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "100-240 VAC, 50-60 Hz"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Consumption",
+   "section": "Power",
+   "label": "Power Consumption",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Idle :5-7 W Full Load: 120 W"
+    }
+   }
+  },
+  {
+   "id": "Power::PoE",
+   "section": "Power",
+   "label": "PoE",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "POE configuration, POE scheduling management, etc."
+    }
+   }
+  },
+  {
+   "id": "Power::PoE Standard",
+   "section": "Power",
+   "label": "PoE Standard",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "802.3at & 802.3af, Remote power and Data feeding up to 100m"
+    }
+   }
+  },
+  {
+   "id": "Power::PoE Budget (Per Port)",
+   "section": "Power",
+   "label": "PoE Budget (Per Port)",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "30 W (Max)"
+    }
+   }
+  },
+  {
+   "id": "Power::Total PoE Budget",
+   "section": "Power",
+   "label": "Total PoE Budget",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "120 W(Max)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Industrial Aluminium",
+    "catalogue": "Industrial Aluminium",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Sheet Metal"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Option 1: 19 inch Rack Mount Option 2: Table Top"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "200 x 120 x 55 mm (W x L x H)",
+    "catalogue": "200 x 120 x 55 mm (W x L x H)",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "280 mm x 116 mm x 44mm (WxLxH)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "675 gm",
+    "catalogue": "675 gm",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "1000 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 60°C",
+    "catalogue": "0 ~ 60°C",
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "0~ 60 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "32"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Option 1: Switch, Power Cord and Rack Mount Brackets Option 2: Switch, Power Cord"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "8"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Other::Basic Function",
+   "section": "Other",
+   "label": "Basic Function",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Compatible with IEEE 802.3AF/AT compliant Powered Devices (PD) Wire-speed forwarding MAC self-learning and aging IEEE802.3X Full-duplex and backpressure for half-duplex mode"
+    }
+   }
+  },
+  {
+   "id": "Other::Configuration Utility",
+   "section": "Other",
+   "label": "Configuration Utility",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Import and Export Configuration backup"
+    }
+   }
+  },
+  {
+   "id": "Other::DHCP Function",
+   "section": "Other",
+   "label": "DHCP Function",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "DHCP Snooping, DHCP Relay"
+    }
+   }
+  },
+  {
+   "id": "Other::Diagnostics",
+   "section": "Other",
+   "label": "Diagnostics",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Ping Tool, Cable diagnostics"
+    }
+   }
+  },
+  {
+   "id": "Other::EEE",
+   "section": "Other",
+   "label": "EEE",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Support Energy-Efficient Ethernet (EEE) function (IEEE802.3az)"
+    }
+   }
+  },
+  {
+   "id": "Other::Jumbo Frame",
+   "section": "Other",
+   "label": "Jumbo Frame",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "15K Byte"
+    }
+   }
+  },
+  {
+   "id": "Other::Layer",
+   "section": "Other",
+   "label": "Layer",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Layer 2"
+    }
+   }
+  },
+  {
+   "id": "Other::MAC Address table entries",
+   "section": "Other",
+   "label": "MAC Address table entries",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "8K"
+    }
+   }
+  },
+  {
+   "id": "Other::Managed Features",
+   "section": "Other",
+   "label": "Managed Features",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "IGMP Snooping, LAG, Port Mirror, LLDP Config, LLDP Neighbour, Loop Prevention, ERPS."
+    }
+   }
+  },
+  {
+   "id": "Other::Management Type",
+   "section": "Other",
+   "label": "Management Type",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Managed"
+    }
+   }
+  },
+  {
+   "id": "Other::Packet Buffer Size",
+   "section": "Other",
+   "label": "Packet Buffer Size",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "4 Mbit"
+    }
+   }
+  },
+  {
+   "id": "Other::Packet Forwarding Rate",
+   "section": "Other",
+   "label": "Packet Forwarding Rate",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "14.88 Mpps"
+    }
+   }
+  },
+  {
+   "id": "Other::QoS",
+   "section": "Other",
+   "label": "QoS",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "QoS Basic, QoS Advance (802.1p)"
+    }
+   }
+  },
+  {
+   "id": "Other::Security",
+   "section": "Other",
+   "label": "Security",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "MAC Manage, Strom Control, Traffic Monitoring, DHCP Snooping"
+    }
+   }
+  },
+  {
+   "id": "Other::Smart Managed Switch",
+   "section": "Other",
+   "label": "Smart Managed Switch",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Yes"
+    }
+   }
+  },
+  {
+   "id": "Other::Spanning Tree Protocol",
+   "section": "Other",
+   "label": "Spanning Tree Protocol",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Support 802.1d STP Support 802.1S（MSTP）"
+    }
+   }
+  },
+  {
+   "id": "Other::Switch Monitoring and Management",
+   "section": "Other",
+   "label": "Switch Monitoring and Management",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Web, CLI (Console Port, Telnet, SSH), SNMP V1/V2, Support trap: cold start, warm start, link down and link up"
+    }
+   }
+  },
+  {
+   "id": "Other::Switching Capacity",
+   "section": "Other",
+   "label": "Switching Capacity",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "20 Gbps"
+    }
+   }
+  },
+  {
+   "id": "Other::VLAN Function",
+   "section": "Other",
+   "label": "VLAN Function",
+   "values": {
+    "datasheet": {
+     "XG 82-2MI Lite Managed Switch": "Port-based VLAN, Tag based VLAN (802.1Q)"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1192 @@
+{
+ "id": "iafxx",
+ "name": "IAFXX-X",
+ "category": "Gateway",
+ "order": 22,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "iafxx.json",
+   "hidden": false,
+   "hidden_fields": [],
+   "images": [
+    "/images/product-selector/iafxx-x/iafxx-x.webp"
+   ],
+   "part_datasheets": {
+    "IAF44-C1": "/assets/datasheets/products/iafxx-x/IAF44-C1_Datasheet.pdf",
+    "IAF04-C1": "/assets/datasheets/products/iafxx-x/IAF04-C1_Datasheet.pdf",
+    "IAF44-C2": "contact_us",
+    "IAF04-C2": "contact_us"
+   },
+   "datasheet": null,
+   "hidden_rows": []
+  },
+  "master": {
+   "title": "IAFXX-X",
+   "brief_page": 22,
+   "detailed_page": 60,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "IAFXX-X",
+   "pdf": null,
+   "page": "Gateways | Page 22"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "IAF44-C1",
+  "IAF44-C2",
+  "IAF04-C2",
+  "IAF04-C1"
+ ],
+ "datasheets": {
+  "IAF44-C1": {
+   "file": "iafxx-x\\IAF44-C1_Datasheet.pdf",
+   "pdf": "sources/datasheets/iafxx-x/IAF44-C1_Datasheet.pdf",
+   "model": "IAF44-C1",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7628, 580 MHz CPU\nRAM\n128MB\nFLASH\n32MB\nWAN\n1x 10/100 Mbps\nLAN\n1x 10/100 Mbps\nSerial Interface\n2x AI, 1x ISO 24v OUT, 1x RS485\nSIM\n2x Nano SIM (1x Active & 1x Passive)\nWi-Fi\nNA\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector\nStatus LED\n1x Power, 1x Wi-Fi, 1x ACT, 2x Ethernet,\nSignal Strength, 2x Cellular, 1x RS485 Rx/Tx, 2x Prg\nPower Connector\nMolex 4pin Snug fit connecter\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nN/A\nEnclosure\nIndustrial Aluminium Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n110 x 44 x 94 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nIAF44-C1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628, 128/256MB DDR2 RAM, 32MB Flash\nCELLULAR\n4G/3G/2G with Dual SIM, External 5DBi antennas\nWi-Fi\n2.4GHz, 300Mbps AP, Station, External 5dBi antennas\nINTERFACE\n2x WAN/LAN 10/100, 2x AI\nPOWER\n9-30V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, and Wired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperational & Environmental\nCellular\nFirewall & Networking\nRemote Management\nPage 3\n«Device_Name»_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nGateway Protocols\nModbus TCP Slave, Modbus TCP Master, Modbus RTU\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nData sender\nHTTP, MQTT, Azure MQTT\nInternal Storage\nNA\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nIAF44-C1 Cellular Gateway with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 1x\nAI, 01-meter Ethernet cable.\n94 mm\n110 mm\nOperating System\nStandard Packaging\nGateway\nPage 4\n«Device_Name»_V.2.3\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n110 mm\n44 mm\n110 mm\n44 mm"
+  },
+  "IAF04-C1": {
+   "file": "iafxx-x\\IAF04-C1_Datasheet.pdf",
+   "pdf": "sources/datasheets/iafxx-x/IAF04-C1_Datasheet.pdf",
+   "model": "IAF04-C1",
+   "footer": "IAF04-C1_V.2.3",
+   "pages": 4,
+   "template": true,
+   "raw": "Page 1\nIAF04-C1_V.2.3\nCPU\nMediaTek MT7628, 580 MHz CPU\nRAM\n128MB\nFLASH\n32MB\nWAN\n1x 10/100 Mbps\nLAN\n1x 10/100 Mbps\nSerial Interface\n2x AI, 1x ISO 24v OUT, 1x RS485\nSIM\n2x Nano SIM (1x Active & 1x Passive)\nWi-Fi\nNA\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nCellular: 2x SMA Connector\nStatus LED\n1x Power, 1x Wi-Fi, 1x ACT, 2x Ethernet,\nSignal Strength, 2x Cellular, 1x RS485 Rx/Tx, 2x Prg\nPower Connector\nMolex 4pin Snug fit connecter\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nN/A\nEnclosure\nIndustrial Aluminium Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n110 x 44 x 94 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nIAF04-C1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628, 128/256MB DDR2 RAM, 32MB Flash\nCELLULAR\n4G/3G/2G with Dual SIM, External 5DBi antennas\nWi-Fi\nNA\nINTERFACE\n2x WAN/LAN 10/100, 2x AI, 1x ISO 24v OUT, 1x RS485\nPOWER\n9-30V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nIAF04-C1_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n-20 ~ 60 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, and Wired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperational & Environmental\nCellular\nFirewall & Networking\nRemote Management\nPage 3\nIAF04-C1_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nGateway Protocols\nModbus TCP Slave, Modbus TCP Master, Modbus RTU\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nData sender\nHTTP, MQTT, Azure MQTT\nInternal Storage\nNA\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nIAF04-C1 Cellular Gateway with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 1x\nAI, 1x ISO 24v OUT, 1x RS485, 01-meter Ethernet cable.\n94 mm\n110 mm\nOperating System\nStandard Packaging\nGateway\nPage 4\nIAF04-C1_V.2.3\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n110 mm\n44 mm\n110 mm\n44 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "RS485",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "—",
+     "Single",
+     "IAF44-C1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "✓",
+     "Single",
+     "IAF44-C2"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "✓",
+     "Single",
+     "IAF04-C2"
+    ],
+    [
+     "—",
+     "—",
+     "4G",
+     "—",
+     "Single",
+     "IAF04-C1"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "RS485",
+    "No of Modem",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "✓",
+     "Wi-Fi 2.4",
+     "4G",
+     "—",
+     "Single Modem",
+     "IAF44-C1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 2.4",
+     "4G",
+     "✓",
+     "Single Modem",
+     "IAF44-C2"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "✓",
+     "Single Modem",
+     "IAF04-C2"
+    ],
+    [
+     "—",
+     "—",
+     "4G",
+     "—",
+     "Single Modem",
+     "IAF04-C1"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "RS485",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "—",
+     "Single",
+     "IAF44-C1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 4",
+     "4G",
+     "✓",
+     "Single",
+     "IAF44-C2"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "✓",
+     "Single",
+     "IAF04-C2"
+    ],
+    [
+     "—",
+     "—",
+     "4G",
+     "—",
+     "Single",
+     "IAF04-C1"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "IAFXX-X",
+    "master": "IAFXX-X",
+    "catalogue": "IAFXX-X",
+    "datasheet": {
+     "IAF44-C1": "IAF44-C1",
+     "IAF04-C1": "IAF04-C1"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial 4G Gateway"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Gateway",
+    "catalogue": "Gateways"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "An industrial gateway on MediaTek MT7628 with 4G, Wi-Fi 4, RS485, Modbus TCP/RTU, digital/analog I/O, RTC, and SMS remote commands. Designed for field device integration, SCADA connectivity, and industrial alarm and event monitoring.",
+    "catalogue": "An industrial gateway on MediaTek MT7628 with 4G, Wi-Fi 4, RS485, Modbus TCP/RTU, digital/analog I/O, RTC, and SMS remote commands. Designed for field device integration, SCADA connectivity, and industrial alarm and event monitoring."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "Single 4G MODEM\n1+1 LAN+WAN\nSerial I/O RS485\nWi-Fi 4 2.4 GHz\n−48 V DC INPUT"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n4G LTE\nWi-Fi 4\nFanless Design"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Remote Sensor & Transducer Data to Cloud\nDrinking Water Treatment Plant Data to Remote Cloud SCADA\nIndustrial Alarm & Event Monitoring",
+    "catalogue": "Remote Sensor & Transducer Data to Cloud — Ideal for connecting Transducers having 4-20mA output and data should be published to remote server using HTTPs/MQTTs communication.\nDrinking Water Treatment Plant Data to Remote Cloud SCADA — Ideal for connecting clorine, Turbidity, TDS sensordata etc on AI interface to made available over VPN tunnel in Modbsu to SCADA for monitoring all the treatment paramaters.\nIndustrial Alarm & Event Monitoring — Suitable for factory alarms, pump stations, and equipment monitoring where digital I/O, pulse input, and SMS-based alerts are required for quick response and uptime management."
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7628, 128 MB DDR 2 RAM, 32 MB Flash",
+    "datasheet": {
+     "IAF44-C1": "MediaTek MT7628, 128/256MB DDR2 RAM, 32MB Flash",
+     "IAF04-C1": "MediaTek MT7628, 128/256MB DDR2 RAM, 32MB Flash"
+    }
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "master": "4G/3G/2G with Dual SIM, External 5dBi antenna",
+    "datasheet": {
+     "IAF44-C1": "4G/3G/2G with Dual SIM, External 5DBi antennas",
+     "IAF04-C1": "4G/3G/2G with Dual SIM, External 5DBi antennas"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Wi-Fi 2.4 GHz, 300 MBPS AP Station, External 5dBi antennas",
+    "datasheet": {
+     "IAF44-C1": "2.4GHz, 300Mbps AP, Station, External 5dBi antennas",
+     "IAF04-C1": "NA"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x WAN 10/100 1 x LAN 10/100"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "4x AI, 1x ISO 24v OUT, 2x RS485, 2x DI/DO, 2X DI/Pulse Input, 1x USB-H",
+    "datasheet": {
+     "IAF44-C1": "2x WAN/LAN 10/100, 2x AI",
+     "IAF04-C1": "2x WAN/LAN 10/100, 2x AI, 1x ISO 24v OUT, 1x RS485"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "-48 VDC IN",
+    "datasheet": {
+     "IAF44-C1": "9-30V DC IN",
+     "IAF04-C1": "9-30V DC IN"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open WRT Linux",
+    "datasheet": {
+     "IAF44-C1": "Open-WRT Linux",
+     "IAF04-C1": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7628",
+    "master": "MediaTek MT7628",
+    "catalogue": "MediaTek MT7628",
+    "datasheet": {
+     "IAF44-C1": "MediaTek MT7628, 580 MHz CPU",
+     "IAF04-C1": "MediaTek MT7628, 580 MHz CPU"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "128 MB DDR2",
+    "master": "128MB",
+    "catalogue": "128MB",
+    "datasheet": {
+     "IAF44-C1": "128MB",
+     "IAF04-C1": "128MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32 MB Flash",
+    "master": "32MB",
+    "catalogue": "32MB",
+    "datasheet": {
+     "IAF44-C1": "32MB",
+     "IAF04-C1": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Storage",
+   "section": "Hardware",
+   "label": "Storage",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "NA",
+     "IAF04-C1": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "4G",
+    "catalogue": "4G/3G/2G with Dual SIM, External 5dBi antenna"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "master": "2x Nano SIM (1x Active, 1x Passive)",
+    "catalogue": "2x Nano SIM (1x Active, 1x Passive)",
+    "datasheet": {
+     "IAF44-C1": "2x Nano SIM (1x Active & 1x Passive)",
+     "IAF04-C1": "2x Nano SIM (1x Active & 1x Passive)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11 b/g/n",
+    "catalogue": "802.11 b/g/n; Wi-Fi 2.4 GHz, 300 MBPS AP Station, External 5dBi antennas",
+    "datasheet": {
+     "IAF44-C1": "NA",
+     "IAF04-C1": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "master": "Built-in RTC",
+    "catalogue": "Built-in RTC",
+    "datasheet": {
+     "IAF44-C1": "Built-in RTC",
+     "IAF04-C1": "Built-in RTC"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "catalogue": "Pinhole Reset Button",
+    "datasheet": {
+     "IAF44-C1": "Pinhole Reset Button",
+     "IAF04-C1": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector\n0.5-meter Power Cord, 1x AI, 1x ISO 24v OUT, 2x RS485, 1x DI/DO, 1X DI/Pulse Input, 01-meter Ethernet cable.",
+    "catalogue": "Cellular: 2x SMA Connector Wi-Fi:2x SMA Connector\n0.5-meter Power Cord, 1x AI, 1x ISO 24v OUT, 2x RS485, 1x DI/DO, 1X DI/Pulse Input, 01-meter Ethernet cable.",
+    "datasheet": {
+     "IAF44-C1": "Cellular: 2x SMA Connector",
+     "IAF04-C1": "Cellular: 2x SMA Connector"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "1x Power, 1x Wi-Fi, 1x ACT, 2x Ethernet, Signal Strength, 2x Cellular, 1x RS485 Rx/Tx, 2x Prg",
+     "IAF04-C1": "1x Power, 1x Wi-Fi, 1x ACT, 2x Ethernet, Signal Strength, 2x Cellular, 1x RS485 Rx/Tx, 2x Prg"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Grounding Screw",
+     "IAF04-C1": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Fast Ethernet"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "master": "1x 10/100",
+    "catalogue": "1x 10/100",
+    "datasheet": {
+     "IAF44-C1": "1x 10/100 Mbps",
+     "IAF04-C1": "1x 10/100 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "1x 10/100",
+    "catalogue": "1x 10/100",
+    "datasheet": {
+     "IAF44-C1": "1x 10/100 Mbps",
+     "IAF04-C1": "1x 10/100 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "master": "4x AI, 1x ISO 24v OUT, 2x RS485, 2x DIDO, 2X DI/Pulse Input, 1x USB-H DI/Pulse Input, 1x USB-H",
+    "catalogue": "4x AI, 1x ISO 24v OUT, 2x RS485, 2x DIDO, 2X DI/Pulse Input, 1x USB-H DI/Pulse Input, 1x USB-H\n2x DI/DO",
+    "datasheet": {
+     "IAF44-C1": "2x AI, 1x ISO 24v OUT, 1x RS485",
+     "IAF04-C1": "2x AI, 1x ISO 24v OUT, 1x RS485"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "master": "Molex 4-pin Snug fit connector",
+    "catalogue": "Molex 4-pin Snug fit connector",
+    "datasheet": {
+     "IAF44-C1": "Molex 4pin Snug fit connecter",
+     "IAF04-C1": "Molex 4pin Snug fit connecter"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "-48 VDC",
+    "master": "-48 Vdc",
+    "catalogue": "-48 Vdc\n-48 VDC IN",
+    "datasheet": {
+     "IAF44-C1": "9-30 Vdc",
+     "IAF04-C1": "9-30 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "N/A",
+     "IAF04-C1": "N/A"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Industrial Aluminium",
+    "master": "Industrial Aluminium Enclosure",
+    "catalogue": "Industrial Aluminium Enclosure",
+    "datasheet": {
+     "IAF44-C1": "Industrial Aluminium Enclosure",
+     "IAF04-C1": "Industrial Aluminium Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "catalogue": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "IAF44-C1": "DIN rail mounting Kit (Optional)",
+     "IAF04-C1": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "IAF44-C1": "Fanless",
+     "IAF04-C1": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "110 x 44 x 94 mm (W x H x D)",
+    "master": "110 x 44 x 94 mm (W x H x D)",
+    "catalogue": "110 x 44 x 94 mm (W x H x D)",
+    "datasheet": {
+     "IAF44-C1": "110 x 44 x 94 mm (W x H x D)",
+     "IAF04-C1": "110 x 44 x 94 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "400 gm",
+    "master": "400 gm",
+    "catalogue": "400 gm",
+    "datasheet": {
+     "IAF44-C1": "400 gm",
+     "IAF04-C1": "400 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "datasheet": {
+     "IAF44-C1": "-20 ~ 60 °C",
+     "IAF04-C1": "-20 ~ 60 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "-30 ~ 70 °C",
+     "IAF04-C1": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "10 ~ 90% (non-condensing)",
+     "IAF04-C1": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Cellular Module",
+   "section": "Cellular",
+   "label": "Cellular Module",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "IAF04-C1": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Status",
+   "section": "Cellular",
+   "label": "Status",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "IAF04-C1": "Single strength (RSSI), SINR, RSRP, RSRQ"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Band Management",
+   "section": "Cellular",
+   "label": "Band Management",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Auto/User configurable",
+     "IAF04-C1": "Auto/User configurable"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Operator Lock",
+   "section": "Cellular",
+   "label": "Operator Lock",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Automatic/Manual",
+     "IAF04-C1": "Automatic/Manual"
+    }
+   }
+  },
+  {
+   "id": "Cellular::APN",
+   "section": "Cellular",
+   "label": "APN",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Configurable, Auto APN",
+     "IAF04-C1": "Configurable, Auto APN"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Modem Configuration Mode",
+   "section": "Cellular",
+   "label": "Modem Configuration Mode",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Single SIM, Dual SIM",
+     "IAF04-C1": "Single SIM, Dual SIM"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Switching",
+   "section": "Cellular",
+   "label": "SIM Switching",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Signal strength, ICMP echo, Data limit based",
+     "IAF04-C1": "Signal strength, ICMP echo, Data limit based"
+    }
+   }
+  },
+  {
+   "id": "Cellular::PDP Type",
+   "section": "Cellular",
+   "label": "PDP Type",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "IPv4, IPv6, IPv4v6",
+     "IAF04-C1": "IPv4, IPv6, IPv4v6"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Authentication",
+   "section": "Cellular",
+   "label": "SIM Authentication",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "PAP,CHAP, No Authentication",
+     "IAF04-C1": "PAP,CHAP, No Authentication"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SMS",
+   "section": "Cellular",
+   "label": "SMS",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Send SMS, Read SMS, SMS Commands",
+     "IAF04-C1": "Send SMS, Read SMS, SMS Commands"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Advanced Static Routing",
+    "catalogue": "Static routing, Advanced Static Routing",
+    "datasheet": {
+     "IAF44-C1": "Static routing, Advanced Static Routing",
+     "IAF04-C1": "Static routing, Advanced Static Routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "catalogue": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "datasheet": {
+     "IAF44-C1": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "IAF04-C1": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "master": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "catalogue": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "datasheet": {
+     "IAF44-C1": "Ping Reboot, Scheduled Periodic Reboot",
+     "IAF04-C1": "Ping Reboot, Scheduled Periodic Reboot"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forwarding, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "catalogue": "Port forwarding, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "datasheet": {
+     "IAF44-C1": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "IAF04-C1": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "SYN Flood Protection, Drop Invalid Packets",
+     "IAF04-C1": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Static and Dynamic",
+     "IAF04-C1": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Configurable Failover, load balancing between Cellular WAN, and Wired.",
+     "IAF04-C1": "Configurable Failover, load balancing between Cellular WAN, and Wired."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Tagged VLAN, Untagged VLAN",
+     "IAF04-C1": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "IAF04-C1": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "IAF04-C1": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "IAF04-C1": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "3DES, AES128, AES192, AES256",
+     "IAF04-C1": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "IAF04-C1": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "IAF04-C1": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "NTP Client, RTC, Manual",
+     "IAF04-C1": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "catalogue": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "datasheet": {
+     "IAF44-C1": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "IAF04-C1": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "TUN/TAP with TLS Certificates",
+     "IAF04-C1": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "IAF04-C1": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Server & Client with/without MPPE Encryption",
+     "IAF04-C1": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring C Management Platform for SILBO Networking products",
+    "catalogue": "Remote Monitoring C Management Platform for SILBO Networking products",
+    "datasheet": {
+     "IAF44-C1": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "IAF04-C1": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "IAF04-C1": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "TR069 Client for CPE Management",
+     "IAF04-C1": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "master": "Reboot Command, Uptime Command",
+    "catalogue": "Reboot Command, Uptime Command",
+    "datasheet": {
+     "IAF44-C1": "Reboot Command, Uptime Command",
+     "IAF04-C1": "Reboot Command, Uptime Command"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "datasheet": {
+     "IAF44-C1": "Open-WRT based Linux OS",
+     "IAF04-C1": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Shell scripting, C, C++",
+     "IAF04-C1": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "SDK package with built environment provided (Optional)",
+     "IAF04-C1": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Gateway Protocols",
+   "section": "Operating System & Software",
+   "label": "Gateway Protocols",
+   "values": {
+    "master": "Modbus TCP Slave, Modbus TCP Master, Modbus RTU",
+    "catalogue": "Modbus TCP Slave, Modbus TCP Master, Modbus RTU"
+   }
+  },
+  {
+   "id": "Gateway::Data sender",
+   "section": "Gateway",
+   "label": "Data sender",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "HTTP, MQTT, Azure MQTT",
+     "IAF04-C1": "HTTP, MQTT, Azure MQTT"
+    }
+   }
+  },
+  {
+   "id": "Gateway::Gateway Protocols",
+   "section": "Gateway",
+   "label": "Gateway Protocols",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Modbus TCP Slave, Modbus TCP Master, Modbus RTU",
+     "IAF04-C1": "Modbus TCP Slave, Modbus TCP Master, Modbus RTU"
+    }
+   }
+  },
+  {
+   "id": "Gateway::Serial Mode",
+   "section": "Gateway",
+   "label": "Serial Mode",
+   "values": {
+    "datasheet": {
+     "IAF44-C1": "Transparent (Over IP), Modbus Gateway",
+     "IAF04-C1": "Transparent (Over IP), Modbus Gateway"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "IAF44-C Cellular Gateway with Industrial Aluminium Housing, 2x Cellular Rubber Duck Antennas, 2x Wi- Fi Rubber Duck",
+    "catalogue": "IAF44-C Cellular Gateway with Industrial Aluminium Housing, 2x Cellular Rubber Duck Antennas, 2x Wi- Fi Rubber Duck",
+    "datasheet": {
+     "IAF44-C1": "IAF44-C1 Cellular Gateway with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 1x AI, 01-meter Ethernet cable. Top View 94 mm 110 mm Front View 110 mm 44 mm Rear View 44 mm 110 mm",
+     "IAF04-C1": "IAF04-C1 Cellular Gateway with Industrial Aluminium Housing , 2x Cellular Rubber Duck Antennas, 0.5-meter Power Cord, 1x AI, 1x ISO 24v OUT, 1x RS485, 01-meter Ethernet cable. Top View 94 mm 110 mm Front View 110 mm 44 mm Rear View 44 mm 110 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "4G"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi4"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "2"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "Yes"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "No"
+   }
+  }
+ ]
+}

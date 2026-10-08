@@ -1,0 +1,822 @@
+{
+ "id": "pc3xx",
+ "name": "PC3XX",
+ "category": "Switch",
+ "order": 41,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "pc3xx.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "ip",
+    "rs232"
+   ],
+   "images": [
+    "/images/product-selector/pc3xx/pc3xx.webp"
+   ],
+   "part_datasheets": {
+    "PC310": "/assets/datasheets/products/pc3xx/PC310.pdf",
+    "PC311": "/assets/datasheets/products/pc3xx/PC311.pdf",
+    "PC312": "/assets/datasheets/products/pc3xx/PC312.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "PC3XX",
+   "brief_page": 32,
+   "detailed_page": 70,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "PC310",
+  "PC311",
+  "PC312",
+  "PC313"
+ ],
+ "datasheets": {
+  "PC310": {
+   "file": "pc3xx\\PC310.pdf",
+   "pdf": "sources/datasheets/pc3xx/PC310.pdf",
+   "model": "PC310",
+   "footer": "PC310_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nPC310_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\nNA\nLAN\n1x 10/100 Mbps\nSerial Interface\n1x RS485\nSIM\nNA\nWi-Fi\n802.11b/g/n(Optional)\nRTC\nNA\nReset\nPinhole Reset Button\nAntenna\nNA\nStatus LED\n1x Power, 1x RS485, 2x Prog, 1x Ethernet\nPower Connector\nDC Jack\nInput Voltage Range\n12V-24V\nPower Adapter\nYes\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n80 x 26 x 78 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nPC310\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628 128MB\nCELLULAR\nNA\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x LAN 10/100\nPOWER\n12-24V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nPC310_V.2.3\nSOFTWARE SPECIFICATIONS\n*All rights reserved, subject to change without prior notice.\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nGateway Protocols\nTransparent Serial to Remote TCP Client\nTransparent Serial to Remote TCP Server\nModbus TCP Master to Modbus RTU Slave\nModbus RTU Master to Modbus TCP Slave\nModbus RTU Master to Modbus MQTT/HTTP Gateway\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nPC310 Protocol convertor with Sheet Metal Housing, 1x RS485 TB and 1X Power Adabpter.\nOperational & Environmental\nGateway\nOperating System\nStandard Packaging\nRemote Management\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068"
+  },
+  "PC311": {
+   "file": "pc3xx\\PC311.pdf",
+   "pdf": "sources/datasheets/pc3xx/PC311.pdf",
+   "model": "PC311",
+   "footer": "PC311_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nPC311_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\nNA\nLAN\n1x 10/100 Mbps\nSerial Interface\n2x RS485\nSIM\nNA\nWi-Fi\n802.11b/g/n(Optional)\nRTC\nNA\nReset\nPinhole Reset Button\nAntenna\nNA\nStatus LED\n1x Power, 1x RS485, 2x Prog, 1x Ethernet\nPower Connector\nDC Jack\nInput Voltage Range\n12V-24V\nPower Adapter\nYes\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n80 x 26 x 78 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nPC311\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628 128MB\nCELLULAR\nNA\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x LAN 10/100\nPOWER\n12-24V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nPC311_V.2.3\nSOFTWARE SPECIFICATIONS\n*All rights reserved, subject to change without prior notice.\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nGateway Protocols\nTransparent Serial to Remote TCP Client\nTransparent Serial to Remote TCP Server\nModbus TCP Master to Modbus RTU Slave\nModbus RTU Master to Modbus TCP Slave\nModbus RTU Master to Modbus MQTT/HTTP Gateway\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nPC311 Protocol convertor with Sheet Metal Housing, 2x RS485 TB and 1X Power Adabpter.\nOperational & Environmental\nGateway\nOperating System\nStandard Packaging\nRemote Management\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068"
+  },
+  "PC312": {
+   "file": "pc3xx\\PC312.pdf",
+   "pdf": "sources/datasheets/pc3xx/PC312.pdf",
+   "model": "PC312-P",
+   "footer": "PC312-P_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nPC312-P_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\nNA\nLAN\n1x 10/100 Mbps\nSerial Interface\n1x RS485\nSIM\nNA\nWi-Fi\n802.11b/g/n(Optional)\nRTC\nNA\nReset\nPinhole Reset Button\nAntenna\nNA\nStatus LED\n1x Power, 1x RS485, 2x Prog, 1x Ethernet\nPower Connector\nDC Jack\nInput Voltage Range\n12V-24V\nPower Adapter\nYes\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n80 x 26 x 78 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nPC312-P\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628 128MB\nCELLULAR\nNA\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x LAN 10/100\nPOWER\n12-24V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nPC312-P_V.2.3\nSOFTWARE SPECIFICATIONS\n*All rights reserved, subject to change without prior notice.\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nGateway Protocols\nTransparent Serial to Remote TCP Client\nTransparent Serial to Remote TCP Server\nModbus TCP Master to Modbus RTU Slave\nModbus RTU Master to Modbus TCP Slave\nModbus RTU Master to Modbus MQTT/HTTP Gateway\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nPC312 Protocol convertor with Plastic Housing, 1x RS485 TB and 1X Power Adabpter.\nOperational & Environmental\nGateway\nOperating System\nStandard Packaging\nRemote Management\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068"
+  },
+  "PC313": {
+   "file": "pc3xx\\PC313.pdf",
+   "pdf": "sources/datasheets/pc3xx/PC313.pdf",
+   "model": "PC313",
+   "footer": "PC312-P_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nPC312-P_V.2.3\nCPU\nMediaTek MT7628\nRAM\n128MB\nFLASH\n32MB\nWAN\nNA\nLAN\n1x 10/100 Mbps\nSerial Interface\n1x RS232/RS485\nSIM\nNA\nWi-Fi\n802.11b/g/n(Optional)\nRTC\nNA\nReset\nPinhole Reset Button\nAntenna\nNA\nStatus LED\n1x Power, 1x RS485, 2x Prog, 1x Ethernet\nPower Connector\nDC Jack\nInput Voltage Range\n12V-24V\nPower Adapter\nYes\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n80 x 26 x 78 mm (W x H x D)\nWeight\n400 gm\nOther\nGrounding Screw\nPC313\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628 128MB\nCELLULAR\nNA\nWi-Fi\n2.4GHz, 300Mbps AP/Station,\nINTERFACE\n1x LAN 10/100\nPOWER\n12-24V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nPC312-P_V.2.3\nSOFTWARE SPECIFICATIONS\n*All rights reserved, subject to change without prior notice.\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nGateway Protocols\nTransparent Serial to Remote TCP Client\nTransparent Serial to Remote TCP Server\nModbus TCP Master to Modbus RTU Slave\nModbus RTU Master to Modbus TCP Slave\nModbus RTU Master to Modbus MQTT/HTTP Gateway\nSerial Mode\nTransparent (Over IP), Modbus Gateway\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nPC312 Protocol convertor with Plastic Housing, 1x RS485 TB and 1X Power Adabpter.\nOperational & Environmental\nGateway\nOperating System\nStandard Packaging\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "RS485",
+    "No. of RS485 Ports",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "1",
+     "PC310"
+    ],
+    [
+     "-",
+     "-",
+     "✓",
+     "2",
+     "PC311"
+    ],
+    [
+     "-",
+     "✓",
+     "✓",
+     "1",
+     "PC312"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "RS485",
+    "No of RS485",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "✓",
+     "1",
+     "PC310"
+    ],
+    [
+     "—",
+     "—",
+     "✓",
+     "2",
+     "PC311"
+    ],
+    [
+     "—",
+     "✓",
+     "✓",
+     "1",
+     "PC312"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "PC3XX",
+    "master": "PC3XX",
+    "datasheet": {
+     "PC310": "PC310",
+     "PC311": "PC311",
+     "PC312": "PC312-P",
+     "PC313": "PC313"
+    }
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Switch"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "An ultra-compact serial-to-IP gateway on MT7628 with RS485, optional Wi-Fi 4, and a single Fast Ethernet port for bridging field devices to IP networks in DIN-rail enclosures."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Energy Meter & Utility Device Integration\nBuilding Automation Connectivity\nLegacy Device Network Enablement"
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7628, 128 MB DDR 2 RAM, 32 MB Flash",
+    "datasheet": {
+     "PC310": "MediaTek MT7628 128MB",
+     "PC311": "MediaTek MT7628 128MB",
+     "PC312": "MediaTek MT7628 128MB",
+     "PC313": "MediaTek MT7628 128MB"
+    }
+   }
+  },
+  {
+   "id": "Summary::Memory",
+   "section": "Summary",
+   "label": "Memory",
+   "values": {
+    "master": "Up to 16 GB SODIMM DDR5"
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "datasheet": {
+     "PC310": "NA",
+     "PC311": "NA",
+     "PC312": "NA",
+     "PC313": "NA"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "datasheet": {
+     "PC310": "2.4GHz, 300Mbps AP/Station,",
+     "PC311": "2.4GHz, 300Mbps AP/Station,",
+     "PC312": "2.4GHz, 300Mbps AP/Station,",
+     "PC313": "2.4GHz, 300Mbps AP/Station,"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x LAN 10/100"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "2 X RS485",
+    "datasheet": {
+     "PC310": "1x LAN 10/100",
+     "PC311": "1x LAN 10/100",
+     "PC312": "1x LAN 10/100",
+     "PC313": "1x LAN 10/100"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "datasheet": {
+     "PC310": "12-24V DC IN",
+     "PC311": "12-24V DC IN",
+     "PC312": "12-24V DC IN",
+     "PC313": "12-24V DC IN"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "datasheet": {
+     "PC310": "Open-WRT Linux",
+     "PC311": "Open-WRT Linux",
+     "PC312": "Open-WRT Linux",
+     "PC313": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7628",
+    "master": "MediaTek MT7628",
+    "datasheet": {
+     "PC310": "MediaTek MT7628",
+     "PC311": "MediaTek MT7628",
+     "PC312": "MediaTek MT7628",
+     "PC313": "MediaTek MT7628"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "128 MB DDR2",
+    "master": "128MB",
+    "datasheet": {
+     "PC310": "128MB",
+     "PC311": "128MB",
+     "PC312": "128MB",
+     "PC313": "128MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32 MB Flash",
+    "master": "32MB",
+    "datasheet": {
+     "PC310": "32MB",
+     "PC311": "32MB",
+     "PC312": "32MB",
+     "PC313": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "datasheet": {
+     "PC310": "NA",
+     "PC311": "NA",
+     "PC312": "NA",
+     "PC313": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11 b/g/n",
+    "datasheet": {
+     "PC310": "802.11b/g/n(Optional)",
+     "PC311": "802.11b/g/n(Optional)",
+     "PC312": "802.11b/g/n(Optional)",
+     "PC313": "802.11b/g/n(Optional)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "datasheet": {
+     "PC310": "NA",
+     "PC311": "NA",
+     "PC312": "NA",
+     "PC313": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "datasheet": {
+     "PC310": "Pinhole Reset Button",
+     "PC311": "Pinhole Reset Button",
+     "PC312": "Pinhole Reset Button",
+     "PC313": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "datasheet": {
+     "PC310": "NA",
+     "PC311": "NA",
+     "PC312": "NA",
+     "PC313": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "PC310": "1x Power, 1x RS485, 2x Prog, 1x Ethernet",
+     "PC311": "1x Power, 1x RS485, 2x Prog, 1x Ethernet",
+     "PC312": "1x Power, 1x RS485, 2x Prog, 1x Ethernet",
+     "PC313": "1x Power, 1x RS485, 2x Prog, 1x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "PC310": "Grounding Screw",
+     "PC311": "Grounding Screw",
+     "PC312": "Grounding Screw",
+     "PC313": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Fast Ethernet"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "datasheet": {
+     "PC310": "NA",
+     "PC311": "NA",
+     "PC312": "NA",
+     "PC313": "NA"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "1x 10/100",
+    "datasheet": {
+     "PC310": "1x 10/100 Mbps",
+     "PC311": "1x 10/100 Mbps",
+     "PC312": "1x 10/100 Mbps",
+     "PC313": "1x 10/100 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "master": "2 x RS485",
+    "datasheet": {
+     "PC310": "1x RS485",
+     "PC311": "2x RS485",
+     "PC312": "1x RS485",
+     "PC313": "1x RS232/RS485"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "PC310": "DC Jack",
+     "PC311": "DC Jack",
+     "PC312": "DC Jack",
+     "PC313": "DC Jack"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "12-24 VDC",
+    "master": "12-24V",
+    "datasheet": {
+     "PC310": "12V-24V",
+     "PC311": "12V-24V",
+     "PC312": "12V-24V",
+     "PC313": "12V-24V"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "PC310": "Yes",
+     "PC311": "Yes",
+     "PC312": "Yes",
+     "PC313": "Yes"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Sheet Metal",
+    "master": "Sheet Metal Enclosure",
+    "datasheet": {
+     "PC310": "Sheet Metal Enclosure",
+     "PC311": "Sheet Metal Enclosure",
+     "PC312": "Sheet Metal Enclosure",
+     "PC313": "Sheet Metal Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "PC310": "DIN rail mounting Kit (Optional)",
+     "PC311": "DIN rail mounting Kit (Optional)",
+     "PC312": "DIN rail mounting Kit (Optional)",
+     "PC313": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "datasheet": {
+     "PC310": "Fanless",
+     "PC311": "Fanless",
+     "PC312": "Fanless",
+     "PC313": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "80 x 26 x 78 mm (W x H x D)",
+    "master": "80 x 26 x 78 mm (W x H x D)",
+    "datasheet": {
+     "PC310": "80 x 26 x 78 mm (W x H x D)",
+     "PC311": "80 x 26 x 78 mm (W x H x D)",
+     "PC312": "80 x 26 x 78 mm (W x H x D)",
+     "PC313": "80 x 26 x 78 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "400 gm",
+    "master": "400 gm",
+    "datasheet": {
+     "PC310": "400 gm",
+     "PC311": "400 gm",
+     "PC312": "400 gm",
+     "PC313": "400 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "master": "0 ~ 50°C",
+    "datasheet": {
+     "PC310": "0~ 50 °C",
+     "PC311": "0~ 50 °C",
+     "PC312": "0~ 50 °C",
+     "PC313": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "master": "-30 ~ 70 °C",
+    "datasheet": {
+     "PC310": "-30 ~ 70 °C",
+     "PC311": "-30 ~ 70 °C",
+     "PC312": "-30 ~ 70 °C",
+     "PC313": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "master": "10 ~ 90% (non-condensing)",
+    "datasheet": {
+     "PC310": "10 ~ 90% (non-condensing)",
+     "PC311": "10 ~ 90% (non-condensing)",
+     "PC312": "10 ~ 90% (non-condensing)",
+     "PC313": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring & Management Platform for SILBO Networking products",
+    "datasheet": {
+     "PC310": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "PC311": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "PC312": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "PC313": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "master": "Remote Access of SILBO and non-SILBO Networking Devices",
+    "datasheet": {
+     "PC310": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "PC311": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "PC312": "Remote Access of SILBO and non-SILBO Networking Devices",
+     "PC313": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "PC310": "TR069 Client for CPE Management",
+     "PC311": "TR069 Client for CPE Management",
+     "PC312": "TR069 Client for CPE Management",
+     "PC313": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "PC310": "Reboot Command, Uptime Command",
+     "PC311": "Reboot Command, Uptime Command",
+     "PC312": "Reboot Command, Uptime Command",
+     "PC313": "Reboot Command, Uptime Command"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "master": "OpenWRT-based Linux OS",
+    "datasheet": {
+     "PC310": "Open-WRT based Linux OS",
+     "PC311": "Open-WRT based Linux OS",
+     "PC312": "Open-WRT based Linux OS",
+     "PC313": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "master": "Shell scripting, C, C++",
+    "datasheet": {
+     "PC310": "Shell scripting, C, C++",
+     "PC311": "Shell scripting, C, C++",
+     "PC312": "Shell scripting, C, C++",
+     "PC313": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "master": "SDK package with built environment provided (Optional)",
+    "datasheet": {
+     "PC310": "SDK package with built environment provided (Optional)",
+     "PC311": "SDK package with built environment provided (Optional)",
+     "PC312": "SDK package with built environment provided (Optional)",
+     "PC313": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Gateway::Gateway Protocols",
+   "section": "Gateway",
+   "label": "Gateway Protocols",
+   "values": {
+    "datasheet": {
+     "PC310": "Transparent Serial to Remote TCP Client Transparent Serial to Remote TCP Server Modbus TCP Master to Modbus RTU Slave Modbus RTU Master to Modbus TCP Slave Modbus RTU Master to Modbus MQTT/HTTP Gateway",
+     "PC311": "Transparent Serial to Remote TCP Client Transparent Serial to Remote TCP Server Modbus TCP Master to Modbus RTU Slave Modbus RTU Master to Modbus TCP Slave Modbus RTU Master to Modbus MQTT/HTTP Gateway",
+     "PC312": "Transparent Serial to Remote TCP Client Transparent Serial to Remote TCP Server Modbus TCP Master to Modbus RTU Slave Modbus RTU Master to Modbus TCP Slave Modbus RTU Master to Modbus MQTT/HTTP Gateway",
+     "PC313": "Transparent Serial to Remote TCP Client Transparent Serial to Remote TCP Server Modbus TCP Master to Modbus RTU Slave Modbus RTU Master to Modbus TCP Slave Modbus RTU Master to Modbus MQTT/HTTP Gateway"
+    }
+   }
+  },
+  {
+   "id": "Gateway::Serial Mode",
+   "section": "Gateway",
+   "label": "Serial Mode",
+   "values": {
+    "datasheet": {
+     "PC310": "Transparent (Over IP), Modbus Gateway",
+     "PC311": "Transparent (Over IP), Modbus Gateway",
+     "PC312": "Transparent (Over IP), Modbus Gateway",
+     "PC313": "Transparent (Over IP), Modbus Gateway"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "PC310": "PC310 Protocol convertor with Sheet Metal Housing, 1x RS485 TB and 1X Power Adabpter.",
+     "PC311": "PC311 Protocol convertor with Sheet Metal Housing, 2x RS485 TB and 1X Power Adabpter.",
+     "PC312": "PC312 Protocol convertor with Plastic Housing, 1x RS485 TB and 1X Power Adabpter.",
+     "PC313": "PC312 Protocol convertor with Plastic Housing, 1x RS485 TB and 1X Power Adabpter."
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi4"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "Yes"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

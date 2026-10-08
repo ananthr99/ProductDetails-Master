@@ -1,0 +1,218 @@
+{
+ "id": "bcpm",
+ "name": "ET7022 (BCPM)",
+ "category": "Energy Meter",
+ "order": 53,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "bcpm.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "ip",
+    "os",
+    "ports",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/bcpm/bcpm.webp"
+   ],
+   "part_datasheets": {},
+   "datasheet": "/assets/datasheets/products/bcpm/BCPM_Datasheet.pdf",
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::Ethernet ports",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "Branch Circuit Power Meter",
+   "brief_page": 85,
+   "detailed_page": null,
+   "matched_by": "alias",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "ET7022 (BCPM)"
+ ],
+ "datasheets": {
+  "ET7022 (BCPM)": {
+   "file": "bcpm\\BCPM_Datasheet.pdf",
+   "pdf": "sources/datasheets/bcpm/BCPM_Datasheet.pdf",
+   "model": "Multichannel",
+   "footer": "",
+   "pages": 2,
+   "template": false,
+   "raw": "Page 1\nCopyright@2026InvendisTechnologies\nMultichannel Meter\nTechnical Particulars\nOffered Specification\nMeter Type\nSingle and Three Phase\nElectrical Parameters\nVoltage: Phase wise- LL, LN\nCurrent: Channel Wise Currents,-Total 9 Currents\nLine Frequency: Hz\nCurrent Rating: 20A, 40A, 60A, 100A Solid core or split core CT’s\nActive Power: Total kW & phase wise\nEnergy: Total kWh\nPower Factor: Lag/lead\nControl Parameters\nAux Supply: 85-270 V AC\nVoltage Range: 60V to 415V (Line to Line)\nCurrent: CT primary programmable\nIndicators\nLCD and LED for power on and communication indication\nOperating Temperature\n-10-75°C\nStorage Temperature\n-10-75°C\nOperating Frequency\n45Hz to 55Hz\nRelative Humidity\nUpto 95% non-condensing\nWeight\n750gm (approx.)\nDimensions\n185 x 110 x 30 (WXHXD) BCPM with Enclosure\nMounting\nDin Rail Mount\nCommunication Port\nIsolated RS485: 3 wire with Modbus protocol\nBaud Rate\nDefault with 9600\nParity\nEven and Odd\nItem Code\nINV-METER-0147\nHardware Specifications\nMultichannel\nMeter\nDATA SHEET\nOrdering Information\nPage 2\nCopyright@2026InvendisTechnologies\nMultichannel Meter\nCONNECTION DIAGRAM\nGet in touch:\nsales@invendis.com\nwww.invendis.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nAll rights reserved, subject to change without prior notice"
+  }
+ },
+ "ordering": {},
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "ET7022 (BCPM)",
+    "master": "Branch Circuit Power Meter",
+    "datasheet": {
+     "ET7022 (BCPM)": "Multichannel"
+    }
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Energy Meter"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A DIN-rail branch circuit power meter tracking active power, energy, and power factor per circuit across single and three-phase branches via Modbus RS485 for data centres and commercial facilities."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Branch-Level Energy Monitoring\nData Centre & Facility Load Profiling\nEnergy Cost Allocation"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "Isolated RS485: 3 wire communication port with MODBUS protocol"
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "85-270V AC/DC"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::RS485 Ports",
+   "section": "Hardware",
+   "label": "RS485 Ports",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "85-270V AC/DC"
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Panel Mount"
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "185 x 110 x 30 mm (W x H x D)"
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "750 gm (approx.)"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "-10 ~ 75°C"
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "0"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

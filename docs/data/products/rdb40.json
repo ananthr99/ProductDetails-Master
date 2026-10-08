@@ -1,0 +1,684 @@
+{
+ "id": "rdb40",
+ "name": "RDB40",
+ "category": "Gateway",
+ "order": 30,
+ "present": {
+  "website": true,
+  "master": false,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "rdb40.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "ports",
+    "power",
+    "rs232",
+    "rs485"
+   ],
+   "images": [
+    "/images/product-selector/rdb40/rdb40.webp"
+   ],
+   "part_datasheets": {
+    "RDB 40": "/assets/datasheets/products/rdb40/RDB40_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Website filters::Cellular generation",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {},
+  "catalogue": {
+   "name": "RDB40",
+   "pdf": null,
+   "page": "Gateways | Page 30"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "RDB 40"
+ ],
+ "datasheets": {
+  "RDB 40": {
+   "file": "rdb40\\RDB40_Datasheet.pdf",
+   "pdf": "sources/datasheets/rdb40/RDB40_Datasheet.pdf",
+   "model": "RDB40",
+   "footer": "RDB40_V.1.0",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\nRDB40_V.1.0\nCPU\nMediaTek MT7628\nRAM\n128 MB\nFLASH\n32 MB\nWAN\n1x 10/100 (Active POE)\nLAN\n1x 10/100\nWi-Fi\n802.11 b/g/n\nReset\nPinhole Reset Button\nAntenna\nWi-Fi: 2x Internal Antenna\nBLE: 1x Internal Antenna\nStatus LED\n2x Power,1x Wi-Fi 2.4G, 1x PRG/BLE, 2x Ethernet\nPower Connector\nDC Jack /PoE\nInput Voltage Range\n12 Vdc (DC Jack)\n44-57 Vdc (Active PoE IN (802.3 af))\nPower Adapter\nYES\nEnclosure Material\nABS Plastic\nColour\nWhite\nMounting\nCeiling Mount\nDesign\nFanless\nDimensions\n190mmx190mmx40mm (W x D x H)\nWeight\n290 gm\nWorking Environment\nIndoor\nRDB40\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7628,128 MB DDR RAM, 32 MB Flash\nWi-Fi\n2.4 Ghz Wi-Fi, AP/Station\nINTERFACE\n1x LAN 10/100, 1x WAN 10/100\nPOWER\n12V DC IN/ Active PoE IN (802.3 af)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nBLE\nnRF54L05 BLE 6.0 SOC with LR Radio and 128 MHz Arm®\nCortex®-M33 processor, 500KB NVM and 96KB RAM\nPage 2\nRDB40_V.1.0\nSPATIAL MEASUREMENT:\nT\nBLE Chipset\nnRF54L05 BLE 6.0 SOC with LR Radio and 128 MHz Arm® Cortex®-M33\nprocessor, 500KB NVM and 96KB RAM\nRF Front End (FEM)\nIntegrated FEM with +20dB PA and 13 dB LNA Gain (nRF21540 -Range\nExtender)\nOperating Frequency\n2400 MHz to 2500 MHz\nChannel spacing\n1MHz\nOn the Air Data Rate\n125kbps-4000kbps\nTransmit power\n7dBm at BLE SOC , Additional 5dBm to 22dBm Gain setting in PA of the FEM\nReceive Sensitivity\n-104 dBm @125 kbps Bluetooth LE mode for BLE SOC, Additional 13dBm gain\nin LNA of FEM\n-96 dBm @1Mbps with 0.1% BER for BLE SOC, Additional 13dBm gain in LNA\nof FEM\nTechnology\n802.11 b/g/n\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nRDB40 Router with Plastic housing, *Power Adapter, 01-meter Ethernet cable.\nOperational & Environmental\nStandard Packaging\nBLUETOOTH SPECIFICATIONS\n40 mm\nPower LED\nProgramme LED\nDC Jack\nWAN/PoE\nLAN\nReset Button\nWi-Fi\nPage 3\nRDB40_V.1.0\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n190 mm\nPower LED\nWi-Fi LED\nBluetooth LED"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "✓",
+     "-",
+     "-",
+     "RDB 40"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "✓",
+     "-",
+     "-",
+     "RDB 40"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "RDB40",
+    "catalogue": "RDB40",
+    "datasheet": {
+     "RDB 40": "RDB40"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial - Gateway"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Gateway",
+    "catalogue": "Gateways"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A ceiling-mounted indoor access point on MediaTek MT7628 with 2.4 GHz Wi-Fi, integrated BLE 6.0 with long-range FEM, and 802.3af PoE IN. Designed for indoor asset tracking, smart building sensor aggregation, and single-cable Wi-Fi access point deployment.",
+    "catalogue": "A ceiling-mounted indoor access point on MediaTek MT7628 with 2.4 GHz Wi-Fi, integrated BLE 6.0 with long-range FEM, and 802.3af PoE IN. Designed for indoor asset tracking, smart building sensor aggregation, and single-cable Wi-Fi access point deployment."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "Single - MODEM\nWi-Fi 5 DUAL BAND\nMT7628 PROCESSOR\n32 MB STORAGE\n128 MB RAM"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n- LTE\nWi-Fi 5\nIP30 Rated"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Indoor Asset Tracking & Real-Time Location Services (RTLS)\nSmart Building Sensor Data Aggregation\nSingle-Cable PoE Indoor Wi-Fi Access Point Deployment"
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "datasheet": {
+     "RDB 40": "MediaTek MT7628,128 MB DDR RAM, 32 MB Flash"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "datasheet": {
+     "RDB 40": "2.4 Ghz Wi-Fi, AP/Station"
+    }
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "RDB 40": "1x LAN 10/100, 1x WAN 10/100"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "datasheet": {
+     "RDB 40": "12V DC IN/ Active PoE IN (802.3 af)"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ble",
+   "section": "Summary",
+   "label": "Ble",
+   "values": {
+    "datasheet": {
+     "RDB 40": "nRF54L05 BLE 6.0 SOC with LR Radio and 128 MHz Arm® Cortex®-M33 processor, 500KB NVM and 96KB RAM"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7628",
+    "catalogue": "MediaTek MT7628",
+    "datasheet": {
+     "RDB 40": "MediaTek MT7628"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "128 MB",
+    "catalogue": "128 MB",
+    "datasheet": {
+     "RDB 40": "128 MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32 MB",
+    "datasheet": {
+     "RDB 40": "32 MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Storage",
+   "section": "Hardware",
+   "label": "Storage",
+   "values": {
+    "catalogue": "32 MB"
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "catalogue": "Wi-Fi 5",
+    "datasheet": {
+     "RDB 40": "802.11 b/g/n"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Wi-Fi: 2x Internal Antenna BLE: 1x Internal Antenna"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "RDB 40": "2x Power,1x Wi-Fi 2.4G, 1x PRG/BLE, 2x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Working Environment",
+   "section": "Hardware",
+   "label": "Working Environment",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Indoor"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "datasheet": {
+     "RDB 40": "1x 10/100 (Active POE)"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "datasheet": {
+     "RDB 40": "1x 10/100"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "RDB 40": "DC Jack /PoE"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "datasheet": {
+     "RDB 40": "12 Vdc (DC Jack) 44-57 Vdc (Active PoE IN (802.3 af))"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "RDB 40": "YES"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Plastic",
+    "catalogue": "Plastic",
+    "datasheet": {
+     "RDB 40": "ABS Plastic"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Ceiling Mount"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "190 x 190 x 40 mm (W x D x H)",
+    "catalogue": "190 x 190 x 40 mm (W x D x H)",
+    "datasheet": {
+     "RDB 40": "190mmx190mmx40mm (W x D x H)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "290 gm",
+    "catalogue": "290 gm",
+    "datasheet": {
+     "RDB 40": "290 gm"
+    }
+   }
+  },
+  {
+   "id": "Physical::IP Rating",
+   "section": "Physical",
+   "label": "IP Rating",
+   "values": {
+    "website": "IP30",
+    "catalogue": "IP30"
+   }
+  },
+  {
+   "id": "Physical::Colour",
+   "section": "Physical",
+   "label": "Colour",
+   "values": {
+    "datasheet": {
+     "RDB 40": "White"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "catalogue": "0 ~ 50°C",
+    "datasheet": {
+     "RDB 40": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "RDB 40": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "RDB 40": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Technology",
+   "section": "Wi-Fi",
+   "label": "Technology",
+   "values": {
+    "datasheet": {
+     "RDB 40": "802.11 b/g/n"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Selector",
+   "section": "Wi-Fi",
+   "label": "Channel Selector",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Auto/Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Width",
+   "section": "Wi-Fi",
+   "label": "Channel Width",
+   "values": {
+    "datasheet": {
+     "RDB 40": "20 MHz, 20/40 MHz"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Mode",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Mode",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Access Point (AP), Station, AP & Client, Guest Wi-Fi"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::TX Power",
+   "section": "Wi-Fi",
+   "label": "TX Power",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Authentication",
+   "section": "Wi-Fi",
+   "label": "Authentication",
+   "values": {
+    "datasheet": {
+     "RDB 40": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Encryption",
+   "section": "Wi-Fi",
+   "label": "Encryption",
+   "values": {
+    "datasheet": {
+     "RDB 40": "TKIP, AES, TKIP & AES"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Scheduler",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Scheduler",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Scheduled ON/OFF"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::MAC ID Filtering",
+   "section": "Wi-Fi",
+   "label": "MAC ID Filtering",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Whitelisting, Blacklisting"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Other",
+   "section": "Wi-Fi",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "RDB 40": "WMM (Enabled/Disabled)"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::BLE Chipset",
+   "section": "Bluetooth",
+   "label": "BLE Chipset",
+   "values": {
+    "datasheet": {
+     "RDB 40": "nRF54L05 BLE 6.0 SOC with LR Radio and 128 MHz Arm® Cortex®-M33 processor, 500KB NVM and 96KB RAM"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::Channel spacing",
+   "section": "Bluetooth",
+   "label": "Channel spacing",
+   "values": {
+    "datasheet": {
+     "RDB 40": "1MHz"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::On the Air Data Rate",
+   "section": "Bluetooth",
+   "label": "On the Air Data Rate",
+   "values": {
+    "datasheet": {
+     "RDB 40": "125kbps-4000kbps"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::Operating Frequency",
+   "section": "Bluetooth",
+   "label": "Operating Frequency",
+   "values": {
+    "datasheet": {
+     "RDB 40": "2400 MHz to 2500 MHz"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::RF Front End (FEM)",
+   "section": "Bluetooth",
+   "label": "RF Front End (FEM)",
+   "values": {
+    "datasheet": {
+     "RDB 40": "Integrated FEM with +20dB PA and 13 dB LNA Gain (nRF21540 -Range Extender)"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::Receive Sensitivity",
+   "section": "Bluetooth",
+   "label": "Receive Sensitivity",
+   "values": {
+    "datasheet": {
+     "RDB 40": "-96 dBm @1Mbps with 0.1% BER for BLE SOC, Additional 13dBm gain in LNA of FEM"
+    }
+   }
+  },
+  {
+   "id": "Bluetooth::Transmit power",
+   "section": "Bluetooth",
+   "label": "Transmit power",
+   "values": {
+    "datasheet": {
+     "RDB 40": "7dBm at BLE SOC , Additional 5dBm to 22dBm Gain setting in PA of the FEM -104 dBm @125 kbps Bluetooth LE mode for BLE SOC, Additional 13dBm gain in LNA of FEM"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "RDB 40": "RDB40 Router with Plastic housing, *Power Adapter, 01-meter Ethernet cable."
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi5"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

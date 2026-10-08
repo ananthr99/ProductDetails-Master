@@ -1,0 +1,852 @@
+{
+ "id": "rv00",
+ "name": "RV00",
+ "category": "Router",
+ "order": 13,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "rv00.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "ip",
+    "rs232",
+    "rs485"
+   ],
+   "images": [
+    "/images/product-selector/rv00/rv00.webp"
+   ],
+   "part_datasheets": {
+    "RV00": "/assets/datasheets/products/rv00/rv00_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "RV00",
+   "brief_page": 13,
+   "detailed_page": 51,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "RV00",
+   "pdf": null,
+   "page": "Routers | Page 13"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "RV00"
+ ],
+ "datasheets": {
+  "RV00": {
+   "file": "rv00\\rv00_Datasheet.pdf",
+   "pdf": "sources/datasheets/rv00/rv00_Datasheet.pdf",
+   "model": "RV00",
+   "footer": "RV00_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\nRV00_V.2.3\nCPU\nMediaTek MT7621\nRAM\n512MB\nFLASH\n32MB\nWAN\n1x 10/100/1000 Mbps\nLAN\n4x 10/100/1000 Mbps\nInterface\nUSB 3.0/2.0 HOST (Optional)\nReset\nPinhole Reset Button\nStatus LED\n1x Power , 1x Sys, 5x Ethernet\nPower Connector\nDC Jack\nInput Voltage Range\n12 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n110 x 26 x 95 mm (W x H x D)\nWeight\n200 gm\nOther\nGrounding Screw, Kensington lock\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nRV00\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7621, 512MB DDR RAM, 32MB Flash\nINTERFACE\n5x WAN/LAN 10/100/1000, USB-H\nPOWER\n12V DC IN\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nOperational & Environmental\nPage 2\nRV00_V.2.3\nSOFTWARE SPECIFICATIONS\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nFailover , Load balancing (Wired WAN)\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nNA\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRV00 Cellular Router with Sheet Metal Housing , Power Adapter, 01-meter Ethernet cable.\nFirewall & Networking\nRemote Management\nStandard Packaging\nOperating System\nPage 3\nRV00_V.2.3\nSPATIAL MEASUREMENT:\nFront View\nRear View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n110 mm\n26 mm\n110 mm\n26 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RV00"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No Of Modem",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RV00"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RV00"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "RV00",
+    "master": "RV00",
+    "catalogue": "RV00",
+    "datasheet": {
+     "RV00": "RV00"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial - Router"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Router",
+    "catalogue": "Routers"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "The RV00 is a compact industrial router built on MediaTek MT7621 featuring Wi-Fi 4, five Gigabit Ethernet ports, and OpenWRT Linux with VPN, VLAN, and NMS remote management. Ideal for industrial IoT and M2M deployments without cellular connectivity.",
+    "catalogue": "The RV00 is a compact industrial router built on MediaTek MT7621 featuring Wi-Fi 4, five Gigabit Ethernet ports, and OpenWRT Linux with VPN, VLAN, and NMS remote management. Ideal for industrial IoT and M2M deployments without cellular connectivity."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "4+1 LAN+WAN\n512 MB DDR3 RAM\n12 V DC INPUT\n32MB FLASH"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n5 Ports\nFanless"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "M2M Communication & Remote Asset Connectivity\nTransportation & Fleet Connectivity\nBackup Connectivity for Small Industrial Remote Sites",
+    "catalogue": "Remote Industrial Site Networking — Provides secure and reliable connectivity for remote industrial locations such as warehouses, substations, and field sites using dual-SIM cellular access.\nEdge Networking for Small Businesses — Suitable for retail outlets, fuel stations, and branch offices requiring stable internet access, local networking, and backup cellular connectivity."
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7621, 512MB DDR 3 RAM, 32 MB Flash",
+    "datasheet": {
+     "RV00": "MediaTek MT7621, 512MB DDR RAM, 32MB Flash"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x WAN 10/100/1000 4x LAN 10/100/1000"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "1 x USB 2.0",
+    "datasheet": {
+     "RV00": "5x WAN/LAN 10/100/1000, USB-H"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "12 VDC Input",
+    "datasheet": {
+     "RV00": "12V DC IN"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open WRT Linux",
+    "datasheet": {
+     "RV00": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7621",
+    "master": "MediaTek MT7621",
+    "catalogue": "MediaTek MT7621",
+    "datasheet": {
+     "RV00": "MediaTek MT7621"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "512 MB DDR3",
+    "master": "512MB DDR3",
+    "catalogue": "512MB DDR3",
+    "datasheet": {
+     "RV00": "512MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32/64 MB Flash",
+    "master": "32/64 MB",
+    "catalogue": "32/64 MB",
+    "datasheet": {
+     "RV00": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "master": "Built-in RTC",
+    "catalogue": "Built-in RTC"
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "catalogue": "Pinhole Reset Button",
+    "datasheet": {
+     "RV00": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "RV00": "1x Power , 1x Sys, 5x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Interface",
+   "section": "Hardware",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "RV00": "USB 3.0/2.0 HOST (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "RV00": "Grounding Screw, Kensington lock"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ports"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "master": "1x 10/100/1000",
+    "catalogue": "1x 10/100/1000",
+    "datasheet": {
+     "RV00": "1x 10/100/1000 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "4x 10/100/1000",
+    "catalogue": "4x 10/100/1000",
+    "datasheet": {
+     "RV00": "4x 10/100/1000 Mbps"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::USB",
+   "section": "Interfaces",
+   "label": "USB",
+   "values": {
+    "master": "1 x USB 2.0",
+    "catalogue": "1 x USB 2.0"
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "RV00": "DC Jack"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "12 VDC",
+    "master": "12 Vdc",
+    "catalogue": "12 VDC Input",
+    "datasheet": {
+     "RV00": "12 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "RV00": "YES"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Industrial Aluminium",
+    "master": "Industrial Aluminium Enclosure",
+    "catalogue": "Industrial Aluminium Enclosure",
+    "datasheet": {
+     "RV00": "Sheet Metal Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "catalogue": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "RV00": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "RV00": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "110 x 26 x 95 mm (W x H x D)",
+    "master": "110 x 26 x 95 mm (W x H x D)",
+    "catalogue": "110 x 26 x 95 mm (W x H x D)",
+    "datasheet": {
+     "RV00": "110 x 26 x 95 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "200 gm",
+    "master": "200 gm",
+    "catalogue": "200 gm",
+    "datasheet": {
+     "RV00": "200 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "master": "0~ 50 °C",
+    "catalogue": "0~ 50 °C",
+    "datasheet": {
+     "RV00": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "master": "-30 ~ 70 °C",
+    "catalogue": "-30 ~ 70 °C",
+    "datasheet": {
+     "RV00": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "master": "10 ~ 90% (non-condensing)",
+    "catalogue": "10 ~ 90% (non-condensing)",
+    "datasheet": {
+     "RV00": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+    "catalogue": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+    "datasheet": {
+     "RV00": "Static routing, Advanced Static Routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+    "catalogue": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+    "datasheet": {
+     "RV00": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "master": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "catalogue": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "datasheet": {
+     "RV00": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "catalogue": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "datasheet": {
+     "RV00": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "RV00": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "master": "Static and Dynamic",
+    "catalogue": "Static and Dynamic",
+    "datasheet": {
+     "RV00": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "RV00": "Failover , Load balancing (Wired WAN)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "master": "Tagged VLAN, Untagged VLAN",
+    "catalogue": "Tagged VLAN, Untagged VLAN",
+    "datasheet": {
+     "RV00": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "RV00": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "RV00": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "RV00": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "RV00": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "RV00": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "RV00": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "RV00": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "catalogue": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "datasheet": {
+     "RV00": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "master": "TUN/TAP with TLS Certificates",
+    "catalogue": "TUN/TAP with TLS Certificates",
+    "datasheet": {
+     "RV00": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "master": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "catalogue": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "datasheet": {
+     "RV00": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "master": "Server & Client with/without MPPE Encryption",
+    "catalogue": "Server & Client with/without MPPE Encryption",
+    "datasheet": {
+     "RV00": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring & Management Platform for SILBO Networking products",
+    "catalogue": "Remote Monitoring & Management Platform for SILBO Networking products",
+    "datasheet": {
+     "RV00": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "master": "Remote Access of SILBO and non-SILBO Networking devices",
+    "catalogue": "Remote Access of SILBO and non-SILBO Networking devices",
+    "datasheet": {
+     "RV00": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "RV00": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "RV00": "NA"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "master": "OpenWRT-based Linux OS",
+    "catalogue": "OpenWRT-based Linux OS",
+    "datasheet": {
+     "RV00": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "master": "Shell scripting, C, C++",
+    "catalogue": "Shell scripting, C, C++",
+    "datasheet": {
+     "RV00": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "master": "SDK package with built environment provided (Optional)",
+    "catalogue": "SDK package with built environment provided (Optional)",
+    "datasheet": {
+     "RV00": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "RV00": "RV00 Cellular Router with Sheet Metal Housing , Power Adapter, 01-meter Ethernet cable. Front View 110 mm 26 mm Rear View 26 mm 110 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi4"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "5"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "No"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "No"
+   }
+  }
+ ]
+}

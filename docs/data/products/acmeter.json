@@ -1,0 +1,272 @@
+{
+ "id": "acmeter",
+ "name": "ET4602 (AC Meter)",
+ "category": "Energy Meter",
+ "order": 51,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "acmeter.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "dims",
+    "housing",
+    "ip",
+    "os",
+    "ports",
+    "power",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "weight",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/acmeter/acmeter.webp"
+   ],
+   "part_datasheets": {},
+   "datasheet": "/assets/datasheets/products/acmeter/ACMeterET4602_Datasheet.pdf",
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Power::Input Voltage",
+    "Physical::Enclosure",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::Ethernet ports",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "AC Meter",
+   "brief_page": 84,
+   "detailed_page": null,
+   "matched_by": "alias",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "ET4602 (AC Meter)"
+ ],
+ "datasheets": {
+  "ET4602 (AC Meter)": {
+   "file": "acmeter\\ACMeterET4602_Datasheet.pdf",
+   "pdf": "sources/datasheets/acmeter/ACMeterET4602_Datasheet.pdf",
+   "model": "AC Energy Meter",
+   "footer": "",
+   "pages": 2,
+   "template": false,
+   "raw": "Page 1\nCopyright@2026InvendisTechnologies\nAC Energy Meter\nSpecification\nMeasurements\nAC Current Measurement\nAverage, AR, AY, AB\nAC Voltage Measurement\nAverage VLL (RY, YB, BR), VLN (RN, YN, BN)\nPower Factor\nAverage and Phase Wise\nActive Power (kW)\nTotal and Phase Wise\nApparent Power (kVA)\nTotal and Phase Wise\nFrequency (Hz)\n45 to 65 Hz\nActive Energy(kWh)\nBoth EB and DG\nIsolation (RS485)\n2000 VAC Isolation for 1 min between communication and\nother circuits\nPower Input\n48 VDC\nOperating Temperature\n-10°C to 55°C\nStorage temperature\n-25°C to 70°C\nHumidity\n5% to 95% non condensing\nItem Code\nINV-METER-0067\nHardware Specifications\nAC Energy Meter\nDATA SHEET\nOrdering Information\nPage 2\nCopyright@2026InvendisTechnologies\nAC Energy Meter\nCONNECTION DIAGRAM\nGet in touch:\nsales@invendis.com\nwww.invendis.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nAll rights reserved, subject to change without prior notice"
+  }
+ },
+ "ordering": {},
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "ET4602 (AC Meter)",
+    "master": "AC Meter",
+    "datasheet": {
+     "ET4602 (AC Meter)": "AC Energy Meter"
+    }
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Energy Meter"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A three-phase panel-mount AC energy meter with separate EB and DG kWh tracking, 2000VAC-isolated RS485, and phase-wise voltage/current/power breakdown for industrial and facility energy auditing."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Grid & Generator Energy Tracking\nIndustrial Power Monitoring\nFacility Energy Auditing"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "1 x RS 485 Port 1 x Display"
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "48 VDC IN"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::AC Current Measurement",
+   "section": "Hardware",
+   "label": "AC Current Measurement",
+   "values": {
+    "website": "Average, AR, AY, AB"
+   }
+  },
+  {
+   "id": "Hardware::AC Voltage Measurement",
+   "section": "Hardware",
+   "label": "AC Voltage Measurement",
+   "values": {
+    "website": "Average VLL (RY, YB, BR), VLN (RN, YN, BN)"
+   }
+  },
+  {
+   "id": "Hardware::Active Energy (kWh)",
+   "section": "Hardware",
+   "label": "Active Energy (kWh)",
+   "values": {
+    "website": "Both EB and DG"
+   }
+  },
+  {
+   "id": "Hardware::Active Power (kW)",
+   "section": "Hardware",
+   "label": "Active Power (kW)",
+   "values": {
+    "website": "Total and phase-wise"
+   }
+  },
+  {
+   "id": "Hardware::Frequency (Hz)",
+   "section": "Hardware",
+   "label": "Frequency (Hz)",
+   "values": {
+    "website": "45 to 65 Hz"
+   }
+  },
+  {
+   "id": "Hardware::Isolation (RS485)",
+   "section": "Hardware",
+   "label": "Isolation (RS485)",
+   "values": {
+    "website": "2000 VAC for 1 min between communication and other circuits"
+   }
+  },
+  {
+   "id": "Hardware::Power Factor",
+   "section": "Hardware",
+   "label": "Power Factor",
+   "values": {
+    "website": "Average and phase-wise"
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "48 VDC"
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Panel Mount"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "-10 ~ 55°C"
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "website": "-25 ~ 70°C"
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "website": "5% to 95% non-condensing"
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "0"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "Yes"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

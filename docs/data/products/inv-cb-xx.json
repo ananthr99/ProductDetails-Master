@@ -1,0 +1,497 @@
+{
+ "id": "inv-cb-xx",
+ "name": "INV-CB-XX",
+ "category": "Intel Based Devices",
+ "order": 1,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": false
+ },
+ "meta": {
+  "website": {
+   "file": "inv-cb-xx.json",
+   "hidden": false,
+   "hidden_fields": [
+    "rs232",
+    "rs485"
+   ],
+   "images": [
+    "/images/product-selector/inv-cb-xx/inv-cb-xx_1.webp",
+    "/images/product-selector/inv-cb-xx/inv-cb-xx_2.webp"
+   ],
+   "part_datasheets": {},
+   "datasheet": "/assets/datasheets/products/inv-cb-xx/inv-cb-xx_Datasheet.pdf",
+   "hidden_rows": [
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "INTEL X6425",
+   "brief_page": 3,
+   "detailed_page": 41,
+   "matched_by": "CPU model",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "INV-CB-XX",
+   "pdf": null,
+   "page": "Edge Computers | Page 01"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "INV-CB-XX"
+ ],
+ "datasheets": {
+  "INV-CB-XX": {
+   "file": "inv-cb-xx\\inv-cb-xx_Datasheet.pdf",
+   "pdf": "sources/datasheets/inv-cb-xx/inv-cb-xx_Datasheet.pdf",
+   "model": "",
+   "footer": "",
+   "pages": 2,
+   "template": false,
+   "raw": "Invendis Brief Specs | V0.1\nInvent, Discover.\nBrief Specification of Intel X6425 based Industrial PC\n1\nCopyright © 2024 INVENDIS Technologies\nHARDWARE SPECIFICATION\nCPU\nIntel Atom X6425E, 4 cores with 2GHz processor base frequency\nRAM\n32GB DDR4 SODIMM\nEthernet Ports\n4 x 10/100/1000 ( Two i226 and Two RTL8125)\nCellular\nOne M.2( B Key, supports both types 3042 and 3052) with PCIe,\nUSB2.0 and USB3.0 Supporting both 4G and 5G Modems. Telit\nFN990A28 5G Module with GPS and antennas are mounted.\nSIM\n2x Nano SIM\nWi-Fi\nOne M.2 ( AE Key, 3052 for Wifi Module), 802.11b/g/n/ac/ax with\nPCIe, USB2.0 and USB3.0, Dual band, 2.4GHz/5GHz WIFI 6, AsiaRF\nAW7915-AED module and antennas are mounted.\nSATA\nOne M.2 (B Key,2280), 512GB SSD Module is mounted.\nTPM\nFirmware TPM\nRTC Battery Backup\n3V, CR2032\nInput Power\n19V DC , DC Jack\nButton\nSoftware Reset\nLEDs\nPower, SATA, WiFi (depending on WiFi module), Cellular Activity\n(depending on modem), Optional Cellular Signal Strength (needs\ncustom application. API’s will be provided), Link and Activity for\nEthernets.\nAntenna\nCellular: 5x SMA Connector ( Four for LTE and One for GPS)\nWi-Fi: 1x SMA connector for 5Ghz and 1 x SMA connector for 2.4 Ghz\nUSB\n2 x USB2.0\nConsole\n1 x Type B Micro USB\nHDMI\n1\nEnclosure\nAluminium Enclosure\nMounting\nDesktop Mount\nDesign\nFan less\nDimensions\n150mm X 210mm X 65mm ( L X W X H)\nInvendis Brief Specs | V0.1\nInvent, Discover.\nBrief Specification of Intel X6425 based Industrial PC\n2\nCopyright © 2024 INVENDIS Technologies\nCertifications & Compliance\nOur product meets global safety, environmental, and wireless communication standards, ensuring\nreliability, sustainability, and regulatory approval in key markets.\nCE Marked:\nIndicates compliance with the essential health, safety, and environmental protection requirements of\nEuropean Union (EU) legislation.\nCompliant with:\n•\nEMC Directive (2014/30/EU)\n•\nRadio Equipment Directive (RED – 2014/53/EU)\n•\nLow Voltage Directive – EN 62368-1 (Safety)\nFCC Compliant:\nCertified under FCC Part 15 for operation in the United States, ensuring electromagnetic emissions are\nwithin approved limits.\nWEEE Compliant:\nSupports responsible electronic waste disposal under the Waste Electrical and Electronic Equipment\nDirective (2012/19/EU).\nRoHS Compliant:\nFree from hazardous substances such as lead, mercury, cadmium, and other restricted materials, as per the\nRoHS Directive (2011/65/EU).\nOperational & Environmental\nStorage Temperature\n-20 ~ 75℃\nOperating Temperature\n0 ~ 50℃\nHumidity\n10 ~ 90% (non-condensing)\nIngress Protection Rating\nIP30\nOperating System\nOperating System\nUbuntu/Oracle Linux/Windows"
+  }
+ },
+ "ordering": {},
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "INV-CB-XX",
+    "master": "INTEL X6425",
+    "catalogue": "INV-CB-XX"
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial 5G/4G Edge Computer"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Intel Based Devices",
+    "catalogue": "Edge Computers"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "This is a compact, fanless industrial edge computer built for reliable on-site compute, networking, and connectivity in space-constrained deployments. Its key differentiators are the Intel Atom x6425E processor, up to 32 GB RAM, modular SSD and 5G/Wi-Fi options, plus rugged features like an aluminium enclosure, IP30 rating, and wide operating temperature support. It is best suited for industrial automation, IoT gateways, networking edge nodes, and remote monitoring use cases across manufacturing, utilities, retail, and smart infrastructure.",
+    "catalogue": "This is a compact, fanless industrial edge computer built for reliable on-site compute, networking, and connectivity in space-constrained deployments. Its key differentiators are the Intel Atom x6425E processor, up to 32 GB RAM, modular SSD and 5G/Wi-Fi options, plus rugged features like an aluminium enclosure, IP30 rating, and wide operating temperature support. It is best suited for industrial automation, IoT gateways, networking edge nodes, and remote monitoring use cases across manufacturing, utilities, retail, and smart infrastructure."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "X6425E QUAD CORE · 3 GHz\n32 GB DDR4 RAM (MAX)\n512 GB SSD (MAX)\nSingle 5G MODEM\nWi-Fi 6 DUAL BAND"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n5G Ready\nWi-Fi 6\nFanless Design"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Healthcare\nDefence and Intelligence\nSmall & Mid-Sized Enterprises (SMEs)",
+    "catalogue": "Healthcare — Enables secure connectivity for rural and temporary healthcare facilities, providing reliable access to cloud-based medical records, telemedicine services, and mobile healthcare operations.\nDefence and Intelligence — Enables secure edge connectivity for defense operations, ensuring continuous access to mission-critical applications, personnel, logistics, procurement, and supply chain systems with local backup and synchronization during network disruptions.\nSmall & Mid-Sized Enterprises (SMEs) — Enables secure, high-availability network connectivity for offices, hospitals, warehouses, and other facilities through redundant firewall and access point deployment, ensuring uninterrupted operations, enhanced security, and reliable wireless access."
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "Intel X86 Atom X6425E, 4 cores up to 3 GHz turbo frequency"
+   }
+  },
+  {
+   "id": "Summary::Memory",
+   "section": "Summary",
+   "label": "Memory",
+   "values": {
+    "master": "Up to 32 GB SODIMM DDR4 3200"
+   }
+  },
+  {
+   "id": "Summary::Storage",
+   "section": "Summary",
+   "label": "Storage",
+   "values": {
+    "master": "1x M.2 (Key-B), 512 GB SATA SSD Module (Up to 1 TB)"
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "master": "1x M.2 (Key-B), Telit FN990A28 5G Module with GPS"
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "1x M.2 (Key-E) Asia RF AW 7915- AED, 802.11b/g/n/ac/ax Wi-Fi module, 2.4GhZ and 5GHz Dual band and Dual concurrent (DBDC) Wi-Fi module, Supports hotspot. Alternatively, MT7981 based 802.11b/g/n/ac/ax Wi-Fi module supports hotspot and easy mesh"
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "10/100/1000 MBPS (2x I226 Intel), 2xRTL8125BG(Realtek)"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "2x USB 2.0 and 1x HDMI"
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "19 VDC/24 VDC"
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Oracle Linux v9.5 and above Ubuntu 23, Windows 10 and above"
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "Intel X6425E, Quad Core with 3 GHz turbo frequency",
+    "master": "Intel X86 Atom, X6425E, 4 cores with base frequency 2GHz and Turbo Frequency of upto 3GHz",
+    "catalogue": "Intel X86 Atom, X6425E, 4 cores with base frequency 2GHz and Turbo Frequency of upto 3GHz"
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "Up to 32 GB DDR4 3200 MHz",
+    "master": "Up to 32 GB SODIMM DDR4 3200 MHz",
+    "catalogue": "Up to 32 GB SODIMM DDR4 3200 MHz"
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "Upto 512 GB SSD"
+   }
+  },
+  {
+   "id": "Hardware::Storage",
+   "section": "Hardware",
+   "label": "Storage",
+   "values": {
+    "master": "1x M.2 (Key-B), 512 GB SATA SSD Module (Up to 1 TB",
+    "catalogue": "Upto 512 GB SSD"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "Dual SIM M.2 Modem 5G/4G/3G",
+    "master": "1x M.2 (Key-B)- Telit FN990A28 5G Module with GPS Dual Nano Physical SIM with SIM tray (1x Active, 1xPassive)",
+    "catalogue": "1x M.2 (Key-B)- Telit FN990A28 5G Module with GPS Dual Nano Physical SIM with SIM tray (1x Active, 1xPassive)"
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "1x M.2 (Key-E) Asia RF AW 7915-AED, 802.11b/g/n/ac/ax Wi-Fi module, 2.4GhZ and 5GHz Dual band and Dual concurrent (DBDC) Wi-Fi module, Supports hotspot. Alternatively MT7981 based 802.11b/g/n/ac/ax Wi-Fi module supports hotspot and easy mesh",
+    "catalogue": "1x M.2 (Key-E) Asia RF AW 7915-AED, 802.11b/g/n/ac/ax Wi-Fi module, 2.4GhZ and 5GHz Dual band and Dual concurrent (DBDC) Wi-Fi module, Supports hotspot. Alternatively MT7981 based 802.11b/g/n/ac/ax Wi-Fi module supports hotspot and easy mesh"
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "catalogue": "3V, CR2032"
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "System Reset/Power ON/OFF (Optional)",
+    "catalogue": "System Reset/Power ON/OFF (Optional)"
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Cellular: 4x 5G SMA GNSS: 1xGPS-SMA, Wi-Fi: 2x Wi- Fi (2x2) – RP SMA",
+    "catalogue": "Cellular: 4x 5G SMA GNSS: 1xGPS-SMA, Wi-Fi: 2x Wi- Fi (2x2) – RP SMA"
+   }
+  },
+  {
+   "id": "Hardware::TPM",
+   "section": "Hardware",
+   "label": "TPM",
+   "values": {
+    "catalogue": "Firmware TPM"
+   }
+  },
+  {
+   "id": "Hardware::Micro USB Console",
+   "section": "Hardware",
+   "label": "Micro USB Console",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Hardware::SATA",
+   "section": "Hardware",
+   "label": "SATA",
+   "values": {
+    "catalogue": "One M.2 (B Key,2280), 512GB SSD Module is mounted"
+   }
+  },
+  {
+   "id": "Hardware::USB 2.0",
+   "section": "Hardware",
+   "label": "USB 2.0",
+   "values": {
+    "website": "2"
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet, (2x I226 Intel), 2x RTL8125BG (Realtek)",
+    "master": "10/100/1000 MBPS (2x I226 Intel), 2x RTL8125BG(Realtek",
+    "catalogue": "10/100/1000 MBPS (2x I226 Intel), 2x RTL8125BG(Realtek"
+   }
+  },
+  {
+   "id": "Interfaces::USB",
+   "section": "Interfaces",
+   "label": "USB",
+   "values": {
+    "master": "2x USB 2.0",
+    "catalogue": "2x USB 2.0"
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "catalogue": "1x HDMI, 1 x Type B Micro USB"
+   }
+  },
+  {
+   "id": "Interfaces::HDMI",
+   "section": "Interfaces",
+   "label": "HDMI",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "19 VDC/24 VDC",
+    "master": "19 VDC DC Jack",
+    "catalogue": "19 VDC/24 VDC"
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Aluminium Heat Sink with CRCA Enclosure",
+    "master": "Aluminium Enclosure",
+    "catalogue": "Aluminium Enclosure"
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "website": "Desktop Mount / Wall Mount",
+    "master": "Desktop Mount",
+    "catalogue": "Desktop Mount"
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless"
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "150x210x65mm (LxWxH)",
+    "master": "150mmx210mmx65mm (LxWxH)",
+    "catalogue": "150mmx210mmx65mm (LxWxH)"
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "1800 gm"
+   }
+  },
+  {
+   "id": "Physical::IP Rating",
+   "section": "Physical",
+   "label": "IP Rating",
+   "values": {
+    "website": "IP30",
+    "master": "IP30",
+    "catalogue": "IP30"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0–50°C",
+    "master": "0 -50°C",
+    "catalogue": "0 -50°C"
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "master": "-20 - 75°C",
+    "catalogue": "-20 - 75°C"
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "master": "10 – 90% (non condensing)",
+    "catalogue": "10 – 90% (non condensing)"
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "Oracle Linux v9.5 / Ubuntu 23 / Windows",
+    "master": "Oracle Linux v.9.5 and above Ubuntu 23, Windows 10 and above",
+    "catalogue": "Oracle Linux v.9.5 and above Ubuntu 23, Windows 10 and above"
+   }
+  },
+  {
+   "id": "Compliance::Compliance marks",
+   "section": "Compliance",
+   "label": "Compliance marks",
+   "values": {
+    "catalogue": "Compliance"
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "5G"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi6"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "4"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

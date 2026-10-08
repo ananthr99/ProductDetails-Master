@@ -1,0 +1,409 @@
+{
+ "id": "rvw50",
+ "name": "RVW 50 with M12",
+ "category": "PCB",
+ "order": 46,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": false
+ },
+ "meta": {
+  "website": {
+   "file": "rvw50.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "rs232",
+    "rs485",
+    "weight"
+   ],
+   "images": [
+    "/images/product-selector/rvw50/rvw50.webp"
+   ],
+   "part_datasheets": {
+    "RVW 50": "contact_us"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "RVW 50 with M12",
+   "brief_page": 37,
+   "detailed_page": 77,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "RVW 50"
+ ],
+ "datasheets": {},
+ "ordering": {
+  "website": {
+   "headers": [
+    "Wi-Fi",
+    "Cellular",
+    "Gen",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "Wi-Fi 5",
+     "-",
+     "-",
+     "Single",
+     "RVW 50"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No of Modem",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "—",
+     "WiFi-5",
+     "—",
+     "Single Modem",
+     "RVW 50"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "RVW 50 with M12",
+    "master": "RVW 50 with M12"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "PCB"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A vehicle-grade router on MT7621 with vibration-resistant M12 Gigabit connectors, Wi-Fi 5, PoE input, and multi-WAN failover for transit, mobile fleet, and industrial field deployments."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Transit & Passenger Connectivity\nMobile Field Operations\nIndustrial Fleet Networking"
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7621, 512 MB DDR 3 RAM, 32MB Flash"
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Dual Band Wi-Fi, AP Station, External 5dBi antennas"
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x WAN 10/100/1000 M12 Connector 3x LAN 10/100/1000 M12 Connector (Configurable)"
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "Active PoE 44-57 VDC"
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open WRT Linux"
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7621",
+    "master": "MediaTek MT7621"
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "512 MB DDR3",
+    "master": "256/512MB DDR3"
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32 MB Flash",
+    "master": "32/64 MB"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11b/g/n/ac"
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button"
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Wi-Fi: 2x SMA connector"
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet (M12 Connector)"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "master": "1x 10/100/1000 (M12 Connector)"
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "3x 10/100/1000 (M12 Connector)"
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "12 VDC / 9-30 VDC",
+    "master": "Active PoE 44-57 VDC"
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Sheet Metal",
+    "master": "Industrial Aluminium Enclosure"
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)"
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless"
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "master": "209 x 30 x 154 mm (W x H x D)"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 70°C"
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Dynamic Routing (BGP,OSPF etc)"
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE"
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+   }
+  },
+  {
+   "id": "Networking & Firewall::Internet Connectivity",
+   "section": "Networking & Firewall",
+   "label": "Internet Connectivity",
+   "values": {
+    "master": "Multi-WAN (Ethernet, Cellular, Wi-Fi), Failover, Load Balancing"
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wire guard, Zero Tier, IPIP Tunnel"
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring C Management Platform for SILBO Networking products"
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux"
+   }
+  },
+  {
+   "id": "Operating System & Software::Wi-Fi",
+   "section": "Operating System & Software",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Access Point, Client, Easy mesh"
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "RVW50 Cellular Router with sheet Metal housing, 2x Wi-Fi Rubber Duck Antennas, Power Adapter, 01- meter Ethernet cable."
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi5"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "5"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

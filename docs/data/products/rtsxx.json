@@ -1,0 +1,2005 @@
+{
+ "id": "rtsxx",
+ "name": "RTSXX",
+ "category": "Router",
+ "order": 8,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "rtsxx.json",
+   "hidden": false,
+   "hidden_fields": [
+    "rs232",
+    "rs485"
+   ],
+   "images": [
+    "/images/product-selector/rtsxx/rtsxx-1.webp",
+    "/images/product-selector/rtsxx/rtsxx-2.webp"
+   ],
+   "part_datasheets": {
+    "RTS00": "/assets/datasheets/products/rtsxx/rts00-6_Datasheet.pdf",
+    "RTS04-1": "/assets/datasheets/products/rtsxx/rts04-1_Datasheet.pdf",
+    "RTS04-2": "/assets/datasheets/products/rtsxx/rts04-2_Datasheet.pdf",
+    "RTS05-1": "/assets/datasheets/products/rtsxx/rts05-1_Datasheet.pdf",
+    "RTS05-2": "/assets/datasheets/products/rtsxx/rts05-2_Datasheet.pdf",
+    "RTS60": "/assets/datasheets/products/rtsxx/rts60_Datasheet.pdf",
+    "RTS64-1": "contact_us",
+    "RTS64-2": "/assets/datasheets/products/rtsxx/rts64-2_Datasheet.pdf",
+    "RTS65-1": "/assets/datasheets/products/rtsxx/rts65-1_Datasheet.pdf",
+    "RTS65-2": "/assets/datasheets/products/rtsxx/rts65-2_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "RTSXX",
+   "brief_page": 8,
+   "detailed_page": 46,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "RTSXX",
+   "pdf": null,
+   "page": "Routers | Page 08"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "RTS00",
+  "RTS04-1",
+  "RTS04-2",
+  "RTS05-1",
+  "RTS05-2",
+  "RTS60",
+  "RTS64-1",
+  "RTS64-2",
+  "RTS65-1",
+  "RTS65-2"
+ ],
+ "datasheets": {
+  "RTS00": {
+   "file": "rtsxx\\rts00-6_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts00-6_Datasheet.pdf",
+   "model": "RTS00",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981, Dual core ARM A53, 1.3 GHz\nRAM\n1GB\nFLASH\n256MB NAND\nEthernet\n6x 10/100/1000\nUSB\nUSB 3.0 host\nReset\nPinhole Reset Button\nStatus LED\n1x Power, 1x PRG, 6x Ethernet\nPower Connector\nDual power Source 2PIN Screw Terminal and DC JACK\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 30 x 120 mm (W x H x D)\nWeight\n640 gm\nOther\nGrounding Screw\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nOperational & Environmental\nRTS00\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981, Dual core ARM A53, 1.3 GHz,1GB DDR4\nRAM, 128MB NAND\nCELLULAR\nNA\nWi-Fi\nNA\nINTERFACE\n6x LAN 10/100/1000, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal and DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATION\n*All rights reserved, subject to change without prior notice.\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Wired WAN's.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS00 Router with Sheet Metal housing, Power Adapter, 01-meter Ethernet cable.\nFirewall & Networking\nRemote Management\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nStandard Packaging\nOperating System"
+  },
+  "RTS04-1": {
+   "file": "rtsxx\\rts04-1_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts04-1_Datasheet.pdf",
+   "model": "RTS04-1",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS04-1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nSingle Modem 4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nNA\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS04-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS04-2": {
+   "file": "rtsxx\\rts04-2_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts04-2_Datasheet.pdf",
+   "model": "RTS04-2",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS04-2\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nDual Modem 4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nNA\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS04-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS05-1": {
+   "file": "rtsxx\\rts05-1_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts05-1_Datasheet.pdf",
+   "model": "RTS05-1",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS05-1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nSingle Modem 5G/4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nNA\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS05-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS05-2": {
+   "file": "rtsxx\\rts05-2_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts05-2_Datasheet.pdf",
+   "model": "RTS05-2",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS05-2\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nDual Modem 5G/4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nNA\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS05-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS60": {
+   "file": "rtsxx\\rts60_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts60_Datasheet.pdf",
+   "model": "RTS60",
+   "footer": "RTS60_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\nRTS60_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nWAN\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nLAN\n4x 10/100/1000\nWi-Fi\n802.11 b/g/n/ac/ax\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nAntenna\nWi-Fi: 3x SMA connector\nStatus LED\n1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 30 x 120 mm (W x H x D)\nWeight\n640 gm\nOther\nGrounding Screw\nRTS60\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nNA\nWi-Fi\nDual-Band Wi-Fi, AP/Station, External 5dBi antennas\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nRTS60_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Wi-Fi WAN and Wired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperational & Environmental\nFirewall & Networking\nWi-Fi\nRemote Management\nPage 3\nRTS60_V.2.3\n*All rights reserved, subject to change without prior notice.\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS60 Router with Sheet Metal housing, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nStandard Packaging\nOperating System"
+  },
+  "RTS64-2": {
+   "file": "rtsxx\\rts64-2_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts64-2_Datasheet.pdf",
+   "model": "RTS64-2",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS64-2\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nDual Modem 4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nDual-Band Wi-Fi, AP/Station, External 5dBi antennas\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS64-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS65-1": {
+   "file": "rtsxx\\rts65-1_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts65-1_Datasheet.pdf",
+   "model": "RTS65-1",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS65-1\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nSingle Modem 5G/4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nDual-Band Wi-Fi, AP/Station, External 5dBi antennas\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS65-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  },
+  "RTS65-2": {
+   "file": "rtsxx\\rts65-2_Datasheet.pdf",
+   "pdf": "sources/datasheets/rtsxx/rts65-2_Datasheet.pdf",
+   "model": "RTS65-2",
+   "footer": "«Device_Name»_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\n«Device_Name»_V.2.3\nCPU\nMediaTek MT7981\nRAM\n1GB\nFLASH\n128MB NAND\nEthernet\n5x 10/100/1000, 2x SFP, 1x USB 3.0\nUSB\n1x USB 3.0 / USB 2.0 Host\nSIM\n2x Nano SIM (Active, Active)\nWi-Fi\n802.11 b/g/n/ac/ax\nReset\nPinhole Reset Button\nAntenna\nCellular: 4x SMA Connector, Wi-Fi: 3x SMA connector\nStatus LED\n8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x\nACT, 5x Ethernet\nPower Connector\n(Dual power Source 2PIN Screw Terminal or DC JACK)\nInput Voltage Range\n9-30 Vdc\nPower Adapter\nYES\nEnclosure\nSheet Metal Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n190 x 45 x 120 mm (W x H x D)\nWeight\n700 gm\nOther\nGrounding Screw\nRTS65-2\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7981,1GB DDR RAM, 128MB NAND\nCELLULAR\nDual Modem 5G/4G/3G/2G with Dual SIM, External 5dBi\nantenna 2x 4G Modem)\nWi-Fi\nDual-Band Wi-Fi, AP/Station, External 5dBi antennas\nINTERFACE\n5x LAN 10/100/1000, 2x SFP, 1x USB 3.0\nPOWER\n9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC\nJACK)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\n«Device_Name»_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-20 ~ 65 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nCellular Module\n4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps\nStatus\nSingle strength (RSSI), SINR, RSRP, RSRQ\nBand Management\nAuto/User configurable\nOperator Lock\nAutomatic/Manual\nAPN\nConfigurable, Auto APN\nModem configuration mode\nSingle SIM, Dual SIM\nSIM switching\nSignal strength, ICMP echo, Data limit based\nPDP Type\nIPv4, IPv6, IPv4v6\nSIM Authentication\nPAP,CHAP, No Authentication\nSMS\nSend SMS, Read SMS, SMS Commands\nTechnology\n802.11 b/g/n/ac/ax\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40/80/160 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and\nWired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nOperational & Environmental\nCellular\nFirewall & Networking\nWi-Fi\nPage 3\n«Device_Name»_V.2.3\n*All rights reserved, subject to change without prior notice.\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Device\nTR069\nTR069 Client for CPE Management\nSMS Commands\nReboot Command, Uptime Command\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRTS65-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power\nAdapter, 01-meter Ethernet cable.\nOperating System\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\nRemote Management\nStandard Packaging"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RTS00"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Single",
+     "RTS04-1"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Dual",
+     "RTS04-2"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Single",
+     "RTS05-1"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Dual",
+     "RTS05-2"
+    ],
+    [
+     "—",
+     "Wi-Fi 6",
+     "—",
+     "—",
+     "RTS60"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "4G",
+     "Single",
+     "RTS64-1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "4G",
+     "Dual",
+     "RTS64-2"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "5G",
+     "Single",
+     "RTS65-1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "5G",
+     "Dual",
+     "RTS65-2"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No Of Modem",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RTS00"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Single Modem",
+     "RTS04-1"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Dual Modem",
+     "RTS04-2"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Single Modem",
+     "RTS05-1"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Dual Modem",
+     "RTS05-2"
+    ],
+    [
+     "—",
+     "WiFi-6",
+     "—",
+     "—",
+     "RTS-60"
+    ],
+    [
+     "✓",
+     "WiFi-6",
+     "4G",
+     "Single Modem",
+     "RTS64-1"
+    ],
+    [
+     "✓",
+     "WiFi-6",
+     "4G",
+     "Dual Modem",
+     "RTS64-2"
+    ],
+    [
+     "✓",
+     "WiFi-6",
+     "5G",
+     "Single Modem",
+     "RTS65-1"
+    ],
+    [
+     "✓",
+     "WiFi-6",
+     "5G",
+     "Dual Modem",
+     "RTS65-2"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No. of Modem",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "—",
+     "—",
+     "RTS00"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Single",
+     "RTS04-1"
+    ],
+    [
+     "✓",
+     "—",
+     "4G",
+     "Dual",
+     "RTS04-2"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Single",
+     "RTS05-1"
+    ],
+    [
+     "✓",
+     "—",
+     "5G",
+     "Dual",
+     "RTS05-2"
+    ],
+    [
+     "—",
+     "Wi-Fi 6",
+     "—",
+     "—",
+     "RTS60"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "4G",
+     "Single",
+     "RTS64-1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "4G",
+     "Dual",
+     "RTS64-2"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "5G",
+     "Single",
+     "RTS65-1"
+    ],
+    [
+     "✓",
+     "Wi-Fi 6",
+     "5G",
+     "Dual",
+     "RTS65-2"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "RTSXX",
+    "master": "RTSXX",
+    "catalogue": "RTSXX",
+    "datasheet": {
+     "RTS00": "RTS00",
+     "RTS04-1": "RTS04-1",
+     "RTS04-2": "RTS04-2",
+     "RTS05-1": "RTS05-1",
+     "RTS05-2": "RTS05-2",
+     "RTS60": "RTS60",
+     "RTS64-2": "RTS64-2",
+     "RTS65-1": "RTS65-1",
+     "RTS65-2": "RTS65-2"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial 5G/4G Dual Modem Router"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Router",
+    "catalogue": "Routers"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A ruggedised industrial router featuring dual 5G/4G modems, Wi-Fi 6, and SFP uplinks. Built on MediaTek MT7981 with OpenWRT, it supports dual-SIM failover, DIN-rail mounting, and a wide 9–30V DC power range — ideal for demanding telecom, industrial, and remote site deployments.",
+    "catalogue": "A ruggedised industrial router featuring dual 5G/4G modems, Wi-Fi 6, and SFP uplinks. Built on MediaTek MT7981 with OpenWRT, it supports dual-SIM failover, DIN-rail mounting, and a wide 9–30V DC power range — ideal for demanding telecom, industrial, and remote site deployments."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "Dual 5G MODEMS\n4+1+2 LAN+WAN+SFP\n1 GB DDR4 RAM\nWi-Fi 6 DUAL BAND\n9–30 V DC INPUT"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\n5G Ready\nWi-Fi 6\n5 Ports"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "SD-WAN & Branch Network Connectivity\nSecure VPN & Surveillance Network Deployment",
+    "catalogue": "SD-WAN & Branch Network Connectivity — Ideal for enterprise branches and remote offices, providing reliable multi-WAN connectivity with dual SIM failover, VPN support, and intelligent traffic management.\nSecure VPN & Surveillance Network Deployment — Suitable for CCTV surveillance and secure networking applications, enabling encrypted VPN connectivity, remote access, and uninterrupted communication through dual cellular redundancy."
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7981, 1GB DDR4 RAM, 128MB NAND",
+    "datasheet": {
+     "RTS00": "MediaTek MT7981, Dual core ARM A53, 1.3 GHz,1GB DDR4 RAM, 128MB NAND",
+     "RTS04-1": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS04-2": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS05-1": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS05-2": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS60": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS64-2": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS65-1": "MediaTek MT7981,1GB DDR RAM, 128MB NAND",
+     "RTS65-2": "MediaTek MT7981,1GB DDR RAM, 128MB NAND"
+    }
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "master": "Dual Modem 5G/4G/3G with Dual SIM, External 5dBi antenna 2x 5G Modem)",
+    "datasheet": {
+     "RTS00": "NA",
+     "RTS04-1": "Single Modem 4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS04-2": "Dual Modem 4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS05-1": "Single Modem 5G/4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS05-2": "Dual Modem 5G/4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS60": "NA",
+     "RTS64-2": "Dual Modem 4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS65-1": "Single Modem 5G/4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)",
+     "RTS65-2": "Dual Modem 5G/4G/3G/2G with Dual SIM, External 5dBi antenna 2x 4G Modem)"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Dual-Band Wi-Fi, AP/Station, External 5dBi antennas",
+    "datasheet": {
+     "RTS00": "NA",
+     "RTS04-1": "NA",
+     "RTS04-2": "NA",
+     "RTS05-1": "NA",
+     "RTS05-2": "NA",
+     "RTS60": "Dual-Band Wi-Fi, AP/Station, External 5dBi antennas",
+     "RTS64-2": "Dual-Band Wi-Fi, AP/Station, External 5dBi antennas",
+     "RTS65-1": "Dual-Band Wi-Fi, AP/Station, External 5dBi antennas",
+     "RTS65-2": "Dual-Band Wi-Fi, AP/Station, External 5dBi antennas"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "4 LAN 10/100/1000 1 WAN 10/100/1000 2 SFP"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "2x USB 2.0 and 1x HDMI",
+    "datasheet": {
+     "RTS00": "6x LAN 10/100/1000, 1x USB 3.0",
+     "RTS04-1": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS04-2": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS05-1": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS05-2": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS60": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0 3.0",
+     "RTS64-2": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS65-1": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS65-2": "5x LAN 10/100/1000, 2x SFP, 1x USB 3.0"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+    "datasheet": {
+     "RTS00": "9-30 DC IN (Dual power Source 2PIN Screw Terminal and DC JACK)",
+     "RTS04-1": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS04-2": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS05-1": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS05-2": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS60": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS64-2": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS65-1": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS65-2": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open-WRT Linux",
+    "datasheet": {
+     "RTS00": "Open-WRT Linux",
+     "RTS04-1": "Open-WRT Linux",
+     "RTS04-2": "Open-WRT Linux",
+     "RTS05-1": "Open-WRT Linux",
+     "RTS05-2": "Open-WRT Linux",
+     "RTS60": "Open-WRT Linux",
+     "RTS64-2": "Open-WRT Linux",
+     "RTS65-1": "Open-WRT Linux",
+     "RTS65-2": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MT7981 ARM Cortex A53 Dual Core with 1.3 GHz Frequency",
+    "master": "MediaTek MT7981 1.3GHz dual core ARM Cortex A53",
+    "catalogue": "MediaTek MT7981 1.3GHz dual core ARM Cortex A53",
+    "datasheet": {
+     "RTS00": "MediaTek MT7981, Dual core ARM A53, 1.3 GHz",
+     "RTS04-1": "MediaTek MT7981",
+     "RTS04-2": "MediaTek MT7981",
+     "RTS05-1": "MediaTek MT7981",
+     "RTS05-2": "MediaTek MT7981",
+     "RTS60": "MediaTek MT7981",
+     "RTS64-2": "MediaTek MT7981",
+     "RTS65-1": "MediaTek MT7981",
+     "RTS65-2": "MediaTek MT7981"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "1 GB DDR4",
+    "master": "1GB DDR4",
+    "catalogue": "1GB DDR4",
+    "datasheet": {
+     "RTS00": "1GB",
+     "RTS04-1": "1GB",
+     "RTS04-2": "1GB",
+     "RTS05-1": "1GB",
+     "RTS05-2": "1GB",
+     "RTS60": "1GB",
+     "RTS64-2": "1GB",
+     "RTS65-1": "1GB",
+     "RTS65-2": "1GB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "128 MB NAND",
+    "master": "128 NAND",
+    "catalogue": "128 NAND",
+    "datasheet": {
+     "RTS00": "256MB NAND",
+     "RTS04-1": "128MB NAND",
+     "RTS04-2": "128MB NAND",
+     "RTS05-1": "128MB NAND",
+     "RTS05-2": "128MB NAND",
+     "RTS60": "128MB NAND",
+     "RTS64-2": "128MB NAND",
+     "RTS65-1": "128MB NAND",
+     "RTS65-2": "128MB NAND"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "Dual M.2 Modem 4G/3G/2G",
+    "catalogue": "Dual Modem 5G/4G/3G with Dual SIM, External 5dBi antenna 2x 5G Modem)"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "master": "2x Nano SIM (Active), Option for Active/Passive",
+    "catalogue": "2x Nano SIM (Active), Option for Active/Passive",
+    "datasheet": {
+     "RTS04-1": "2x Nano SIM (Active, Active)",
+     "RTS04-2": "2x Nano SIM (Active, Active)",
+     "RTS05-1": "2x Nano SIM (Active, Active)",
+     "RTS05-2": "2x Nano SIM (Active, Active)",
+     "RTS64-2": "2x Nano SIM (Active, Active)",
+     "RTS65-1": "2x Nano SIM (Active, Active)",
+     "RTS65-2": "2x Nano SIM (Active, Active)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11b/g/n/ac/ax",
+    "catalogue": "802.11b/g/n/ac/ax; Dual-Band Wi-Fi, AP/Station, External 5dBi antennas",
+    "datasheet": {
+     "RTS04-1": "802.11 b/g/n/ac/ax",
+     "RTS04-2": "802.11 b/g/n/ac/ax",
+     "RTS05-1": "802.11 b/g/n/ac/ax",
+     "RTS05-2": "802.11 b/g/n/ac/ax",
+     "RTS60": "802.11 b/g/n/ac/ax",
+     "RTS64-2": "802.11 b/g/n/ac/ax",
+     "RTS65-1": "802.11 b/g/n/ac/ax",
+     "RTS65-2": "802.11 b/g/n/ac/ax"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "datasheet": {
+     "RTS60": "Built-in RTC"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "catalogue": "Pinhole Reset Button",
+    "datasheet": {
+     "RTS00": "Pinhole Reset Button",
+     "RTS04-1": "Pinhole Reset Button",
+     "RTS04-2": "Pinhole Reset Button",
+     "RTS05-1": "Pinhole Reset Button",
+     "RTS05-2": "Pinhole Reset Button",
+     "RTS60": "Pinhole Reset Button",
+     "RTS64-2": "Pinhole Reset Button",
+     "RTS65-1": "Pinhole Reset Button",
+     "RTS65-2": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+    "catalogue": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+    "datasheet": {
+     "RTS04-1": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS04-2": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS05-1": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS05-2": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS60": "Wi-Fi: 3x SMA connector",
+     "RTS64-2": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS65-1": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector",
+     "RTS65-2": "Cellular: 4x SMA Connector, Wi-Fi: 3x SMA connector"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "RTS00": "1x Power, 1x PRG, 6x Ethernet",
+     "RTS04-1": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS04-2": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS05-1": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS05-2": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS60": "1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 5x Ethernet",
+     "RTS64-2": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS65-1": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet",
+     "RTS65-2": "8x Single strength, 1x Power, 1x Wi-Fi 5G, 1x Wi-Fi 2G, 1x PRG, 2x Mode, 2x ACT, 5x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "RTS00": "Grounding Screw",
+     "RTS04-1": "Grounding Screw",
+     "RTS04-2": "Grounding Screw",
+     "RTS05-1": "Grounding Screw",
+     "RTS05-2": "Grounding Screw",
+     "RTS60": "Grounding Screw",
+     "RTS64-2": "Grounding Screw",
+     "RTS65-1": "Grounding Screw",
+     "RTS65-2": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Hardware::SFP Ports",
+   "section": "Hardware",
+   "label": "SFP Ports",
+   "values": {
+    "website": "1/2"
+   }
+  },
+  {
+   "id": "Hardware::USB 3.0",
+   "section": "Hardware",
+   "label": "USB 3.0",
+   "values": {
+    "website": "1"
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "4 x LAN (Gigabit) and 1 x WAN (Gigabit)",
+    "catalogue": "4 LAN 10/100/1000 1 WAN 10/100/1000 2 SFP",
+    "datasheet": {
+     "RTS00": "6x 10/100/1000",
+     "RTS04-1": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS04-2": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS05-1": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS05-2": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS64-2": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS65-1": "5x 10/100/1000, 2x SFP, 1x USB 3.0",
+     "RTS65-2": "5x 10/100/1000, 2x SFP, 1x USB 3.0"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "datasheet": {
+     "RTS60": "5x 10/100/1000, 2x SFP, 1x USB 3.0"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "datasheet": {
+     "RTS60": "4x 10/100/1000"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::USB",
+   "section": "Interfaces",
+   "label": "USB",
+   "values": {
+    "master": "1x USB 3.0 / USB 2.0 Host",
+    "catalogue": "1x USB 3.0 / USB 2.0 Host",
+    "datasheet": {
+     "RTS00": "USB 3.0 host",
+     "RTS04-1": "1x USB 3.0 / USB 2.0 Host",
+     "RTS04-2": "1x USB 3.0 / USB 2.0 Host",
+     "RTS05-1": "1x USB 3.0 / USB 2.0 Host",
+     "RTS05-2": "1x USB 3.0 / USB 2.0 Host",
+     "RTS64-2": "1x USB 3.0 / USB 2.0 Host",
+     "RTS65-1": "1x USB 3.0 / USB 2.0 Host",
+     "RTS65-2": "1x USB 3.0 / USB 2.0 Host"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "catalogue": "1x HDMI"
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "RTS00": "Dual power Source 2PIN Screw Terminal and DC JACK",
+     "RTS04-1": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS04-2": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS05-1": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS05-2": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS60": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS64-2": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS65-1": "(Dual power Source 2PIN Screw Terminal or DC JACK)",
+     "RTS65-2": "(Dual power Source 2PIN Screw Terminal or DC JACK)"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "9-30/12 VDC",
+    "master": "9-30 VDC",
+    "catalogue": "9-30 DC IN (Dual power Source 2PIN Screw Terminal or DC JACK)",
+    "datasheet": {
+     "RTS00": "9-30 Vdc",
+     "RTS04-1": "9-30 Vdc",
+     "RTS04-2": "9-30 Vdc",
+     "RTS05-1": "9-30 Vdc",
+     "RTS05-2": "9-30 Vdc",
+     "RTS60": "9-30 Vdc",
+     "RTS64-2": "9-30 Vdc",
+     "RTS65-1": "9-30 Vdc",
+     "RTS65-2": "9-30 Vdc"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "RTS00": "YES",
+     "RTS04-1": "YES",
+     "RTS04-2": "YES",
+     "RTS05-1": "YES",
+     "RTS05-2": "YES",
+     "RTS60": "YES",
+     "RTS64-2": "YES",
+     "RTS65-1": "YES",
+     "RTS65-2": "YES"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Sheet Metal",
+    "master": "Sheet Metal Enclosure",
+    "catalogue": "Sheet Metal Enclosure",
+    "datasheet": {
+     "RTS00": "Sheet Metal Enclosure",
+     "RTS04-1": "Sheet Metal Enclosure",
+     "RTS04-2": "Sheet Metal Enclosure",
+     "RTS05-1": "Sheet Metal Enclosure",
+     "RTS05-2": "Sheet Metal Enclosure",
+     "RTS60": "Sheet Metal Enclosure",
+     "RTS64-2": "Sheet Metal Enclosure",
+     "RTS65-1": "Sheet Metal Enclosure",
+     "RTS65-2": "Sheet Metal Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN Rail Mounting Kit (Optional)",
+    "catalogue": "DIN Rail Mounting Kit (Optional)",
+    "datasheet": {
+     "RTS00": "DIN rail mounting Kit (Optional)",
+     "RTS04-1": "DIN rail mounting Kit (Optional)",
+     "RTS04-2": "DIN rail mounting Kit (Optional)",
+     "RTS05-1": "DIN rail mounting Kit (Optional)",
+     "RTS05-2": "DIN rail mounting Kit (Optional)",
+     "RTS60": "DIN rail mounting Kit (Optional)",
+     "RTS64-2": "DIN rail mounting Kit (Optional)",
+     "RTS65-1": "DIN rail mounting Kit (Optional)",
+     "RTS65-2": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "RTS00": "Fanless",
+     "RTS04-1": "Fanless",
+     "RTS04-2": "Fanless",
+     "RTS05-1": "Fanless",
+     "RTS05-2": "Fanless",
+     "RTS60": "Fanless",
+     "RTS64-2": "Fanless",
+     "RTS65-1": "Fanless",
+     "RTS65-2": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "190 × 45 × 120 mm",
+    "master": "190 x 45 x 120 mm (W x H x D)",
+    "catalogue": "190 x 45 x 120 mm (W x H x D)",
+    "datasheet": {
+     "RTS00": "190 x 30 x 120 mm (W x H x D)",
+     "RTS04-1": "190 x 45 x 120 mm (W x H x D)",
+     "RTS04-2": "190 x 45 x 120 mm (W x H x D)",
+     "RTS05-1": "190 x 45 x 120 mm (W x H x D)",
+     "RTS05-2": "190 x 45 x 120 mm (W x H x D)",
+     "RTS60": "190 x 30 x 120 mm (W x H x D)",
+     "RTS64-2": "190 x 45 x 120 mm (W x H x D)",
+     "RTS65-1": "190 x 45 x 120 mm (W x H x D)",
+     "RTS65-2": "190 x 45 x 120 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "700 gm",
+    "master": "700 gm",
+    "catalogue": "700 gm",
+    "datasheet": {
+     "RTS00": "640 gm",
+     "RTS04-1": "700 gm",
+     "RTS04-2": "700 gm",
+     "RTS05-1": "700 gm",
+     "RTS05-2": "700 gm",
+     "RTS60": "640 gm",
+     "RTS64-2": "700 gm",
+     "RTS65-1": "700 gm",
+     "RTS65-2": "700 gm"
+    }
+   }
+  },
+  {
+   "id": "Physical::IP Rating",
+   "section": "Physical",
+   "label": "IP Rating",
+   "values": {
+    "website": "IP30",
+    "catalogue": "IP30"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0°C – 50°C",
+    "master": "0 - 50°C",
+    "catalogue": "0 - 50°C",
+    "datasheet": {
+     "RTS00": "0~ 50 °C",
+     "RTS04-1": "0~ 50 °C",
+     "RTS04-2": "0~ 50 °C",
+     "RTS05-1": "0~ 50 °C",
+     "RTS05-2": "0~ 50 °C",
+     "RTS60": "0~ 50 °C",
+     "RTS64-2": "0~ 50 °C",
+     "RTS65-1": "0~ 50 °C",
+     "RTS65-2": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "master": "-20 ~ 65 °C",
+    "catalogue": "-20 ~ 65 °C",
+    "datasheet": {
+     "RTS00": "-20 ~ 65 °C",
+     "RTS04-1": "-20 ~ 65 °C",
+     "RTS04-2": "-20 ~ 65 °C",
+     "RTS05-1": "-20 ~ 65 °C",
+     "RTS05-2": "-20 ~ 65 °C",
+     "RTS60": "-20 ~ 65 °C",
+     "RTS64-2": "-20 ~ 65 °C",
+     "RTS65-1": "-20 ~ 65 °C",
+     "RTS65-2": "-20 ~ 65 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "master": "10 – 90% (non condensing)",
+    "catalogue": "10 – 90% (non condensing)",
+    "datasheet": {
+     "RTS00": "10 ~ 90% (non-condensing)",
+     "RTS04-1": "10 ~ 90% (non-condensing)",
+     "RTS04-2": "10 ~ 90% (non-condensing)",
+     "RTS05-1": "10 ~ 90% (non-condensing)",
+     "RTS05-2": "10 ~ 90% (non-condensing)",
+     "RTS60": "10 ~ 90% (non-condensing)",
+     "RTS64-2": "10 ~ 90% (non-condensing)",
+     "RTS65-1": "10 ~ 90% (non-condensing)",
+     "RTS65-2": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Cellular Module",
+   "section": "Cellular",
+   "label": "Cellular Module",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS04-2": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS05-1": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS05-2": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS64-2": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS65-1": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps",
+     "RTS65-2": "4G (LTE) - Cat 4 up to 150 Mbps, 3G - up to 42 Mbps, 2G - up to 236.8 Kbps"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Status",
+   "section": "Cellular",
+   "label": "Status",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS04-2": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS05-1": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS05-2": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS64-2": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS65-1": "Single strength (RSSI), SINR, RSRP, RSRQ",
+     "RTS65-2": "Single strength (RSSI), SINR, RSRP, RSRQ"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Band Management",
+   "section": "Cellular",
+   "label": "Band Management",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Auto/User configurable",
+     "RTS04-2": "Auto/User configurable",
+     "RTS05-1": "Auto/User configurable",
+     "RTS05-2": "Auto/User configurable",
+     "RTS64-2": "Auto/User configurable",
+     "RTS65-1": "Auto/User configurable",
+     "RTS65-2": "Auto/User configurable"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Operator Lock",
+   "section": "Cellular",
+   "label": "Operator Lock",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Automatic/Manual",
+     "RTS04-2": "Automatic/Manual",
+     "RTS05-1": "Automatic/Manual",
+     "RTS05-2": "Automatic/Manual",
+     "RTS64-2": "Automatic/Manual",
+     "RTS65-1": "Automatic/Manual",
+     "RTS65-2": "Automatic/Manual"
+    }
+   }
+  },
+  {
+   "id": "Cellular::APN",
+   "section": "Cellular",
+   "label": "APN",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Configurable, Auto APN",
+     "RTS04-2": "Configurable, Auto APN",
+     "RTS05-1": "Configurable, Auto APN",
+     "RTS05-2": "Configurable, Auto APN",
+     "RTS64-2": "Configurable, Auto APN",
+     "RTS65-1": "Configurable, Auto APN",
+     "RTS65-2": "Configurable, Auto APN"
+    }
+   }
+  },
+  {
+   "id": "Cellular::Modem Configuration Mode",
+   "section": "Cellular",
+   "label": "Modem Configuration Mode",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Single SIM, Dual SIM",
+     "RTS04-2": "Single SIM, Dual SIM",
+     "RTS05-1": "Single SIM, Dual SIM",
+     "RTS05-2": "Single SIM, Dual SIM",
+     "RTS64-2": "Single SIM, Dual SIM",
+     "RTS65-1": "Single SIM, Dual SIM",
+     "RTS65-2": "Single SIM, Dual SIM"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Switching",
+   "section": "Cellular",
+   "label": "SIM Switching",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Signal strength, ICMP echo, Data limit based",
+     "RTS04-2": "Signal strength, ICMP echo, Data limit based",
+     "RTS05-1": "Signal strength, ICMP echo, Data limit based",
+     "RTS05-2": "Signal strength, ICMP echo, Data limit based",
+     "RTS64-2": "Signal strength, ICMP echo, Data limit based",
+     "RTS65-1": "Signal strength, ICMP echo, Data limit based",
+     "RTS65-2": "Signal strength, ICMP echo, Data limit based"
+    }
+   }
+  },
+  {
+   "id": "Cellular::PDP Type",
+   "section": "Cellular",
+   "label": "PDP Type",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "IPv4, IPv6, IPv4v6",
+     "RTS04-2": "IPv4, IPv6, IPv4v6",
+     "RTS05-1": "IPv4, IPv6, IPv4v6",
+     "RTS05-2": "IPv4, IPv6, IPv4v6",
+     "RTS64-2": "IPv4, IPv6, IPv4v6",
+     "RTS65-1": "IPv4, IPv6, IPv4v6",
+     "RTS65-2": "IPv4, IPv6, IPv4v6"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SIM Authentication",
+   "section": "Cellular",
+   "label": "SIM Authentication",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "PAP,CHAP, No Authentication",
+     "RTS04-2": "PAP,CHAP, No Authentication",
+     "RTS05-1": "PAP,CHAP, No Authentication",
+     "RTS05-2": "PAP,CHAP, No Authentication",
+     "RTS64-2": "PAP,CHAP, No Authentication",
+     "RTS65-1": "PAP,CHAP, No Authentication",
+     "RTS65-2": "PAP,CHAP, No Authentication"
+    }
+   }
+  },
+  {
+   "id": "Cellular::SMS",
+   "section": "Cellular",
+   "label": "SMS",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Send SMS, Read SMS, SMS Commands",
+     "RTS04-2": "Send SMS, Read SMS, SMS Commands",
+     "RTS05-1": "Send SMS, Read SMS, SMS Commands",
+     "RTS05-2": "Send SMS, Read SMS, SMS Commands",
+     "RTS64-2": "Send SMS, Read SMS, SMS Commands",
+     "RTS65-1": "Send SMS, Read SMS, SMS Commands",
+     "RTS65-2": "Send SMS, Read SMS, SMS Commands"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Technology",
+   "section": "Wi-Fi",
+   "label": "Technology",
+   "values": {
+    "master": "802.11 b/g/n/ac/ax",
+    "catalogue": "802.11 b/g/n/ac/ax",
+    "datasheet": {
+     "RTS04-1": "802.11 b/g/n/ac/ax",
+     "RTS04-2": "802.11 b/g/n/ac/ax",
+     "RTS05-1": "802.11 b/g/n/ac/ax",
+     "RTS05-2": "802.11 b/g/n/ac/ax",
+     "RTS60": "802.11 b/g/n/ac/ax",
+     "RTS64-2": "802.11 b/g/n/ac/ax",
+     "RTS65-1": "802.11 b/g/n/ac/ax",
+     "RTS65-2": "802.11 b/g/n/ac/ax"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Selector",
+   "section": "Wi-Fi",
+   "label": "Channel Selector",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Auto/Configurable",
+     "RTS04-2": "Auto/Configurable",
+     "RTS05-1": "Auto/Configurable",
+     "RTS05-2": "Auto/Configurable",
+     "RTS60": "Auto/Configurable",
+     "RTS64-2": "Auto/Configurable",
+     "RTS65-1": "Auto/Configurable",
+     "RTS65-2": "Auto/Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Width",
+   "section": "Wi-Fi",
+   "label": "Channel Width",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "20 MHz, 20/40/80/160 MHz",
+     "RTS04-2": "20 MHz, 20/40/80/160 MHz",
+     "RTS05-1": "20 MHz, 20/40/80/160 MHz",
+     "RTS05-2": "20 MHz, 20/40/80/160 MHz",
+     "RTS60": "20 MHz, 20/40/80/160 MHz",
+     "RTS64-2": "20 MHz, 20/40/80/160 MHz",
+     "RTS65-1": "20 MHz, 20/40/80/160 MHz",
+     "RTS65-2": "20 MHz, 20/40/80/160 MHz"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Mode",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Mode",
+   "values": {
+    "master": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh WiFi",
+    "catalogue": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh WiFi",
+    "datasheet": {
+     "RTS04-1": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS04-2": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS05-1": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS05-2": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS60": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS64-2": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS65-1": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi",
+     "RTS65-2": "Access Point (AP), Station, AP & Client, Guest Wi-Fi, Mesh Wi-Fi"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::TX Power",
+   "section": "Wi-Fi",
+   "label": "TX Power",
+   "values": {
+    "master": "Configurable",
+    "catalogue": "Configurable",
+    "datasheet": {
+     "RTS04-1": "Configurable",
+     "RTS04-2": "Configurable",
+     "RTS05-1": "Configurable",
+     "RTS05-2": "Configurable",
+     "RTS60": "Configurable",
+     "RTS64-2": "Configurable",
+     "RTS65-1": "Configurable",
+     "RTS65-2": "Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Authentication",
+   "section": "Wi-Fi",
+   "label": "Authentication",
+   "values": {
+    "master": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+    "catalogue": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+    "datasheet": {
+     "RTS04-1": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS04-2": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS05-1": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS05-2": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS60": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS64-2": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS65-1": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode",
+     "RTS65-2": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Encryption",
+   "section": "Wi-Fi",
+   "label": "Encryption",
+   "values": {
+    "master": "TKIP, AES, TKIP & AES",
+    "catalogue": "TKIP, AES, TKIP & AES",
+    "datasheet": {
+     "RTS04-1": "TKIP, AES, TKIP & AES",
+     "RTS04-2": "TKIP, AES, TKIP & AES",
+     "RTS05-1": "TKIP, AES, TKIP & AES",
+     "RTS05-2": "TKIP, AES, TKIP & AES",
+     "RTS60": "TKIP, AES, TKIP & AES",
+     "RTS64-2": "TKIP, AES, TKIP & AES",
+     "RTS65-1": "TKIP, AES, TKIP & AES",
+     "RTS65-2": "TKIP, AES, TKIP & AES"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Scheduler",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Scheduler",
+   "values": {
+    "master": "Scheduled ON/OFF (Planned)",
+    "catalogue": "Scheduled ON/OFF (Planned)",
+    "datasheet": {
+     "RTS04-1": "Scheduled ON/OFF",
+     "RTS04-2": "Scheduled ON/OFF",
+     "RTS05-1": "Scheduled ON/OFF",
+     "RTS05-2": "Scheduled ON/OFF",
+     "RTS60": "Scheduled ON/OFF",
+     "RTS64-2": "Scheduled ON/OFF",
+     "RTS65-1": "Scheduled ON/OFF",
+     "RTS65-2": "Scheduled ON/OFF"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::MAC ID Filtering",
+   "section": "Wi-Fi",
+   "label": "MAC ID Filtering",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Whitelisting, Blacklisting",
+     "RTS04-2": "Whitelisting, Blacklisting",
+     "RTS05-1": "Whitelisting, Blacklisting",
+     "RTS05-2": "Whitelisting, Blacklisting",
+     "RTS60": "Whitelisting, Blacklisting",
+     "RTS64-2": "Whitelisting, Blacklisting",
+     "RTS65-1": "Whitelisting, Blacklisting",
+     "RTS65-2": "Whitelisting, Blacklisting"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Other",
+   "section": "Wi-Fi",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "WMM (Enabled/Disabled)",
+     "RTS04-2": "WMM (Enabled/Disabled)",
+     "RTS05-1": "WMM (Enabled/Disabled)",
+     "RTS05-2": "WMM (Enabled/Disabled)",
+     "RTS60": "WMM (Enabled/Disabled)",
+     "RTS64-2": "WMM (Enabled/Disabled)",
+     "RTS65-1": "WMM (Enabled/Disabled)",
+     "RTS65-2": "WMM (Enabled/Disabled)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Advanced Static Routing",
+    "catalogue": "Static routing, Advanced Static Routing",
+    "datasheet": {
+     "RTS00": "Static routing, Advanced Static Routing",
+     "RTS04-1": "Static routing, Advanced Static Routing",
+     "RTS04-2": "Static routing, Advanced Static Routing",
+     "RTS05-1": "Static routing, Advanced Static Routing",
+     "RTS05-2": "Static routing, Advanced Static Routing",
+     "RTS60": "Static routing, Advanced Static Routing",
+     "RTS64-2": "Static routing, Advanced Static Routing",
+     "RTS65-1": "Static routing, Advanced Static Routing",
+     "RTS65-2": "Static routing, Advanced Static Routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "catalogue": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+    "datasheet": {
+     "RTS00": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS04-1": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS04-2": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS05-1": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS05-2": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS60": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS64-2": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS65-1": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP",
+     "RTS65-2": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "master": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "catalogue": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+    "datasheet": {
+     "RTS00": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS04-1": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS04-2": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS05-1": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS05-2": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS60": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS64-2": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS65-1": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)",
+     "RTS65-2": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "catalogue": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "datasheet": {
+     "RTS00": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS04-1": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS04-2": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS05-1": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS05-2": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS60": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS64-2": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS65-1": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+     "RTS65-2": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "RTS00": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS04-1": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS04-2": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS05-1": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS05-2": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS60": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS64-2": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS65-1": "SYN Flood Protection, Drop Invalid Packets",
+     "RTS65-2": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "master": "Static and Dynamic",
+    "catalogue": "Static and Dynamic",
+    "datasheet": {
+     "RTS00": "Static and Dynamic",
+     "RTS04-1": "Static and Dynamic",
+     "RTS04-2": "Static and Dynamic",
+     "RTS05-1": "Static and Dynamic",
+     "RTS05-2": "Static and Dynamic",
+     "RTS60": "Static and Dynamic",
+     "RTS64-2": "Static and Dynamic",
+     "RTS65-1": "Static and Dynamic",
+     "RTS65-2": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "RTS00": "Configurable Failover, load balancing between Wired WAN's.",
+     "RTS04-1": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS04-2": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS05-1": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS05-2": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS60": "Configurable Failover, load balancing between Wi-Fi WAN and Wired.",
+     "RTS64-2": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS65-1": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired.",
+     "RTS65-2": "Configurable Failover, load balancing between Cellular WAN, Wi-Fi WAN and Wired."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "master": "Tagged VLAN, Untagged VLAN",
+    "catalogue": "Tagged VLAN, Untagged VLAN",
+    "datasheet": {
+     "RTS00": "Tagged VLAN, Untagged VLAN",
+     "RTS04-1": "Tagged VLAN, Untagged VLAN",
+     "RTS04-2": "Tagged VLAN, Untagged VLAN",
+     "RTS05-1": "Tagged VLAN, Untagged VLAN",
+     "RTS05-2": "Tagged VLAN, Untagged VLAN",
+     "RTS60": "Tagged VLAN, Untagged VLAN",
+     "RTS64-2": "Tagged VLAN, Untagged VLAN",
+     "RTS65-1": "Tagged VLAN, Untagged VLAN",
+     "RTS65-2": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Networking",
+   "section": "Networking & Firewall",
+   "label": "Other Networking",
+   "values": {
+    "master": "Black/whitelisting",
+    "catalogue": "Black/whitelisting"
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "RTS00": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS04-1": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS04-2": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS05-1": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS05-2": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS60": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS64-2": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS65-1": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs",
+     "RTS65-2": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "RTS00": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS04-1": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS04-2": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS05-1": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS05-2": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS60": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS64-2": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS65-1": "SHA1, MD5, SHA256, SHA384, SHA512",
+     "RTS65-2": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "RTS00": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS04-1": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS04-2": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS05-1": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS05-2": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS60": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS64-2": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS65-1": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096",
+     "RTS65-2": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "RTS00": "3DES, AES128, AES192, AES256",
+     "RTS04-1": "3DES, AES128, AES192, AES256",
+     "RTS04-2": "3DES, AES128, AES192, AES256",
+     "RTS05-1": "3DES, AES128, AES192, AES256",
+     "RTS05-2": "3DES, AES128, AES192, AES256",
+     "RTS60": "3DES, AES128, AES192, AES256",
+     "RTS64-2": "3DES, AES128, AES192, AES256",
+     "RTS65-1": "3DES, AES128, AES192, AES256",
+     "RTS65-2": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "RTS00": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS04-1": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS04-2": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS05-1": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS05-2": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS60": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS64-2": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS65-1": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo",
+     "RTS65-2": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "RTS00": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS04-1": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS04-2": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS05-1": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS05-2": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS60": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS64-2": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS65-1": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager",
+     "RTS65-2": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "RTS00": "NTP Client, RTC, Manual",
+     "RTS04-1": "NTP Client, RTC, Manual",
+     "RTS04-2": "NTP Client, RTC, Manual",
+     "RTS05-1": "NTP Client, RTC, Manual",
+     "RTS05-2": "NTP Client, RTC, Manual",
+     "RTS60": "NTP Client, RTC, Manual",
+     "RTS64-2": "NTP Client, RTC, Manual",
+     "RTS65-1": "NTP Client, RTC, Manual",
+     "RTS65-2": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "catalogue": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+    "datasheet": {
+     "RTS00": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS04-1": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS04-2": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS05-1": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS05-2": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS60": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS64-2": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS65-1": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel",
+     "RTS65-2": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "master": "TUN/TAP with TLS Certificates",
+    "catalogue": "TUN/TAP with TLS Certificates",
+    "datasheet": {
+     "RTS00": "TUN/TAP with TLS Certificates",
+     "RTS04-1": "TUN/TAP with TLS Certificates",
+     "RTS04-2": "TUN/TAP with TLS Certificates",
+     "RTS05-1": "TUN/TAP with TLS Certificates",
+     "RTS05-2": "TUN/TAP with TLS Certificates",
+     "RTS60": "TUN/TAP with TLS Certificates",
+     "RTS64-2": "TUN/TAP with TLS Certificates",
+     "RTS65-1": "TUN/TAP with TLS Certificates",
+     "RTS65-2": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "master": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "catalogue": "IKEv1, IKEv2, Aggressive/Main Mode",
+    "datasheet": {
+     "RTS00": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS04-1": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS04-2": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS05-1": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS05-2": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS60": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS64-2": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS65-1": "IKEv1, IKEv2, Aggressive/Main Mode",
+     "RTS65-2": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "master": "Server & Client with/without MPPE Encryption",
+    "catalogue": "Server & Client with/without MPPE Encryption",
+    "datasheet": {
+     "RTS00": "Server & Client with/without MPPE Encryption",
+     "RTS04-1": "Server & Client with/without MPPE Encryption",
+     "RTS04-2": "Server & Client with/without MPPE Encryption",
+     "RTS05-1": "Server & Client with/without MPPE Encryption",
+     "RTS05-2": "Server & Client with/without MPPE Encryption",
+     "RTS60": "Server & Client with/without MPPE Encryption",
+     "RTS64-2": "Server & Client with/without MPPE Encryption",
+     "RTS65-1": "Server & Client with/without MPPE Encryption",
+     "RTS65-2": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "NMS Remote monitoring of SILBO Networking products",
+    "catalogue": "NMS Remote monitoring of SILBO Networking products",
+    "datasheet": {
+     "RTS00": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS04-1": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS04-2": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS05-1": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS05-2": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS60": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS64-2": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS65-1": "Remote Monitoring & Management Platform for SILBO Networking products",
+     "RTS65-2": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "master": "Remote Access of SILBO and non-SILBO Networking Device",
+    "catalogue": "Remote Access of SILBO and non-SILBO Networking Device",
+    "datasheet": {
+     "RTS00": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS04-1": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS04-2": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS05-1": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS05-2": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS60": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS64-2": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS65-1": "Remote Access of SILBO and non-SILBO Networking Device",
+     "RTS65-2": "Remote Access of SILBO and non-SILBO Networking Device"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "RTS00": "TR069 Client for CPE Management",
+     "RTS04-1": "TR069 Client for CPE Management",
+     "RTS04-2": "TR069 Client for CPE Management",
+     "RTS05-1": "TR069 Client for CPE Management",
+     "RTS05-2": "TR069 Client for CPE Management",
+     "RTS60": "TR069 Client for CPE Management",
+     "RTS64-2": "TR069 Client for CPE Management",
+     "RTS65-1": "TR069 Client for CPE Management",
+     "RTS65-2": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "RTS04-1": "Reboot Command, Uptime Command",
+     "RTS04-2": "Reboot Command, Uptime Command",
+     "RTS05-1": "Reboot Command, Uptime Command",
+     "RTS05-2": "Reboot Command, Uptime Command",
+     "RTS60": "Reboot Command, Uptime Command",
+     "RTS64-2": "Reboot Command, Uptime Command",
+     "RTS65-1": "Reboot Command, Uptime Command",
+     "RTS65-2": "Reboot Command, Uptime Command"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "master": "OpenWRT-based Linux OS",
+    "catalogue": "OpenWRT-based Linux OS",
+    "datasheet": {
+     "RTS00": "Open-WRT based Linux OS",
+     "RTS04-1": "Open-WRT based Linux OS",
+     "RTS04-2": "Open-WRT based Linux OS",
+     "RTS05-1": "Open-WRT based Linux OS",
+     "RTS05-2": "Open-WRT based Linux OS",
+     "RTS60": "Open-WRT based Linux OS",
+     "RTS64-2": "Open-WRT based Linux OS",
+     "RTS65-1": "Open-WRT based Linux OS",
+     "RTS65-2": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "master": "Shell scripting, C, C++",
+    "catalogue": "Shell scripting, C, C++",
+    "datasheet": {
+     "RTS00": "Shell scripting, C, C++",
+     "RTS04-1": "Shell scripting, C, C++",
+     "RTS04-2": "Shell scripting, C, C++",
+     "RTS05-1": "Shell scripting, C, C++",
+     "RTS05-2": "Shell scripting, C, C++",
+     "RTS60": "Shell scripting, C, C++",
+     "RTS64-2": "Shell scripting, C, C++",
+     "RTS65-1": "Shell scripting, C, C++",
+     "RTS65-2": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "master": "SDK package with built environment provided (Optional)",
+    "catalogue": "SDK package with built environment provided (Optional)",
+    "datasheet": {
+     "RTS00": "SDK package with built environment provided (Optional)",
+     "RTS04-1": "SDK package with built environment provided (Optional)",
+     "RTS04-2": "SDK package with built environment provided (Optional)",
+     "RTS05-1": "SDK package with built environment provided (Optional)",
+     "RTS05-2": "SDK package with built environment provided (Optional)",
+     "RTS60": "SDK package with built environment provided (Optional)",
+     "RTS64-2": "SDK package with built environment provided (Optional)",
+     "RTS65-1": "SDK package with built environment provided (Optional)",
+     "RTS65-2": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "datasheet": {
+     "RTS00": "RTS00 Router with Sheet Metal housing, Power Adapter, 01-meter Ethernet cable.",
+     "RTS04-1": "RTS04-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS04-2": "RTS04-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS05-1": "RTS05-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS05-2": "RTS05-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS60": "RTS60 Router with Sheet Metal housing, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS64-2": "RTS64-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS65-1": "RTS65-1 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable.",
+     "RTS65-2": "RTS65-2 Cellular Router with Sheet Metal housing, 4x Cellular Rubber Duck Antennas, 3x Wi-Fi Rubber Duck Antennas, Power Adapter, 01-meter Ethernet cable."
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "5G"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi6"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "5"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

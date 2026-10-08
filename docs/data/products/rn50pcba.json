@@ -1,0 +1,903 @@
+{
+ "id": "rn50pcba",
+ "name": "RN50-PCBA",
+ "category": "PCB",
+ "order": 45,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "rn50pcba.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "housing",
+    "ip",
+    "rs232",
+    "rs485",
+    "weight"
+   ],
+   "images": [
+    "/images/product-selector/rn50pcba/rn50pcba.webp"
+   ],
+   "part_datasheets": {
+    "RN 50 PCB-A": "/assets/datasheets/products/rn50pcba/RN50-PCB-A_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "RN50-PCB-A",
+   "brief_page": 36,
+   "detailed_page": 76,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "RN 50 PCB-A"
+ ],
+ "datasheets": {
+  "RN 50 PCB-A": {
+   "file": "rn50pcba\\RN50-PCB-A_Datasheet.pdf",
+   "pdf": "sources/datasheets/rn50pcba/RN50-PCB-A_Datasheet.pdf",
+   "model": "RN50",
+   "footer": "RN50_V.2.3",
+   "pages": 3,
+   "template": true,
+   "raw": "Page 1\nRN50_V.2.3\nCPU\nMediaTek MT7621\nRAM\n512MB\nFLASH\n32MB\nWAN\n1x 10/100/1000 Mbps (M12 Connector)\nLAN\n1x 10/100/1000 Mbps (M12 Connector)\nSerial Interface\nNA\nSIM\nNA\nWi-Fi\n802.11 b/g/n/ac\nRTC\nBuilt-in RTC\nReset\nPinhole Reset Button\nStatus LED\n1x Power , 1x PRG, 1x 2.4 GHz Wi-Fi, 1x 5GHz Wi-Fi, 2x Ethernet\nPower Connector\nActive PoE\nInput Voltage Range\n44V to 57V\nPower Adapter\nNA\nEnclosure\nOnly PCB\nDesign\nFanless\nDimensions\n110 x 95 mm (W x D)\nWeight\n80 gm\nRN50\nDATA SHEET\nPRODUCT INFO\nPROCESSOR\nMediaTek MT7621, 512MB DDR RAM, 32MB Flash\nCELLULAR\nNA\nWi-Fi\nDual-Band Wi-Fi, AP/Station\nINTERFACE\n2x WAN/LAN 10/100/1000 (M12 Connectors)\nPOWER\n44V to 57V ( Active PoE IN)\nOPERATING SYSTEM\nOpen-WRT Linux\nHardware Specification\nPage 2\nRN50_V.2.3\nSOFTWARE SPECIFICATIONS\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nTechnology\n802.11 b/g/n/ac\nChannel Selector\nAuto/Configurable\nChannel Width\n20 MHz, 20/40 MHz\nWi-Fi Mode\nAccess Point (AP), Station, AP & Client, Guest Wi-Fi\nTX Power\nConfigurable\nAuthentication\nWPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 &\nWPA3 Mixed Mode\nEncryption\nTKIP, AES, TKIP & AES\nWi-Fi Scheduler\nScheduled ON/OFF\nMAC ID Filtering\nWhitelisting, Blacklisting\nOther\nWMM (Enabled/Disabled)\nRouting\nStatic routing, Advanced Static Routing\nNetwork Protocols\nTCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP\nConnection Monitoring\nPing Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable /\nDisable)\nFirewall features\nPort forward, traffic rules, SNAT, Zone forwarding, Parental Control,\nMasquerading, MSS Clamping, Loopback IP, Loopback Rules.\nAttack Prevention\nSYN Flood Protection, Drop Invalid Packets\nDHCP\nStatic and Dynamic\nMulti-WAN Configuration\nConfigurable Failover, load balancing between Wi-Fi WAN and Wired.\nVLAN\nTagged VLAN, Untagged VLAN\nVPN\nOpen VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel\nOpen VPN\nTUN/TAP with TLS Certificates\nIPsec\nIKEv1, IKEv2, Aggressive/Main Mode\nIPsec Encryption\n3DES, AES128, AES192, AES256\nIPsec Authentication\nSHA1, MD5, SHA256, SHA384, SHA512\nIPsec DH Group\nMODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096\nPPTP/L2TP\nServer & Client with/without MPPE Encryption\nMonitoring Application\nModem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo\nTime Synchronization\nNTP Client, RTC, Manual\nDiagnostic\nPing, Traceroute, Modem Debug Info, Iperf, Download Logs\nOther Features\nMAC binding, Connection Diagnostics, URL Filtering, Router Health\nMonitoring, Package Manager\nNMS\nRemote Monitoring & Management Platform for SILBO Networking products\nNMS VPN\nRemote Access of SILBO and non-SILBO Networking Devices\nTR069\nTR069 Client for CPE Management\nSMS Commands\nNA\nOperational & Environmental\nFirewall & Networking\nRemote Management\nWi-Fi\nPage 3\nRN50_V.2.3\n*All rights reserved, subject to change without prior notice.\nOperating System\nOpen-WRT based Linux OS\nSupported Languages\nShell scripting, C, C++\nDevelopment tools\nSDK package with built environment provided (Optional)\nRN50 Cellular Router PCB\nOperating System\nStandard Packaging\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Wi-Fi",
+    "Cellular",
+    "Gen",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "Wi-Fi 5",
+     "-",
+     "-",
+     "Single",
+     "RN 50 PCB-A"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "4G/5G",
+    "No of Modem",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "—",
+     "WiFi-5",
+     "—",
+     "Single Modem",
+     "RN 50 PCB-A"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "RN50-PCBA",
+    "master": "RN50-PCB-A",
+    "datasheet": {
+     "RN 50 PCB-A": "RN50"
+    }
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "PCB"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A board-level router on MT7621 with Wi-Fi 5, M12 Gigabit connectors, PoE input, and OpenWRT for OEM integration into vehicle-mounted systems and ruggedised industrial hardware platforms."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Vehicle & Transportation Systems\nPassenger Infotainment AP for Railways"
+   }
+  },
+  {
+   "id": "Summary::Processor",
+   "section": "Summary",
+   "label": "Processor",
+   "values": {
+    "master": "MediaTek MT7621, 512 MB DDR 3 RAM, 32MB Flash",
+    "datasheet": {
+     "RN 50 PCB-A": "MediaTek MT7621, 512MB DDR RAM, 32MB Flash"
+    }
+   }
+  },
+  {
+   "id": "Summary::Cellular",
+   "section": "Summary",
+   "label": "Cellular",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NA"
+    }
+   }
+  },
+  {
+   "id": "Summary::Wi-Fi",
+   "section": "Summary",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Dual Band Wi-Fi, AP Station, External 5dBi antennas",
+    "datasheet": {
+     "RN 50 PCB-A": "Dual-Band Wi-Fi, AP/Station"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "1 x WAN 10/100/1000 M12 Connector 1x LAN 10/100/1000 M12 Connector"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "2x WAN/LAN 10/100/1000 (M12 Connectors)"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "Active PoE 44-57 VDC",
+    "datasheet": {
+     "RN 50 PCB-A": "44V to 57V ( Active PoE IN)"
+    }
+   }
+  },
+  {
+   "id": "Summary::Operating System",
+   "section": "Summary",
+   "label": "Operating System",
+   "values": {
+    "master": "Open WRT Linux",
+    "datasheet": {
+     "RN 50 PCB-A": "Open-WRT Linux"
+    }
+   }
+  },
+  {
+   "id": "Hardware::CPU",
+   "section": "Hardware",
+   "label": "CPU",
+   "values": {
+    "website": "MediaTek MT7621",
+    "master": "MediaTek MT7621",
+    "datasheet": {
+     "RN 50 PCB-A": "MediaTek MT7621"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RAM",
+   "section": "Hardware",
+   "label": "RAM",
+   "values": {
+    "website": "256/512 MB DDR3",
+    "master": "256/512MB DDR3",
+    "datasheet": {
+     "RN 50 PCB-A": "512MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Flash",
+   "section": "Hardware",
+   "label": "Flash",
+   "values": {
+    "website": "32/64 MB Flash",
+    "master": "32/64 MB",
+    "datasheet": {
+     "RN 50 PCB-A": "32MB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::SIM",
+   "section": "Hardware",
+   "label": "SIM",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NA"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Wi-Fi",
+   "section": "Hardware",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "802.11b/g/n/ac",
+    "datasheet": {
+     "RN 50 PCB-A": "802.11 b/g/n/ac"
+    }
+   }
+  },
+  {
+   "id": "Hardware::RTC",
+   "section": "Hardware",
+   "label": "RTC",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Built-in RTC"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Reset",
+   "section": "Hardware",
+   "label": "Reset",
+   "values": {
+    "master": "Pinhole Reset Button",
+    "datasheet": {
+     "RN 50 PCB-A": "Pinhole Reset Button"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Antenna",
+   "section": "Hardware",
+   "label": "Antenna",
+   "values": {
+    "master": "Wi-Fi: 2x SMA connector"
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "1x Power , 1x PRG, 1x 2.4 GHz Wi-Fi, 1x 5GHz Wi-Fi, 2x Ethernet"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet (M12 Connector)"
+   }
+  },
+  {
+   "id": "Interfaces::WAN",
+   "section": "Interfaces",
+   "label": "WAN",
+   "values": {
+    "master": "1x 10/100/1000 (M12 Connector)",
+    "datasheet": {
+     "RN 50 PCB-A": "1x 10/100/1000 Mbps (M12 Connector)"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::LAN",
+   "section": "Interfaces",
+   "label": "LAN",
+   "values": {
+    "master": "1x 10/100/1000 (M12 Connector)",
+    "datasheet": {
+     "RN 50 PCB-A": "1x 10/100/1000 Mbps (M12 Connector)"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Serial Interface",
+   "section": "Interfaces",
+   "label": "Serial Interface",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NA"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Active PoE"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "Active PoE 44-57 VDC",
+    "master": "Active PoE 44-57 VDC",
+    "datasheet": {
+     "RN 50 PCB-A": "44V to 57V"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Adapter",
+   "section": "Power",
+   "label": "Power Adapter",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NA"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "master": "Industrial Aluminium Enclosure",
+    "datasheet": {
+     "RN 50 PCB-A": "Only PCB"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)"
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "datasheet": {
+     "RN 50 PCB-A": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "209 x 30 x 154 mm (W x H x D)",
+    "master": "209 x 30 x 154 mm (W x H x D)",
+    "datasheet": {
+     "RN 50 PCB-A": "110 x 95 mm (W x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "80 gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "datasheet": {
+     "RN 50 PCB-A": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Technology",
+   "section": "Wi-Fi",
+   "label": "Technology",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "802.11 b/g/n/ac"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Selector",
+   "section": "Wi-Fi",
+   "label": "Channel Selector",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Auto/Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Channel Width",
+   "section": "Wi-Fi",
+   "label": "Channel Width",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "20 MHz, 20/40 MHz"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Mode",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Mode",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Access Point (AP), Station, AP & Client, Guest Wi-Fi"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::TX Power",
+   "section": "Wi-Fi",
+   "label": "TX Power",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Configurable"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Authentication",
+   "section": "Wi-Fi",
+   "label": "Authentication",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "WPA (PSK), WPA2 (PSK), WPA3 (PSK), WPA & WPA2 Mixed Mode, WPA2 & WPA3 Mixed Mode"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Encryption",
+   "section": "Wi-Fi",
+   "label": "Encryption",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "TKIP, AES, TKIP & AES"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Wi-Fi Scheduler",
+   "section": "Wi-Fi",
+   "label": "Wi-Fi Scheduler",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Scheduled ON/OFF"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::MAC ID Filtering",
+   "section": "Wi-Fi",
+   "label": "MAC ID Filtering",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Whitelisting, Blacklisting"
+    }
+   }
+  },
+  {
+   "id": "Wi-Fi::Other",
+   "section": "Wi-Fi",
+   "label": "Other",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "WMM (Enabled/Disabled)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Routing",
+   "section": "Networking & Firewall",
+   "label": "Routing",
+   "values": {
+    "master": "Static routing, Dynamic Routing (BGP,OSPF etc)",
+    "datasheet": {
+     "RN 50 PCB-A": "Static routing, Advanced Static Routing"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Network Protocols",
+   "section": "Networking & Firewall",
+   "label": "Network Protocols",
+   "values": {
+    "master": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP, SNMP, PPPoE",
+    "datasheet": {
+     "RN 50 PCB-A": "TCP, UDP, IPv4, IPv6, ICMP, NTP, HTTP, HTTPS, SCP, PPP, SSH, DHCP"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Connection Monitoring",
+   "section": "Networking & Firewall",
+   "label": "Connection Monitoring",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Ping Reboot, Scheduled Periodic Reboot, Hardware Watchdog (Enable / Disable)"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Firewall Features",
+   "section": "Networking & Firewall",
+   "label": "Firewall Features",
+   "values": {
+    "master": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules.",
+    "datasheet": {
+     "RN 50 PCB-A": "Port forward, traffic rules, SNAT, Zone forwarding, Parental Control, Masquerading, MSS Clamping, Loopback IP, Loopback Rules."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Attack Prevention",
+   "section": "Networking & Firewall",
+   "label": "Attack Prevention",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "SYN Flood Protection, Drop Invalid Packets"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::DHCP",
+   "section": "Networking & Firewall",
+   "label": "DHCP",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Static and Dynamic"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Multi-WAN Configuration",
+   "section": "Networking & Firewall",
+   "label": "Multi-WAN Configuration",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Configurable Failover, load balancing between Wi-Fi WAN and Wired."
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::VLAN",
+   "section": "Networking & Firewall",
+   "label": "VLAN",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Tagged VLAN, Untagged VLAN"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Internet Connectivity",
+   "section": "Networking & Firewall",
+   "label": "Internet Connectivity",
+   "values": {
+    "master": "Multi-WAN (Ethernet, Cellular, Wi-Fi), Failover, Load Balancing"
+   }
+  },
+  {
+   "id": "Networking & Firewall::Diagnostic",
+   "section": "Networking & Firewall",
+   "label": "Diagnostic",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Ping, Traceroute, Modem Debug Info, Iperf, Download Logs"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Authentication",
+   "section": "Networking & Firewall",
+   "label": "IPsec Authentication",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "SHA1, MD5, SHA256, SHA384, SHA512"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec DH Group",
+   "section": "Networking & Firewall",
+   "label": "IPsec DH Group",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "MODP768, MODP1024, MODP1536, MODP2048, MODP3072, MODP4096"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::IPsec Encryption",
+   "section": "Networking & Firewall",
+   "label": "IPsec Encryption",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "3DES, AES128, AES192, AES256"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Monitoring Application",
+   "section": "Networking & Firewall",
+   "label": "Monitoring Application",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Modem Monitoring with ICMP Echo, Router Monitoring with ICMP Echo"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Other Features",
+   "section": "Networking & Firewall",
+   "label": "Other Features",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "MAC binding, Connection Diagnostics, URL Filtering, Router Health Monitoring, Package Manager"
+    }
+   }
+  },
+  {
+   "id": "Networking & Firewall::Time Synchronization",
+   "section": "Networking & Firewall",
+   "label": "Time Synchronization",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NTP Client, RTC, Manual"
+    }
+   }
+  },
+  {
+   "id": "VPN::VPN",
+   "section": "VPN",
+   "label": "VPN",
+   "values": {
+    "master": "Open VPN, IPsec, GRE, L2TP, PPTP, Wire guard, Zero Tier, IPIP Tunnel",
+    "datasheet": {
+     "RN 50 PCB-A": "Open VPN, IPsec, GRE, L2TP, PPTP, Wireguard, Zero Tier, IPIP Tunnel"
+    }
+   }
+  },
+  {
+   "id": "VPN::OpenVPN",
+   "section": "VPN",
+   "label": "OpenVPN",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "TUN/TAP with TLS Certificates"
+    }
+   }
+  },
+  {
+   "id": "VPN::IPsec",
+   "section": "VPN",
+   "label": "IPsec",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "IKEv1, IKEv2, Aggressive/Main Mode"
+    }
+   }
+  },
+  {
+   "id": "VPN::PPTP/L2TP",
+   "section": "VPN",
+   "label": "PPTP/L2TP",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Server & Client with/without MPPE Encryption"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS",
+   "section": "Remote Management",
+   "label": "NMS",
+   "values": {
+    "master": "Remote Monitoring C Management Platform for SILBO Networking products",
+    "datasheet": {
+     "RN 50 PCB-A": "Remote Monitoring & Management Platform for SILBO Networking products"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::NMS VPN",
+   "section": "Remote Management",
+   "label": "NMS VPN",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Remote Access of SILBO and non-SILBO Networking Devices"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::TR069",
+   "section": "Remote Management",
+   "label": "TR069",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "TR069 Client for CPE Management"
+    }
+   }
+  },
+  {
+   "id": "Remote Management::SMS Commands",
+   "section": "Remote Management",
+   "label": "SMS Commands",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "NA"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Operating System",
+   "section": "Operating System & Software",
+   "label": "Operating System",
+   "values": {
+    "website": "OpenWRT Linux",
+    "datasheet": {
+     "RN 50 PCB-A": "Open-WRT based Linux OS"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Supported Languages",
+   "section": "Operating System & Software",
+   "label": "Supported Languages",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "Shell scripting, C, C++"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Development Tools",
+   "section": "Operating System & Software",
+   "label": "Development Tools",
+   "values": {
+    "datasheet": {
+     "RN 50 PCB-A": "SDK package with built environment provided (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Operating System & Software::Wi-Fi",
+   "section": "Operating System & Software",
+   "label": "Wi-Fi",
+   "values": {
+    "master": "Access Point, Client, Easy mesh"
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "RN50-ODU Cellular Router with sheet Metal housing, 2x Wi-Fi Rubber Duck Antennas, Power Adapter, 01- meter Ethernet cable.",
+    "datasheet": {
+     "RN 50 PCB-A": "RN50 Cellular Router PCB"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "WiFi5"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "2"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

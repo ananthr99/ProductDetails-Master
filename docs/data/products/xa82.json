@@ -1,0 +1,568 @@
+{
+ "id": "xa82",
+ "name": "XA82-2",
+ "category": "Switch",
+ "order": 32,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": true,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "xa82.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "os",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/xa82/xa82.webp"
+   ],
+   "part_datasheets": {
+    "XA82-2 Unmanaged PoE Switch": "/assets/datasheets/products/xa82/XA82_Datasheet.pdf"
+   },
+   "datasheet": null,
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "XA-82-2 Gigabit Ethernet Unmanaged",
+   "brief_page": 26,
+   "detailed_page": 64,
+   "matched_by": "part numbers",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {
+   "name": "XA82-2",
+   "pdf": null,
+   "page": "Switches | Page 32"
+  },
+  "datasheet": {}
+ },
+ "variants": [
+  "XA82-2 Unmanaged PoE Switch"
+ ],
+ "datasheets": {
+  "XA82-2 Unmanaged PoE Switch": {
+   "file": "xa82\\XA82_Datasheet.pdf",
+   "pdf": "sources/datasheets/xa82/XA82_Datasheet.pdf",
+   "model": "XA-82-2",
+   "footer": "XA-82-2_V.2.3",
+   "pages": 2,
+   "template": true,
+   "raw": "Page 1\nXA-82-2_V.2.3\nEthernet\n8 x 10/100/1000 Mbps (MDI/MDIX)\nSFP\n2 x SFP\nStatus LED\nPWR(On/Off), LAN Activity LED (Green: Active\nconnection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)\nPoE\nLAN Port 1 – 8 (PoE Out)\nPoE Standard\n802.3at & 802.3af\nPoE Budget (Per Port)\n30 W (Max)\nTotal PoE Budget\n240 W(Max)\nMAC Address table entries\n2000\nJumbo Frame\n9216 bytes\nBuffer size\n128 KB\nPower Connector\nSpring Loaded 2 wire connector\nInput Voltage Range\n9-57 Vdc (PoE out will work from 44-57Vdc Input)\nPower Consumption\n5.5 W (Non PoE) / 245.5 W (With PoE)\nEnclosure\nIndustrial Aluminium Enclosure\nMounting\nDIN rail mounting Kit (Optional)\nDesign\nFanless\nDimensions\n56 mm x 110 mm x 114 mm (W x H x D)\nWeight\n300 Gm\nOther\nGrounding Screw\nStorage Temperature\n-30 ~ 70 °C\nOperating Temperature\n0~ 50 °C\nHumidity\n10 ~ 90% (non-condensing)\nXA-82-2 with Industrial Aluminium Enclosure\nXA-82-2\nDATA SHEET\nPRODUCT INFO\nINTERFACE\n8x 10/100/1000\nPOWER\n9-43 VDC: No PoE Out\n44-57 VDC: PoE Out\nHardware Specification\nOperational & Environmental\nStandard Packaging\nPoE & POWER BUDGET\n240 W\nPage 2\nXA-82-2_V.2.3\nSPATIAL MEASUREMENT:\nTop View\nFront View\n*All rights reserved, subject to change without prior notice.\nGet in touch:\nsales@invendis.com\nwww.silbonetworks.com\nInvendis Technologies India Private Limited\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout, BTM\n2nd Stage, Bangalore – 560 068\n114 mm\n110 mm\n56 mm\n110 mm"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No. of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "-",
+     "-",
+     "✓",
+     "Single",
+     "XA82-2 Unmanaged PoE Switch"
+    ]
+   ]
+  },
+  "master": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "PoE Budget",
+    "Final Product"
+   ],
+   "rows": [
+    [
+     "",
+     "",
+     "",
+     "240 W",
+     "XA82-2"
+    ],
+    [
+     "—",
+     "—",
+     "✓",
+     "30w Max Per",
+     "Unmanaged PoE"
+    ],
+    [
+     "",
+     "",
+     "",
+     "Port",
+     "Switch"
+    ]
+   ]
+  },
+  "catalogue": {
+   "headers": [
+    "Cellular",
+    "Wi-Fi",
+    "PoE",
+    "No.of Modems",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "—",
+     "—",
+     "✓",
+     "Single",
+     "XA82-2 Unmanaged PoE Switch"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "XA82-2",
+    "master": "XA-82-2 Gigabit Ethernet Unmanaged",
+    "catalogue": "XA82-2",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "XA-82-2"
+    }
+   }
+  },
+  {
+   "id": "Overview::Title",
+   "section": "Overview",
+   "label": "Title",
+   "values": {
+    "catalogue": "Industrial - Switch"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Switch",
+    "catalogue": "Switches"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks and 240W PoE budget. DIN-rail mountable in an industrial aluminium body with 9–57V DC input, ideal for CCTV/surveillance, smart buildings, and industrial cabinet network expansion.",
+    "catalogue": "A plug-and-play 8-port Gigabit PoE+ unmanaged switch with 2 SFP uplinks and 240W PoE budget. DIN-rail mountable in an industrial aluminium body with 9–57V DC input, ideal for CCTV/surveillance, smart buildings, and industrial cabinet network expansion."
+   }
+  },
+  {
+   "id": "Overview::Highlight tiles",
+   "section": "Overview",
+   "label": "Highlight tiles",
+   "values": {
+    "catalogue": "8× GIGABIT ETHERNET\n9–57 V DC INPUT\nSingle MODEM"
+   }
+  },
+  {
+   "id": "Overview::Highlight badges",
+   "section": "Overview",
+   "label": "Highlight badges",
+   "values": {
+    "catalogue": "Made in India\nLTE\nPOE"
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "CCTV & Video Surveillance Deployment\nEnterprise & Smart Building Connectivity\nIndustrial Cabinet & Field Network Expansion",
+    "catalogue": "CCTV & Video Surveillance Deployment — Ideal for powering and connecting IP cameras, NVRs, and surveillance equipment through PoE, simplifying installation in security networks.\nEnterprise & Smart Building Connectivity — Can be used in offices, hotels, and smart buildings to connect IP phones, wireless access points, and network devices with reliable Gigabit switching.\nIndustrial Cabinet & Field Network Expansion — Suitable for industrial panels, outdoor enclosures, and remote sites requiring rugged, plug-and-play Layer-2 connectivity with SFP uplink support."
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "8 x 10/100/1000"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "2 X SFP Port",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "8x 10/100/1000"
+    }
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "9-43 VDC: No PoE out 44-57 VDC PoE out",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "9-43 VDC: No PoE Out 44-57 VDC: PoE Out"
+    }
+   }
+  },
+  {
+   "id": "Summary::PoE Budget",
+   "section": "Summary",
+   "label": "PoE Budget",
+   "values": {
+    "master": "240 W 30W Max per port"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::Status LED",
+   "section": "Hardware",
+   "label": "Status LED",
+   "values": {
+    "master": "PWR(On/Off), LAN Activity LED (Green: Active connection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)",
+    "catalogue": "PWR(On/Off), LAN Activity LED (Green: Active connection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "PWR(On/Off), LAN Activity LED (Green: Active connection, Orange: 1000 Mbps), SFP Status LED (Green: Connection status)"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Buffer size",
+   "section": "Hardware",
+   "label": "Buffer size",
+   "values": {
+    "master": "128 KB",
+    "catalogue": "128 KB",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "128 KB"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Jumbo Frame",
+   "section": "Hardware",
+   "label": "Jumbo Frame",
+   "values": {
+    "master": "9216 bytes",
+    "catalogue": "9216 bytes",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "9216 bytes"
+    }
+   }
+  },
+  {
+   "id": "Hardware::MAC Address table entries",
+   "section": "Hardware",
+   "label": "MAC Address table entries",
+   "values": {
+    "master": "2000",
+    "catalogue": "2000",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "2000"
+    }
+   }
+  },
+  {
+   "id": "Hardware::Other",
+   "section": "Hardware",
+   "label": "Other",
+   "values": {
+    "master": "Grounding Screw",
+    "catalogue": "Grounding Screw",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "Grounding Screw"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::Ethernet",
+   "section": "Interfaces",
+   "label": "Ethernet",
+   "values": {
+    "website": "Gigabit Ethernet (MDI/MDIX)",
+    "master": "8 x 10/100/1000 Mbps (MDI/MDIX)",
+    "catalogue": "8 x 10/100/1000 Mbps (MDI/MDIX)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "8 x 10/100/1000 Mbps (MDI/MDIX)"
+    }
+   }
+  },
+  {
+   "id": "Interfaces::SFP",
+   "section": "Interfaces",
+   "label": "SFP",
+   "values": {
+    "master": "2 x SFP",
+    "catalogue": "2 x SFP",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "2 x SFP"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Connector",
+   "section": "Power",
+   "label": "Power Connector",
+   "values": {
+    "master": "Spring Loaded 2 wire connector",
+    "catalogue": "Spring Loaded 2 wire connector",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "Spring Loaded 2 wire connector"
+    }
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "9-57 VDC",
+    "master": "9-57 Vdc (PoE out will work from 44-57Vdc Input)",
+    "catalogue": "9-57 Vdc (PoE out will work from 44-57Vdc Input)\n9-43 VDC: No PoE out 44-57 VDC PoE out",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "9-57 Vdc (PoE out will work from 44-57Vdc Input)"
+    }
+   }
+  },
+  {
+   "id": "Power::Power Consumption",
+   "section": "Power",
+   "label": "Power Consumption",
+   "values": {
+    "master": "5.5 W (Non PoE) / 245.5 W (With PoE)",
+    "catalogue": "5.5 W (Non PoE) / 245.5 W (With PoE)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "5.5 W (Non PoE) / 245.5 W (With PoE)"
+    }
+   }
+  },
+  {
+   "id": "Power::PoE",
+   "section": "Power",
+   "label": "PoE",
+   "values": {
+    "master": "LAN Port 1 – 8 (PoE Out)",
+    "catalogue": "LAN Port 1 – 8 (PoE Out)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "LAN Port 1 – 8 (PoE Out)"
+    }
+   }
+  },
+  {
+   "id": "Power::PoE Standard",
+   "section": "Power",
+   "label": "PoE Standard",
+   "values": {
+    "master": "802.3at & 802.3af",
+    "catalogue": "802.3at & 802.3af",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "802.3at & 802.3af"
+    }
+   }
+  },
+  {
+   "id": "Power::PoE Budget (Per Port)",
+   "section": "Power",
+   "label": "PoE Budget (Per Port)",
+   "values": {
+    "master": "30 W (Max)",
+    "catalogue": "30 W (Max)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "30 W (Max)"
+    }
+   }
+  },
+  {
+   "id": "Power::Total PoE Budget",
+   "section": "Power",
+   "label": "Total PoE Budget",
+   "values": {
+    "master": "240 W(Max)",
+    "catalogue": "240 W(Max)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "240 W(Max)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Industrial Aluminium",
+    "master": "Industrial Aluminium Enclosure",
+    "catalogue": "Industrial Aluminium Enclosure",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "Industrial Aluminium Enclosure"
+    }
+   }
+  },
+  {
+   "id": "Physical::Mounting",
+   "section": "Physical",
+   "label": "Mounting",
+   "values": {
+    "master": "DIN rail mounting Kit (Optional)",
+    "catalogue": "DIN rail mounting Kit (Optional)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "DIN rail mounting Kit (Optional)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Design",
+   "section": "Physical",
+   "label": "Design",
+   "values": {
+    "master": "Fanless",
+    "catalogue": "Fanless",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "Fanless"
+    }
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "56 x 110 x 114 mm (W x H x D)",
+    "master": "56 mm x 110 mm x 114 mm (W x H x D)",
+    "catalogue": "56 mm x 110 mm x 114 mm (W x H x D)",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "56 mm x 110 mm x 114 mm (W x H x D)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "300 gm",
+    "master": "300 Gm",
+    "catalogue": "300 Gm",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "300 Gm"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 50°C",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "0~ 50 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "-30 ~ 70 °C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "10 ~ 90% (non-condensing)"
+    }
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "XA-82-2 with Industrial Aluminium Enclosure",
+    "catalogue": "XA-82-2 with Industrial Aluminium Enclosure",
+    "datasheet": {
+     "XA82-2 Unmanaged PoE Switch": "XA-82-2 with Industrial Aluminium Enclosure Top View 114 mm 110 mm Front View 56 mm 110 mm"
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "8"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  }
+ ]
+}

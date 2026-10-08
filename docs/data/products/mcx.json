@@ -1,0 +1,466 @@
+{
+ "id": "mcx",
+ "name": "MC-X",
+ "category": "Other",
+ "order": 42,
+ "present": {
+  "website": true,
+  "master": true,
+  "catalogue": false,
+  "datasheet": true
+ },
+ "meta": {
+  "website": {
+   "file": "mcx.json",
+   "hidden": false,
+   "hidden_fields": [
+    "cell",
+    "cellular_gen",
+    "cpu",
+    "ip",
+    "os",
+    "ports",
+    "ram",
+    "rs232",
+    "rs485",
+    "storage",
+    "wifi"
+   ],
+   "images": [
+    "/images/product-selector/mcx/mcx.webp"
+   ],
+   "part_datasheets": {
+    "ISMC1-SD851G-S5": "contact_us",
+    "ISMC1-SD311G-10": "contact_us",
+    "SMC1-SD311G-20": "contact_us"
+   },
+   "datasheet": "/assets/datasheets/products/mcx/MCX_Datasheet.pdf",
+   "hidden_rows": [
+    "Hardware::Cellular",
+    "Website filters::Cellular generation",
+    "Website filters::Wi-Fi",
+    "Website filters::Ethernet ports",
+    "Website filters::RS485",
+    "Website filters::RS232"
+   ]
+  },
+  "master": {
+   "title": "MC-X",
+   "brief_page": 33,
+   "detailed_page": 73,
+   "matched_by": "name",
+   "pdf": "sources/Master_Catalogue.pdf"
+  },
+  "catalogue": {},
+  "datasheet": {}
+ },
+ "variants": [
+  "ISMC1-SD851G-S5",
+  "ISMC1-SD311G-10",
+  "SMC1-SD311G-20",
+  "MC-X"
+ ],
+ "datasheets": {
+  "MC-X": {
+   "file": "mcx\\MCX_Datasheet.pdf",
+   "pdf": "sources/datasheets/mcx/MCX_Datasheet.pdf",
+   "model": "",
+   "footer": "MC-1_V.1.0",
+   "pages": 2,
+   "template": false,
+   "raw": "ISMC-1\nPage 1\nCompact Form Factor\nMC-1 Media Converter series oﬀers signal conversion in a compact device\nUtilize Your Fiber\nSend a fiber signal over a variety of distances, with a selection of models suitable for 550 m,\n10 km or 20 km\nReliable Technology\nThe Standalone Media Converters adhere to industry standards and are compliant with\n802.3u, 802.3ab & 802.3x.\nISMC1-SD851G-S5, ISMC1-SD311G-10, ISMC1-SD311G-20 Series Standalone Media Converters\nProduct Highlights\nAccessories:\nPower Cable\nMetal Din Rail\nOVERVIEW\nThe Unmanaged Media Converter provides conversion between 10/100/1000Base-T and 100/1000Base-X. It is an ideal solution\nto extend the distance of an existing network, the distance of non-fiber based equipment, or the distance between two devices.\nThe Unmanaged 1G Ethernet Media Converter is equipped with one 10/100/1000M BASE-T auto-negotiation port and one\n100/1000M BASE-X SFP+ slot. It is designed for use in network environments where the high bandwidth provided by 1Gigabit\nEthernet is required, for example, data center cloud computing, enterprise backbones, campus networks, and carrier infrastructure.\nFEATURES\nSmall Size\nHigh Performance\nVariety\nTiny footprint allows you to keep space free for other networking devices\nDeploy it wherever you need without occupying an entire rack slot\nStore & forward traﬃc forwarding\nLow latency\nISMC1-SD851G-S5, ISMC1-SD311G-10, ISMC1-SD311G-20 provides data rates at Gigabit speeds\nFiber distance options vary from 550 m to 20 km\nControl costs by buying only the equipment your organization needs\nAuto MDI/MDIX\nAuto-Negotiation\nStatus LED’s for information\n*All rights reserved, subject to change without prior notice.\nNo. 230, 1st Cross, 38th Main, BOOHBCS Layout,\nBTM 2nd Stage, Bangalore – 560 068\nGet in touch :\nsales@invendis.com\nwww.silbonetworks.com\nMC-1_V.1.0\nPage 2\nISMC1-SD851G-S5\nISMC1-SD311G-10\nISMC1-SD311G-20\n850nm, 550m, 10/100/1000 Base-T to 1000 Base-SX\n1310nm, 10Km, 10/100/1000 Base-T to 1000 Base-LX\n1310nm, 20Km, 10/100/1000 Base-T to 1000 Base-LX\nMC-1 Media Converter with Sheet Metal Housing , 01-meter Ethernet cable, Power Adaptor.\nTECHNICAL SPECIFICATIONS\nModel\nISMC1-SD851G-S5\nISMC1-SD311G-10\nSMC1-SD311G-20\nDescription\nFiber Wavelength\nMax Distance\nPorts\nMode\nAuto MDI support\nOperating Temperature\nStorage Temperature\nOperating Humidity\nOperating Voltage\nExternal Power Adapter\nDimensions\n10/100/1000 Base-T to 1000 Base-SX\n850nm\n550m\nOne RJ - 45 and One Fiber port\n(Duplex SC type connector)\nMulti - mode\n10/100/1000 Base-T to 1000 Base-LX\n1310nm\n10Km\nOne RJ - 45 and One Fiber port\n(Duplex SC type connector)\nSingle - mode\nYes\n0° C to 70° C\n-20° C to 85° C\n5% to 90%\n5-12V DC IN\nYes\n92 x 66 x 26 mm (HxWxD)\n10/100/1000 Base-T to 1000 Base-LX\n1310nm\n20Km\nOne RJ - 45 and One Fiber port\n(Duplex SC type connector)\nSingle - mode\nORDER INFORMATION\nSTANDARD PACKAGING"
+  }
+ },
+ "ordering": {
+  "website": {
+   "headers": [
+    "Interface",
+    "Mode",
+    "Max Distance",
+    "Part Number"
+   ],
+   "rows": [
+    [
+     "1× RJ45 + 1× Fiber SC",
+     "Single-mode",
+     "5 km",
+     "ISMC1-SD851G-S5"
+    ],
+    [
+     "1× RJ45 + 1× Fiber SC",
+     "Single-mode",
+     "10 km",
+     "ISMC1-SD311G-10"
+    ],
+    [
+     "1× RJ45 + 1× Fiber SC",
+     "Single-mode",
+     "20 km",
+     "SMC1-SD311G-20"
+    ]
+   ]
+  }
+ },
+ "rows": [
+  {
+   "id": "Overview::Product name",
+   "section": "Overview",
+   "label": "Product name",
+   "values": {
+    "website": "MC-X",
+    "master": "MC-X"
+   }
+  },
+  {
+   "id": "Overview::Category",
+   "section": "Overview",
+   "label": "Category",
+   "values": {
+    "website": "Other"
+   }
+  },
+  {
+   "id": "Overview::Description",
+   "section": "Overview",
+   "label": "Description",
+   "values": {
+    "website": "A compact media converter bridging 10/100/1000Base-T Ethernet to single-mode fibre up to 10 km at 1310nm, with a duplex SC connector and 5–12V DC input."
+   }
+  },
+  {
+   "id": "Overview::Use cases",
+   "section": "Overview",
+   "label": "Use cases",
+   "values": {
+    "website": "Long-Distance Network Extension"
+   }
+  },
+  {
+   "id": "Overview::Accessories: › Power Cable",
+   "section": "Overview",
+   "label": "Accessories: › Power Cable",
+   "values": {
+    "datasheet": {
+     "MC-X": "Metal Din Rail"
+    }
+   }
+  },
+  {
+   "id": "Summary::Ethernet",
+   "section": "Summary",
+   "label": "Ethernet",
+   "values": {
+    "master": "10/100/1000 Base T to 1000 Base SX"
+   }
+  },
+  {
+   "id": "Summary::Interface",
+   "section": "Summary",
+   "label": "Interface",
+   "values": {
+    "master": "1x RJ45 1x Fiber Port (Duplex SC Type Connector)"
+   }
+  },
+  {
+   "id": "Summary::Power",
+   "section": "Summary",
+   "label": "Power",
+   "values": {
+    "master": "5-12 VDC IN"
+   }
+  },
+  {
+   "id": "Hardware::Cellular",
+   "section": "Hardware",
+   "label": "Cellular",
+   "values": {
+    "website": "none"
+   }
+  },
+  {
+   "id": "Hardware::Auto MDI Support",
+   "section": "Hardware",
+   "label": "Auto MDI Support",
+   "values": {
+    "website": "Yes",
+    "master": "Yes"
+   }
+  },
+  {
+   "id": "Hardware::Description",
+   "section": "Hardware",
+   "label": "Description",
+   "values": {
+    "website": "10/100/1000 Base-T to 1000 Base-LX",
+    "master": "10/100/1000 Base-T to 1000 Base-LX"
+   }
+  },
+  {
+   "id": "Hardware::Fiber Wavelength",
+   "section": "Hardware",
+   "label": "Fiber Wavelength",
+   "values": {
+    "website": "1310 nm",
+    "master": "1310nm"
+   }
+  },
+  {
+   "id": "Hardware::Max Distance",
+   "section": "Hardware",
+   "label": "Max Distance",
+   "values": {
+    "website": "10 km",
+    "master": "10Km"
+   }
+  },
+  {
+   "id": "Hardware::Mode",
+   "section": "Hardware",
+   "label": "Mode",
+   "values": {
+    "website": "Single-mode",
+    "master": "Single - mode"
+   }
+  },
+  {
+   "id": "Hardware::Ports",
+   "section": "Hardware",
+   "label": "Ports",
+   "values": {
+    "website": "1× RJ45 + 1× Fiber (Duplex SC)",
+    "master": "One RJ - 45 and One Fiber port (Duplex SC type connector)"
+   }
+  },
+  {
+   "id": "Power::Input Voltage",
+   "section": "Power",
+   "label": "Input Voltage",
+   "values": {
+    "website": "5-12 VDC",
+    "master": "5-12 VDC IN"
+   }
+  },
+  {
+   "id": "Physical::Enclosure",
+   "section": "Physical",
+   "label": "Enclosure",
+   "values": {
+    "website": "Steel Metal",
+    "master": "Steel Metal Enclosure"
+   }
+  },
+  {
+   "id": "Physical::Dimensions",
+   "section": "Physical",
+   "label": "Dimensions",
+   "values": {
+    "website": "92 x 66 x 26 mm (H x W x D)",
+    "master": "92 x 66 x 26 mm (HxWxD)",
+    "datasheet": {
+     "MC-X": "92 x 66 x 26 mm (HxWxD)"
+    }
+   }
+  },
+  {
+   "id": "Physical::Weight",
+   "section": "Physical",
+   "label": "Weight",
+   "values": {
+    "website": "187 gm",
+    "master": "187 gm"
+   }
+  },
+  {
+   "id": "Environmental::Operating Temperature",
+   "section": "Environmental",
+   "label": "Operating Temperature",
+   "values": {
+    "website": "0 ~ 70°C",
+    "master": "0 ~ 70℃",
+    "datasheet": {
+     "MC-X": "0° C to 70° C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Storage Temperature",
+   "section": "Environmental",
+   "label": "Storage Temperature",
+   "values": {
+    "datasheet": {
+     "MC-X": "-20° C to 85° C"
+    }
+   }
+  },
+  {
+   "id": "Environmental::Humidity",
+   "section": "Environmental",
+   "label": "Humidity",
+   "values": {
+    "website": "5% to 90%",
+    "master": "5% to 90%"
+   }
+  },
+  {
+   "id": "Packaging::Standard Packaging",
+   "section": "Packaging",
+   "label": "Standard Packaging",
+   "values": {
+    "master": "MC-1 Media Converter with Sheet Metal Housing, 01- meter Ethernet cable, Power Adaptor",
+    "datasheet": {
+     "MC-X": "MC-1 Media Converter with Sheet Metal Housing , 01-meter Ethernet cable, Power Adaptor."
+    }
+   }
+  },
+  {
+   "id": "Website filters::Cellular generation",
+   "section": "Website filters",
+   "label": "Cellular generation",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Wi-Fi",
+   "section": "Website filters",
+   "label": "Wi-Fi",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::Ethernet ports",
+   "section": "Website filters",
+   "label": "Ethernet ports",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS485",
+   "section": "Website filters",
+   "label": "RS485",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Website filters::RS232",
+   "section": "Website filters",
+   "label": "RS232",
+   "values": {
+    "website": "-"
+   }
+  },
+  {
+   "id": "Other::Auto MDI support",
+   "section": "Other",
+   "label": "Auto MDI support",
+   "values": {
+    "datasheet": {
+     "MC-X": "Yes"
+    }
+   }
+  },
+  {
+   "id": "Other::Description › 10/100/1000 Base-T to 1000 Base-SX",
+   "section": "Other",
+   "label": "Description › 10/100/1000 Base-T to 1000 Base-SX",
+   "values": {
+    "datasheet": {
+     "MC-X": "10/100/1000 Base-T to 1000 Base-LX 10/100/1000 Base-T to 1000 Base-LX"
+    }
+   }
+  },
+  {
+   "id": "Other::External Power Adapter",
+   "section": "Other",
+   "label": "External Power Adapter",
+   "values": {
+    "datasheet": {
+     "MC-X": "Yes"
+    }
+   }
+  },
+  {
+   "id": "Other::Fiber Wavelength › 850nm",
+   "section": "Other",
+   "label": "Fiber Wavelength › 850nm",
+   "values": {
+    "datasheet": {
+     "MC-X": "1310nm 1310nm"
+    }
+   }
+  },
+  {
+   "id": "Other::ISMC1-SD851G-S5",
+   "section": "Other",
+   "label": "ISMC1-SD851G-S5",
+   "values": {
+    "datasheet": {
+     "MC-X": "ISMC1-SD311G-10 SMC1-SD311G-20"
+    }
+   }
+  },
+  {
+   "id": "Other::Max Distance › 550m",
+   "section": "Other",
+   "label": "Max Distance › 550m",
+   "values": {
+    "datasheet": {
+     "MC-X": "10Km 20Km"
+    }
+   }
+  },
+  {
+   "id": "Other::Mode › Multi - mode",
+   "section": "Other",
+   "label": "Mode › Multi - mode",
+   "values": {
+    "datasheet": {
+     "MC-X": "Single - mode Single - mode"
+    }
+   }
+  },
+  {
+   "id": "Other::Operating Humidity",
+   "section": "Other",
+   "label": "Operating Humidity",
+   "values": {
+    "datasheet": {
+     "MC-X": "5% to 90%"
+    }
+   }
+  },
+  {
+   "id": "Other::Operating Voltage",
+   "section": "Other",
+   "label": "Operating Voltage",
+   "values": {
+    "datasheet": {
+     "MC-X": "5-12V DC IN"
+    }
+   }
+  },
+  {
+   "id": "Other::Ports › (Duplex SC type connector)",
+   "section": "Other",
+   "label": "Ports › (Duplex SC type connector)",
+   "values": {
+    "datasheet": {
+     "MC-X": "(Duplex SC type connector) (Duplex SC type connector)"
+    }
+   }
+  },
+  {
+   "id": "Other::Ports › One RJ - 45 and One Fiber port",
+   "section": "Other",
+   "label": "Ports › One RJ - 45 and One Fiber port",
+   "values": {
+    "datasheet": {
+     "MC-X": "One RJ - 45 and One Fiber port One RJ - 45 and One Fiber port"
+    }
+   }
+  }
+ ]
+}
