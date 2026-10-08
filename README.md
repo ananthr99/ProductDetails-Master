@@ -10,34 +10,40 @@ For each product it shows, side by side, what these four sources say:
 | New Catalogue | the one-page catalogue from the catalogue tool | `inputs/catalogue/<NAME>/<NAME>_Catalogue.html` (+ `.pdf`) |
 | Datasheet | product and per-variant datasheets | `inputs/datasheets/<folder>/*.pdf` |
 
-A source that has no entry for a product is simply blank. Each product family is agreed **once**, in three steps, and saved as JSON files that become the single source for the website, the catalogue and the datasheets.
+A source that has no entry for a product is simply blank.
+
+The goal: **one final set of information per product (and per variant)**, then a decision on **where each piece appears** (website, catalogue, datasheet).
 
 ---
 
 ## Using the page
 
-Pick a product on the left (W M C D show which sources have it). The product opens on three tabs:
+Pick a product on the left (W M C D show which sources have it). Each product has two steps.
 
-**1 · Family content**: everything that is the same for every variant.
-- **Text**: title, tagline, short description (website) and long description (catalogue + datasheet). Click a source to use it, then edit.
-- **Use cases**: title + description. The website shows the titles, the catalogue shows both. *Load from New Catalogue* or *Load titles from Website* (descriptions already written for the same title are kept).
-- **Catalogue only: highlights**: Key Highlights (tiles, up to 5) and Feature Highlights (badges, up to 4), with icons from the catalogue tool.
-- **Shared specifications**: one line per field with the Website, Old Master, New Catalogue and Datasheet values side by side. *Start from* a source (**Fill empty** / **Replace all**), or **Use** a single cell, then edit the Final column. **W C D** on each line set where it appears; click to change. **↘ varies** moves a line to the Variant table.
+### Step 1 · Final data
 
-**2 · Variant table** (families with more than one variant)
-- **What each variant has**: cellular (4G/5G), modems, Wi-Fi, RS485, RS232. These build the ordering table and the website filters, and decide which sections each datasheet includes: a variant without Wi-Fi gets no Wi-Fi section.
-- **Specifications that differ by variant**: one column per variant, pre-filled from that variant's own datasheet (pale until edited). The **Family value** column is what the website and catalogue show ("5G/4G", "640–700 g"). It is suggested from the variant values until you edit it, and flagged if the variants change afterwards. Cells that contradict the variant's features are red (e.g. Wi-Fi listed on a variant without Wi-Fi). **↖ shared** moves a line back to the family.
+Everything the four sources say about the product, merged into one list.
 
-**3 · Preview & approve**
-- **Website**, **Catalogue** and **Datasheet** (per variant) previews show exactly what each output will contain. The website preview has a *Select model* switch.
-- **Checks** list what must be fixed (empty text, missing family values, contradicting cells, placeholder text, too many highlights) and what to review (typos, repeated words, variants without a datasheet). *Fix these typos everywhere* corrects the known ones ("Single strength", "Mannual", …). Approve is disabled while anything must be fixed.
-- **Approve and save** writes all files for the family at once:
-  - connected to GitHub → one commit to `docs/approved/`, visible to everyone after the site rebuilds (1–2 minutes);
-  - not connected → `<product>_approved.zip`; unzip it into `docs/approved/` (see below).
+- **Agreed**: the sources say the same thing, or only one source has it. Filled in for you; nothing to do.
+- **Needs decision**: the sources disagree. Click the version that is right (each shows which sources say it), or type the correct value.
+- **Per variant**: lines that differ between the variant datasheets (cellular, Wi-Fi, SIM, ports, size, weight…) get one value per variant, taken from each variant's own datasheet and editable. If a value contradicts what the variant has (e.g. Wi-Fi listed on a variant without Wi-Fi) the line needs a decision: **Set the flagged values to NA** or **The values are correct**. Use **↘ differs by variant** / **↖ same for all variants** to move a line between product level and variant level.
+- **All information** shows every line, the **Variants** table (cellular, modems, Wi-Fi, RS485, RS232 per variant), the use cases and the highlights; **Add information** adds a line none of the sources has.
+
+When nothing needs a decision, **Next: where it appears**.
+
+### Step 2 · Where it appears
+
+The final data with three tick boxes per line: **Website**, **Catalogue**, **Datasheet**. Defaults are pre-ticked (`tools/fields.json`); **all** ticks or clears a whole section.
+For lines that differ by variant and are ticked for Website or Catalogue, write the **one line they show** (a suggestion such as “5G/4G” or “640–700 g” is filled in). Datasheets always show each variant's own value, and a variant without Wi-Fi or cellular gets no Wi-Fi or Cellular section.
+
+**Preview** shows the website page, the catalogue page and each variant's datasheet content. **Checks** list what must be fixed first; **Fix these typos everywhere** corrects the known ones (“Single strength”, “Mannual”, …).
+**Approve and save** writes the product file and one file per variant:
+- connected to GitHub → one commit to `docs/approved/`, visible to everyone after the site rebuilds (1–2 minutes);
+- not connected → `<product>_approved.zip`; unzip it into `docs/approved/` (see below).
 
 Drafts are saved automatically **in your browser only**; **Discard draft** starts the product again. An approved product opens read-only; **Edit again** reopens it.
 
-Top bar: **Approved files (zip)** collects every approved product. **Website JSON (zip)** builds one website product file per approved product in today's format (`desc`, `cpu`, `cellular_gen`, `variants`, …) plus a `full` block with every section, the use cases and each model's exact values.
+Top bar: **Approved files (zip)** collects every approved product. **Website JSON (zip)** builds one website product file per approved product in today's format (`desc`, `cpu`, `cellular_gen`, `variants`, …) plus a `full` block with every website section and each model's exact values.
 
 ### Connecting to GitHub (to save approvals directly)
 
@@ -70,10 +76,10 @@ Replace the files in `inputs/` and push. For example, put new datasheets in `inp
 
 ### Adding approved files by hand
 
-Unzip `<product>_approved.zip` into `docs/approved/` (it holds `<product>.json` and, for families, a `<product>/` folder with one file per variant), then add the product to `docs/approved/index.json`:
+Unzip `<product>_approved.zip` into `docs/approved/` (it holds `<product>.json` and, for products with variants, a `<product>/` folder with one file per variant), then add the product to `docs/approved/index.json`:
 
 ```json
-{ "records": { "rtsxx": { "file": "rtsxx.json", "product_id": "rtsxx", "approved_by": "Ananth", "approved_at": "2026-10-09T10:00:00Z" } } }
+{ "records": { "rtsxx": { "file": "rtsxx.json", "schema": "invendis.product-content/v3", "product_id": "rtsxx", "approved_by": "Ananth", "approved_at": "2026-10-09T10:00:00Z" } } }
 ```
 
 ### Running it on your own computer
@@ -89,42 +95,38 @@ cd docs && python -m http.server 8000
 
 ## The approved JSON
 
-**Family file**: `docs/approved/<product>.json`
+**Product file**: `docs/approved/<product>.json`
 
 ```jsonc
 {
-  "schema": "invendis.product-content/v2",
+  "schema": "invendis.product-content/v3",
   "product_id": "rtsxx", "name": "RTSXX", "category": "Router",
-  "text": { "title": "...", "tagline": "...", "short_description": "...", "long_description": "..." },
+  "info": { "title": "...", "tagline": "...", "short_description": "...", "long_description": "..." },
   "use_cases": [ { "title": "...", "description": "..." } ],
-  "catalogue": {
-    "key_highlights":     [ { "value": "Dual", "label": "5G MODEMS", "icon": "signal" } ],
-    "feature_highlights": [ { "label": "Made in India", "icon": "india" } ]
-  },
-  "specs": { "Hardware": { "RAM": "1GB" } },                     // shared by every variant
-  "variant_specs": {                                              // lines that differ
-    "Hardware::Wi-Fi": { "section": "Hardware", "field": "Wi-Fi", "family": "802.11 b/g/n/ac/ax (RTS6x models)",
-                         "values": { "RTS04-1": "NA", "RTS65-2": "802.11 b/g/n/ac/ax" } }
-  },
-  "variants": [ { "part": "RTS04-1", "cellular": "4G", "modems": 1, "wifi": "", "rs485": false, "rs232": false, "datasheet": "rtsxx/rts04-1_Datasheet.pdf" } ],
+  "highlights": { "key": [ { "value": "Dual", "label": "5G MODEMS", "icon": "signal" } ], "feature": [ { "label": "Made in India", "icon": "india" } ] },
+  "specs": [
+    { "section": "Hardware", "field": "RAM", "level": "product", "value": "1GB" },
+    { "section": "Hardware", "field": "Wi-Fi", "level": "variant",
+      "values": { "RTS04-1": "NA", "RTS65-2": "802.11 b/g/n/ac/ax" }, "summary": "802.11 b/g/n/ac/ax (RTS6x models)" }
+  ],
+  "variants": [ { "part": "RTS04-1", "cellular": "4G", "modems": 1, "wifi": "", "rs485": false, "rs232": false, "datasheet_source": "rtsxx/rts04-1_Datasheet.pdf" } ],
   "ordering": { "headers": ["Part Number", "Cellular", "Modems", "Wi-Fi"], "rows": [["RTS04-1", "4G", "Single", "—"]] },
-  "show_on": { "Hardware::RAM": "WCD", "Packaging::Standard Packaging": "D", "text::short_description": "W" },
-  "provenance": { "Hardware::RAM": { "source": "datasheet", "edited": false } },
+  "placement": { "Hardware::RAM": "WCD", "Packaging::Standard Packaging": "D", "info::short_description": "W", "list::key_highlights": "C" },
   "notes": "...", "approved_by": "Ananth", "approved_at": "2026-10-09T10:00:00Z",
-  "editor_state": { }                                             // lets the tool reopen the product exactly as approved
+  "editor_state": { }                     // lets the tool reopen the product exactly as approved
 }
 ```
 
-**Variant files**: `docs/approved/<product>/<PART>.json`, ready for the datasheet generator. Each holds that variant's complete specifications: shared lines plus its own values, only lines marked **D**, and without the Cellular or Wi-Fi section when the variant has none.
+`summary` is the one line the website and catalogue show for a line that differs by variant. `placement`: W website, C catalogue, D datasheet.
+
+**Variant files**: `docs/approved/<product>/<PART>.json`, ready for the datasheet generator. Each holds that variant's complete final data (product-level lines plus its own values, without the Cellular or Wi-Fi section when the variant has none), with the placement of every line.
 
 ```jsonc
-{ "schema": "invendis.product-content/v2", "type": "variant", "product_id": "rtsxx", "part_number": "RTS04-1", "inherits": "rtsxx.json",
-  "text": { "title": "...", "long_description": "..." },
+{ "schema": "invendis.product-content/v3", "type": "variant", "product_id": "rtsxx", "part_number": "RTS04-1", "product_file": "rtsxx.json",
+  "info": { "title": "...", "long_description": "..." },
   "features": { "cellular": "4G", "modems": 1, "wifi": "", "rs485": false, "rs232": false },
-  "specs": { "Hardware": { "CPU": "...", "Wi-Fi": "NA" }, "Cellular": { "Cellular Module": "..." } } }
+  "specs": [ { "section": "Hardware", "field": "Wi-Fi", "value": "NA", "placement": "WCD" } ] }
 ```
-
-**W / C / D** (`show_on`): W website, C catalogue, D datasheet. Defaults per section and field are in `tools/fields.json`; reviewers can change them per product.
 
 Sections are always named the same way (Summary, Hardware, Interfaces, Power, Physical, Environmental, Cellular, Wi-Fi, Networking & Firewall, VPN, Remote Management, Operating System & Software, Gateway, Compliance, Packaging, Website filters).
 
